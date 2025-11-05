@@ -10,10 +10,18 @@ const FAVS_STORAGE_KEY = 'familyRecipeFavourites_v1';
 const SORT_MODE_ALPHA = 'alpha';
 const SORT_MODE_RECENT = 'recent';
 
-// Firebase refs (Firebase is already initialised in index.html)
-const db = firebase.database();
-const auth = firebase.auth();
-const recipesRef = db.ref('recipes');
+// Firebase refs (may not be ready if Firebase failed to load)
+let db = null;
+let auth = null;
+let recipesRef = null;
+
+if (window.firebase && firebase.apps && firebase.apps.length) {
+  db = firebase.database();
+  auth = firebase.auth();
+  recipesRef = db.ref('recipes');
+} else {
+  console.error('Firebase not initialised – check index.html script order/config');
+}
 
 // ----- App state -----
 
@@ -180,22 +188,23 @@ function generateId(name) {
   return base + '-' + Date.now().toString(36);
 }
 
-// ----- Firebase sync (recipes shared across devices) -----
-
 function initFirebaseSync() {
+  if (!auth || !recipesRef) {
+    console.warn('Skipping Firebase sync – auth/recipesRef not ready');
+    return;
+  }
+
   auth.onAuthStateChanged(user => {
     if (!user) {
       return;
     }
 
-    // Listen for all recipe changes
     recipesRef.on('value', snapshot => {
       const data = snapshot.val() || {};
       const list = Object.values(data);
 
       recipes = list;
 
-      // Maintain current selection if possible
       if (recipes.length === 0) {
         currentRecipeId = null;
       } else if (
@@ -212,6 +221,10 @@ function initFirebaseSync() {
 }
 
 function saveRecipeToFirebase(recipe) {
+  if (!recipesRef) {
+    console.warn('Firebase not ready – recipe only in local state this session');
+    return;
+  }
   recipesRef.child(recipe.id).set(recipe, err => {
     if (err) {
       console.error('Error saving recipe:', err);
@@ -223,6 +236,10 @@ function saveRecipeToFirebase(recipe) {
 }
 
 function deleteRecipeFromFirebase(id) {
+  if (!recipesRef) {
+    console.warn('Firebase not ready – delete only in local state this session');
+    return;
+  }
   recipesRef.child(id).remove(err => {
     if (err) {
       console.error('Error deleting recipe:', err);

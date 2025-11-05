@@ -11,8 +11,8 @@
   <!-- iOS PWA helpers -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Recipes">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-title" content="HumGod McTwatcb">
+  <link rel="apple-touch-icon" href="logo.png">
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -20,15 +20,17 @@
   <div class="app-shell">
     <header class="app-header">
       <div class="title-group">
-        <h1>Family Recipe Book</h1>
-        <p>Our black & white cookbook for the whole family 🖤</p>
+        <img src="Logo.png" alt="HumGod McTwatch logo" class="brand-logo">
+        <div class="title-text">
+          <h1>HumGod McTwatch Recipes</h1>
+          <p>Recipes from the HumGod McTwatch clan 🖤</p>
+        </div>
       </div>
       <div class="header-actions">
         <button id="randomRecipeBtn" class="ghost-btn">Random recipe</button>
         <button id="addRecipeBtn" class="primary-btn">+ Add recipe</button>
       </div>
     </header>
-
     <main class="app-main">
       <section class="controls">
         <div class="search-row">
@@ -79,7 +81,7 @@
     </main>
 
     <footer class="app-footer">
-      <small>Made for our family · Data stays on your device (localStorage) 🥄</small>
+      <small>Made for our family 🥄</small>
     </footer>
   </div>
 
@@ -172,13 +174,47 @@
     </div>
   </div>
 
-  <script src="app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-auth-compat.js"></script>
+
+    <script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyBEpIXFaBpnJFN9I-CERUufy8Vqv7KDijo",
+        authDomain: "hgmt-recipes.firebaseapp.com",
+        databaseURL: "https://hgmt-recipes-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "hgmt-recipes",
+        storageBucket: "hgmt-recipes.firebasestorage.app",
+        messagingSenderId: "659778381380",
+        appId: "1:659778381380:web:24142008596dcbb7a6be11"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+    const db = firebase.database();
+    const auth = firebase.auth();
+
+    auth.signInAnonymously()
+        .then(() => console.log("Signed in anonymously"))
+        .catch(err => console.error("Firebase auth error:", err));
+
+    auth.onAuthStateChanged(user => {
+        if (user) {
+        console.log("Firebase user:", user.uid);
+        // app.js will use firebase.database() from here
+        }
+    });
+    </script>
+
+    <script src="app.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
         .register('service-worker.js')
         .catch(err => console.error('SW registration failed', err));
     }
-  </script>
-</body>
-</html>
+    </script>
+
+    </body>
+    </html>
+

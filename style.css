@@ -5,7 +5,7 @@
   --fg: #ffffff;
   --muted: #aaaaaa;
   --border: #2a2a2a;
-  --accent: #ffffff; /* just white, we’ll use opacity/weight for contrast */
+  --accent: #ffffff;
   --danger: #ff4d4d;
   --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.75);
   --radius-lg: 16px;
@@ -50,7 +50,11 @@ body {
   align-items: flex-start;
   gap: 1rem;
   backdrop-filter: blur(16px);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.75));
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.75)
+  );
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
@@ -104,7 +108,10 @@ body {
   color: var(--fg);
   font-size: 0.95rem;
   outline: none;
-  transition: border var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+  transition:
+    border var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background var(--transition-fast);
 }
 
 #searchInput::placeholder {
@@ -153,7 +160,12 @@ body {
   background: none;
   color: var(--fg);
   cursor: pointer;
-  transition: background var(--transition-fast), transform var(--transition-fast), border var(--transition-fast), box-shadow var(--transition-fast), opacity var(--transition-fast);
+  transition:
+    background var(--transition-fast),
+    transform var(--transition-fast),
+    border var(--transition-fast),
+    box-shadow var(--transition-fast),
+    opacity var(--transition-fast);
 }
 
 .primary-btn {
@@ -259,6 +271,24 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
+/* Slim scrollbars for list */
+.recipe-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.recipe-list::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+.recipe-list::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 999px;
+}
+
+.recipe-list::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
 .recipe-item {
   padding: 0.6rem 0.7rem;
   border-radius: var(--radius-md);
@@ -269,7 +299,11 @@ body {
   justify-content: space-between;
   gap: 0.4rem;
   align-items: center;
-  transition: background var(--transition-fast), border var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition:
+    background var(--transition-fast),
+    border var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .recipe-item:hover {
@@ -362,7 +396,10 @@ body {
   background: #111;
   cursor: pointer;
   font-size: 0.8rem;
-  transition: background var(--transition-fast), border var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background var(--transition-fast),
+    border var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .favourite-btn.active {
@@ -387,15 +424,6 @@ body {
   color: var(--muted);
 }
 
-.toggle-cook-btn {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.6rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: transparent;
-  cursor: pointer;
-}
-
 /* Ingredients / steps lists */
 
 ul,
@@ -416,7 +444,7 @@ ol {
   gap: 0.4rem;
 }
 
-.checkable-line input[type="checkbox"] {
+.checkable-line input[type='checkbox'] {
   accent-color: #ffffff;
 }
 
@@ -541,7 +569,10 @@ ol {
   color: var(--fg);
   font-size: 0.9rem;
   outline: none;
-  transition: border var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+  transition:
+    border var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background var(--transition-fast);
 }
 
 .form-group input:focus,
@@ -570,6 +601,75 @@ ol {
   gap: 0.5rem;
 }
 
+/* TOAST (JS creates #hgmt-toast, this just tweaks mobile behaviour) */
+
+#hgmt-toast {
+  /* inline styles from JS handle most of it;
+     these are just safe fallbacks / overrides */
+  font-weight: 500;
+}
+
+/* RESPONSIVE TWEAKS */
+
+@media (max-width: 700px) {
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .recipe-list {
+    max-height: none;
+  }
+
+  .recipe-detail {
+    min-height: 200px;
+  }
+
+  .detail-actions {
+    gap: 0.3rem;
+  }
+}
+
+/* PRINT STYLES – for the Print button */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .app-header,
+  .app-footer,
+  .controls,
+  .recipe-list,
+  .detail-actions button:not(#printRecipeBtn),
+  .modal-backdrop {
+    display: none !important;
+  }
+
+  .recipe-detail {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .recipe-detail h2 {
+    font-size: 1.5rem;
+  }
+
+  .tag,
+  .section-header-title {
+    border-color: #000;
+    color: #000;
+  }
+}
+
 /* ANIMATIONS */
 
 @keyframes modalIn {
@@ -581,4 +681,31 @@ ol {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
+}
+.title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 1.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title-text p {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }

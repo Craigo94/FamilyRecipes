@@ -1,130 +1,35 @@
-// ----- Data + storage helpers -----
+// =========================
+// HumGod McTwatch Recipes
+// Shared via Firebase Realtime Database
+// Recipes are shared, favourites are per-device
+// =========================
 
-const STORAGE_KEY_RECIPES = 'familyRecipesData_v1';
-const STORAGE_KEY_FAVS = 'familyRecipeFavourites_v1';
+// ----- Config & constants -----
 
-// Basic starter recipes
-const defaultRecipes = [
-  {
-    id: 'nanas-roast',
-    name: "Nana's Sunday Roast",
-    category: 'Dinner',
-    cookTime: '2 hours',
-    servings: 4,
-    tags: ['family classic', 'comfort'],
-    ingredients: [
-      '1.5kg beef joint',
-      '6 potatoes',
-      '3 carrots',
-      '2 parsnips',
-      '1 onion',
-      'Gravy granules',
-      'Salt & pepper',
-      'Olive oil'
-    ],
-    steps: [
-      'Preheat oven to 180°C (fan).',
-      'Season beef with salt, pepper and olive oil.',
-      'Roast beef for about 1 hour 30 minutes (adjust for size/doneness).',
-      'Parboil potatoes 10 minutes, rough edges, toss in oil.',
-      'Add potatoes and chopped veg for final 45–60 minutes.',
-      'Rest beef for at least 15 minutes before carving.',
-      'Make gravy from meat juices and gravy granules.'
-    ],
-    notes: 'Nana: “Let the meat rest or it cries on the plate.”'
-  },
-  {
-    id: 'choc-brownies',
-    name: 'Gooey Chocolate Brownies',
-    category: 'Dessert',
-    cookTime: '35 minutes',
-    servings: 12,
-    tags: ['chocolate', 'baking'],
-    ingredients: [
-      '200g dark chocolate',
-      '175g butter',
-      '3 large eggs',
-      '250g caster sugar',
-      '100g plain flour',
-      '30g cocoa powder',
-      'Pinch of salt'
-    ],
-    steps: [
-      'Preheat oven to 180°C (160°C fan). Line a square tin.',
-      'Melt chocolate and butter, leave to cool slightly.',
-      'Whisk eggs and sugar until thick and pale.',
-      'Fold chocolate mixture into eggs gently.',
-      'Sift in flour, cocoa and salt. Fold until just combined.',
-      'Bake 20–25 minutes until just set in the middle.',
-      'Cool completely before slicing.'
-    ],
-    notes: 'Add nuts or extra chocolate if you like.'
-  },
-  {
-    id: 'overnight-oats',
-    name: 'Overnight Oats',
-    category: 'Breakfast',
-    cookTime: '10 minutes prep + overnight',
-    servings: 1,
-    tags: ['healthy', 'quick'],
-    ingredients: [
-      '50g rolled oats',
-      '150ml milk (or dairy-free)',
-      '1 tbsp yoghurt',
-      '1 tsp honey or maple syrup',
-      'Fresh fruit to top'
-    ],
-    steps: [
-      'Combine oats, milk, yoghurt and honey in a jar.',
-      'Stir well, cover, and chill overnight.',
-      'Top with fruit, nuts or seeds in the morning.'
-    ],
-    notes: 'Scale up easily for multiple portions.'
-  }
-];
+const FAVS_STORAGE_KEY = 'familyRecipeFavourites_v1';
+const SORT_MODE_ALPHA = 'alpha';
+const SORT_MODE_RECENT = 'recent';
 
-function loadRecipes() {
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY_RECIPES);
-    if (!stored) return [...defaultRecipes];
-    const parsed = JSON.parse(stored);
-    if (!Array.isArray(parsed) || parsed.length === 0) {
-      return [...defaultRecipes];
-    }
-    return parsed;
-  } catch {
-    return [...defaultRecipes];
-  }
-}
+// Firebase refs (Firebase is already initialised in index.html)
+const db = firebase.database();
+const auth = firebase.auth();
+const recipesRef = db.ref('recipes');
 
-function saveRecipes(recipes) {
-  localStorage.setItem(STORAGE_KEY_RECIPES, JSON.stringify(recipes));
-}
+// ----- App state -----
 
-function loadFavourites() {
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY_FAVS);
-    return stored ? JSON.parse(stored) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveFavourites(favs) {
-  localStorage.setItem(STORAGE_KEY_FAVS, JSON.stringify(favs));
-}
-
-let recipes = loadRecipes();
-let favourites = loadFavourites();
-let currentRecipeId = recipes[0]?.id || null;
+let recipes = [];                     // comes from Firebase
+let favourites = loadFavourites();    // local only
+let currentRecipeId = null;
 let activeCategory = '';
 let showFavouritesOnly = false;
+let sortMode = SORT_MODE_ALPHA;
 
-// For cook mode (per session)
 let cookMode = {
   enabled: false,
   currentStepIndex: 0
 };
+
+let searchDebounceTimer = null;
 
 // ----- DOM references -----
 
@@ -160,14 +65,44 @@ const cancelDeleteBtn = document.getElementById('cancelDeleteBtn');
 const confirmDeleteBtn = document.getElementById('confirmDeleteBtn');
 let recipeIdToDelete = null;
 
-// ----- Utility -----
+// ----- Extra UI elements (sort + clear filters) -----
 
-function generateId(name) {
-  return (
-    name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') +
-    '-' +
-    Date.now().toString(36)
-  );
+const statusRowEl = document.querySelector('.status-row');
+const sortToggleBtn = document.createElement('button');
+sortToggleBtn.className = 'toggle-btn';
+sortToggleBtn.id = 'sortToggleBtn';
+sortToggleBtn.textContent = 'Sort: A → Z';
+
+const clearFiltersBtn = document.createElement('button');
+clearFiltersBtn.className = 'ghost-btn';
+clearFiltersBtn.id = 'clearFiltersBtn';
+clearFiltersBtn.textContent = 'Clear filters';
+
+if (statusRowEl) {
+  const spacer = document.createElement('span');
+  spacer.style.flex = '1';
+  statusRowEl.style.display = 'flex';
+  statusRowEl.style.alignItems = 'center';
+  statusRowEl.style.gap = '0.5rem';
+
+  statusRowEl.appendChild(spacer);
+  statusRowEl.appendChild(sortToggleBtn);
+  statusRowEl.appendChild(clearFiltersBtn);
+}
+
+// ----- Local storage: favourites only -----
+
+function loadFavourites() {
+  try {
+    const stored = localStorage.getItem(FAVS_STORAGE_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveFavourites(list) {
+  localStorage.setItem(FAVS_STORAGE_KEY, JSON.stringify(list));
 }
 
 function isFavourite(id) {
@@ -187,26 +122,157 @@ function toggleFavourite(id) {
   }
 }
 
-// ----- Filtering + search -----
+// ----- Toast helper -----
+
+let toastTimeoutId = null;
+
+function showToast(message, type = 'info') {
+  let toastEl = document.getElementById('hgmt-toast');
+  if (!toastEl) {
+    toastEl = document.createElement('div');
+    toastEl.id = 'hgmt-toast';
+    document.body.appendChild(toastEl);
+  }
+
+  const bg =
+    type === 'error'
+      ? 'rgba(255,77,77,0.95)'
+      : type === 'success'
+      ? 'rgba(80, 250, 123, 0.95)'
+      : 'rgba(255,255,255,0.95)';
+  const color = '#000';
+
+  Object.assign(toastEl.style, {
+    position: 'fixed',
+    left: '50%',
+    bottom: '1.5rem',
+    transform: 'translateX(-50%)',
+    padding: '0.6rem 1rem',
+    borderRadius: '999px',
+    fontSize: '0.85rem',
+    fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
+    background: bg,
+    color,
+    boxShadow: '0 12px 30px rgba(0,0,0,0.9)',
+    zIndex: 1000,
+    opacity: '1',
+    transition: 'opacity 0.25s ease-out, transform 0.25s ease-out',
+    pointerEvents: 'none',
+    maxWidth: '80%',
+    textAlign: 'center'
+  });
+
+  toastEl.textContent = message;
+
+  if (toastTimeoutId) clearTimeout(toastTimeoutId);
+  toastTimeoutId = setTimeout(() => {
+    toastEl.style.opacity = '0';
+    toastEl.style.transform = 'translateX(-50%) translateY(6px)';
+  }, 2200);
+}
+
+// ----- Utility -----
+
+function generateId(name) {
+  const base =
+    name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') ||
+    'recipe';
+  return base + '-' + Date.now().toString(36);
+}
+
+// ----- Firebase sync (recipes shared across devices) -----
+
+function initFirebaseSync() {
+  auth.onAuthStateChanged(user => {
+    if (!user) {
+      return;
+    }
+
+    // Listen for all recipe changes
+    recipesRef.on('value', snapshot => {
+      const data = snapshot.val() || {};
+      const list = Object.values(data);
+
+      recipes = list;
+
+      // Maintain current selection if possible
+      if (recipes.length === 0) {
+        currentRecipeId = null;
+      } else if (
+        !currentRecipeId ||
+        !recipes.find(r => r.id === currentRecipeId)
+      ) {
+        currentRecipeId = recipes[0].id;
+      }
+
+      renderRecipeList();
+      renderRecipeDetail();
+    });
+  });
+}
+
+function saveRecipeToFirebase(recipe) {
+  recipesRef.child(recipe.id).set(recipe, err => {
+    if (err) {
+      console.error('Error saving recipe:', err);
+      showToast('Error saving recipe', 'error');
+    } else {
+      showToast('Recipe saved', 'success');
+    }
+  });
+}
+
+function deleteRecipeFromFirebase(id) {
+  recipesRef.child(id).remove(err => {
+    if (err) {
+      console.error('Error deleting recipe:', err);
+      showToast('Error deleting recipe', 'error');
+    } else {
+      showToast('Recipe deleted', 'success');
+    }
+  });
+}
+
+// ----- Sorting + filtering -----
+
+function sortRecipes(list) {
+  const sorted = [...list];
+  if (sortMode === SORT_MODE_ALPHA) {
+    sorted.sort((a, b) =>
+      (a.name || '').localeCompare(b.name || '', undefined, {
+        sensitivity: 'base'
+      })
+    );
+  } else if (sortMode === SORT_MODE_RECENT) {
+    sorted.sort((a, b) => {
+      const at = a._createdAt || 0;
+      const bt = b._createdAt || 0;
+      return bt - at;
+    });
+  }
+  return sorted;
+}
 
 function getFilteredRecipes() {
   const term = searchInputEl.value.trim().toLowerCase();
-  return recipes.filter(r => {
+  const filtered = recipes.filter(r => {
     if (activeCategory && r.category !== activeCategory) return false;
     if (showFavouritesOnly && !isFavourite(r.id)) return false;
 
     if (!term) return true;
 
-    const inName = r.name.toLowerCase().includes(term);
+    const inName = (r.name || '').toLowerCase().includes(term);
     const inTags = (r.tags || []).some(tag =>
       tag.toLowerCase().includes(term)
     );
-    const inIngredients = r.ingredients.some(ing =>
+    const inIngredients = (r.ingredients || []).some(ing =>
       ing.toLowerCase().includes(term)
     );
 
     return inName || inTags || inIngredients;
   });
+
+  return sortRecipes(filtered);
 }
 
 // ----- Rendering list -----
@@ -222,7 +288,7 @@ function renderRecipeList() {
     const p = document.createElement('p');
     p.className = 'placeholder';
     p.textContent =
-      'No recipes match your search or filters. Try changing them or add a new recipe.';
+      'No recipes yet. Click “+ Add recipe” to create your first one.';
     recipeListEl.appendChild(p);
     return;
   }
@@ -236,11 +302,13 @@ function renderRecipeList() {
     main.className = 'recipe-item-main';
 
     const title = document.createElement('h3');
-    title.textContent = r.name;
+    title.textContent = r.name || 'Untitled recipe';
 
     const meta = document.createElement('small');
     const favStar = isFavourite(r.id) ? '⭐ ' : '';
-    meta.textContent = `${favStar}${r.category} • ${r.cookTime || 'Time n/a'} • Serves ${r.servings || '?'}`;
+    meta.textContent = `${favStar}${r.category || 'Uncategorised'} • ${
+      r.cookTime || 'Time n/a'
+    } • Serves ${r.servings || '?'}`;
 
     main.appendChild(title);
     main.appendChild(meta);
@@ -258,6 +326,7 @@ function renderRecipeList() {
       cookMode.currentStepIndex = 0;
       renderRecipeList();
       renderRecipeDetail();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     recipeListEl.appendChild(item);
@@ -269,7 +338,8 @@ function renderRecipeList() {
 function renderRecipeDetail() {
   const recipe = recipes.find(r => r.id === currentRecipeId);
   if (!recipe) {
-    recipeDetailEl.innerHTML = '<p class="placeholder">No recipe selected.</p>';
+    recipeDetailEl.innerHTML =
+      '<p class="placeholder">No recipe selected. Add one to get started.</p>';
     return;
   }
 
@@ -282,8 +352,7 @@ function renderRecipeDetail() {
     .map(tag => `<span class="tag">${tag}</span>`)
     .join('');
 
-  // Ingredients HTML with checkboxes
-  const ingredientsHtml = recipe.ingredients
+  const ingredientsHtml = (recipe.ingredients || [])
     .map(
       (ing, idx) => `
       <li>
@@ -296,8 +365,7 @@ function renderRecipeDetail() {
     )
     .join('');
 
-  // Steps HTML with checkboxes
-  const stepsHtml = recipe.steps
+  const stepsHtml = (recipe.steps || [])
     .map(
       (step, idx) => `
       <li>
@@ -323,10 +391,17 @@ function renderRecipeDetail() {
   `
     : '';
 
+  const shareButtonHtml =
+    navigator.share != null
+      ? `<button class="ghost-btn" id="shareRecipeBtn">Share</button>`
+      : '';
+
+  const printButtonHtml = `<button class="ghost-btn" id="printRecipeBtn">Print</button>`;
+
   recipeDetailEl.innerHTML = `
-    <h2>${recipe.name}</h2>
+    <h2>${recipe.name || 'Untitled recipe'}</h2>
     <div class="recipe-meta">
-      <span>${recipe.category}</span> ·
+      <span>${recipe.category || 'Uncategorised'}</span> ·
       <span>${recipe.cookTime || 'Time not set'}</span> ·
       <span>Serves ${recipe.servings || '?'}</span>
     </div>
@@ -340,6 +415,8 @@ function renderRecipeDetail() {
       </button>
       <button class="ghost-btn" id="editRecipeBtn">Edit</button>
       <button class="danger-btn" id="deleteRecipeBtn">Delete</button>
+      ${shareButtonHtml}
+      ${printButtonHtml}
       <button class="ghost-btn" id="toggleCookModeBtn">${
         cookMode.enabled ? 'Exit cook mode' : 'Cook mode'
       }</button>
@@ -368,7 +445,7 @@ function renderRecipeDetail() {
     }
   `;
 
-  // Wire up detail actions
+  // Buttons
   document.getElementById('favBtn').addEventListener('click', () =>
     toggleFavourite(recipe.id)
   );
@@ -382,7 +459,36 @@ function renderRecipeDetail() {
     .getElementById('toggleCookModeBtn')
     .addEventListener('click', toggleCookMode);
 
-  // Checkbox interactions (strike-through)
+  const printBtn = document.getElementById('printRecipeBtn');
+  if (printBtn) {
+    printBtn.addEventListener('click', () => window.print());
+  }
+
+  const shareBtn = document.getElementById('shareRecipeBtn');
+  if (shareBtn && navigator.share) {
+    shareBtn.addEventListener('click', () => {
+      const textPieces = [];
+      textPieces.push(recipe.name || 'Recipe');
+      if (recipe.category) textPieces.push(recipe.category);
+      if (recipe.cookTime) textPieces.push(`Time: ${recipe.cookTime}`);
+      if (recipe.servings) textPieces.push(`Serves: ${recipe.servings}`);
+      textPieces.push('\nIngredients:');
+      (recipe.ingredients || []).forEach(i => textPieces.push(`• ${i}`));
+      textPieces.push('\nMethod:');
+      (recipe.steps || []).forEach((s, idx) =>
+        textPieces.push(`${idx + 1}. ${s}`)
+      );
+
+      navigator
+        .share({
+          title: recipe.name || 'Recipe',
+          text: textPieces.join('\n')
+        })
+        .catch(() => {});
+    });
+  }
+
+  // Checkbox interactions
   recipeDetailEl
     .querySelectorAll('.checkable-line input[type="checkbox"]')
     .forEach(cb => {
@@ -393,7 +499,6 @@ function renderRecipeDetail() {
       });
     });
 
-  // Cook mode init if enabled
   if (cookMode.enabled) {
     initCookMode(recipe);
   }
@@ -417,11 +522,11 @@ function initCookMode(recipe) {
   if (!box) return;
 
   function update() {
-    const total = recipe.steps.length;
+    const total = (recipe.steps || []).length || 1;
     const index = cookMode.currentStepIndex;
     const stepNum = index + 1;
     progressEl.textContent = `Step ${stepNum} of ${total}`;
-    stepTextEl.textContent = recipe.steps[index];
+    stepTextEl.textContent = recipe.steps[index] || 'No steps yet';
 
     prevBtn.disabled = index === 0;
     nextBtn.textContent = index === total - 1 ? 'Finish' : 'Next';
@@ -435,11 +540,11 @@ function initCookMode(recipe) {
   });
 
   nextBtn.addEventListener('click', () => {
-    if (cookMode.currentStepIndex < recipe.steps.length - 1) {
+    const total = (recipe.steps || []).length || 1;
+    if (cookMode.currentStepIndex < total - 1) {
       cookMode.currentStepIndex++;
       update();
     } else {
-      // Finished
       cookMode.enabled = false;
       cookMode.currentStepIndex = 0;
       renderRecipeDetail();
@@ -454,7 +559,7 @@ function initCookMode(recipe) {
 function openRecipeModal(recipe = null) {
   if (recipe) {
     recipeModalTitle.textContent = 'Edit recipe';
-    recipeNameInput.value = recipe.name;
+    recipeNameInput.value = recipe.name || '';
     recipeCategorySelect.value = recipe.category || '';
     recipeCookTimeInput.value = recipe.cookTime || '';
     recipeServingsInput.value = recipe.servings || 4;
@@ -489,9 +594,12 @@ function closeDeleteModal() {
 
 // ----- Event wiring -----
 
-// Search
+// Debounced search
 searchInputEl.addEventListener('input', () => {
-  renderRecipeList();
+  if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(() => {
+    renderRecipeList();
+  }, 180);
 });
 
 clearSearchBtn.addEventListener('click', () => {
@@ -513,13 +621,37 @@ categoryChipsEl.addEventListener('click', e => {
   renderRecipeList();
 });
 
-// Favourites
+// Favourites toggle
 favouritesToggleEl.addEventListener('click', () => {
   showFavouritesOnly = !showFavouritesOnly;
   favouritesToggleEl.classList.toggle('active', showFavouritesOnly);
   favouritesToggleEl.textContent = showFavouritesOnly
     ? '⭐ Favourites only: On'
     : '⭐ Favourites only: Off';
+  renderRecipeList();
+});
+
+// Sort toggle
+sortToggleBtn.addEventListener('click', () => {
+  sortMode = sortMode === SORT_MODE_ALPHA ? SORT_MODE_RECENT : SORT_MODE_ALPHA;
+  sortToggleBtn.textContent =
+    sortMode === SORT_MODE_ALPHA ? 'Sort: A → Z' : 'Sort: Newest';
+  renderRecipeList();
+});
+
+// Clear filters
+clearFiltersBtn.addEventListener('click', () => {
+  activeCategory = '';
+  showFavouritesOnly = false;
+  searchInputEl.value = '';
+
+  favouritesToggleEl.classList.remove('active');
+  favouritesToggleEl.textContent = '⭐ Favourites only: Off';
+
+  categoryChipsEl.querySelectorAll('.chip').forEach(chip => {
+    chip.classList.toggle('active', chip.dataset.category === '');
+  });
+
   renderRecipeList();
 });
 
@@ -533,6 +665,7 @@ randomRecipeBtn.addEventListener('click', () => {
   cookMode.currentStepIndex = 0;
   renderRecipeList();
   renderRecipeDetail();
+  showToast('Random recipe selected');
 });
 
 // Add recipe
@@ -552,10 +685,9 @@ recipeModalBackdrop.addEventListener('click', e => {
 cancelDeleteBtn.addEventListener('click', closeDeleteModal);
 confirmDeleteBtn.addEventListener('click', () => {
   if (!recipeIdToDelete) return;
-  recipes = recipes.filter(r => r.id !== recipeIdToDelete);
-  saveRecipes(recipes);
 
-  // Also remove from favourites
+  // Update local state for quick UI response
+  recipes = recipes.filter(r => r.id !== recipeIdToDelete);
   favourites = favourites.filter(f => f !== recipeIdToDelete);
   saveFavourites(favourites);
 
@@ -563,9 +695,12 @@ confirmDeleteBtn.addEventListener('click', () => {
     currentRecipeId = recipes[0]?.id || null;
   }
 
-  closeDeleteModal();
   renderRecipeList();
   renderRecipeDetail();
+
+  // Persist deletion in Firebase
+  deleteRecipeFromFirebase(recipeIdToDelete);
+  closeDeleteModal();
 });
 
 confirmDeleteBackdrop.addEventListener('click', e => {
@@ -578,8 +713,14 @@ confirmDeleteBackdrop.addEventListener('click', e => {
 recipeForm.addEventListener('submit', e => {
   e.preventDefault();
 
-  const id = recipeIdHidden.value || generateId(recipeNameInput.value);
   const name = recipeNameInput.value.trim();
+  if (!name) {
+    showToast('Please enter a recipe name', 'error');
+    recipeNameInput.focus();
+    return;
+  }
+
+  const id = recipeIdHidden.value || generateId(name);
   const category = recipeCategorySelect.value;
   const cookTime = recipeCookTimeInput.value.trim();
   const servings = parseInt(recipeServingsInput.value, 10) || 0;
@@ -598,6 +739,8 @@ recipeForm.addEventListener('submit', e => {
   const notes = recipeNotesTextarea.value.trim();
 
   const existingIndex = recipes.findIndex(r => r.id === id);
+  const now = Date.now();
+
   const recipeData = {
     id,
     name,
@@ -607,7 +750,11 @@ recipeForm.addEventListener('submit', e => {
     tags,
     ingredients,
     steps,
-    notes
+    notes,
+    _createdAt:
+      existingIndex >= 0
+        ? recipes[existingIndex]._createdAt || now
+        : now
   };
 
   if (existingIndex >= 0) {
@@ -616,13 +763,15 @@ recipeForm.addEventListener('submit', e => {
     recipes.push(recipeData);
   }
 
-  saveRecipes(recipes);
   currentRecipeId = id;
   cookMode.enabled = false;
   cookMode.currentStepIndex = 0;
   closeRecipeModal();
   renderRecipeList();
   renderRecipeDetail();
+
+  // Persist to Firebase (this will then re-sync across all devices)
+  saveRecipeToFirebase(recipeData);
 });
 
 // Keyboard shortcuts: Esc closes modals
@@ -633,6 +782,9 @@ document.addEventListener('keydown', e => {
   }
 });
 
-// ----- Initial render -----
+// ----- Start app -----
+
+// Show placeholders until Firebase loads data
 renderRecipeList();
 renderRecipeDetail();
+initFirebaseSync();

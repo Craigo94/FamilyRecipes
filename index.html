@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Family Recipe Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- PWA manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- iOS PWA helpers -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Recipes">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="title-group">
+        <h1>Family Recipe Book</h1>
+        <p>Our black & white cookbook for the whole family 🖤</p>
+      </div>
+      <div class="header-actions">
+        <button id="randomRecipeBtn" class="ghost-btn">Random recipe</button>
+        <button id="addRecipeBtn" class="primary-btn">+ Add recipe</button>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="controls">
+        <div class="search-row">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search by name, ingredient or tag..."
+            autocomplete="off"
+          />
+          <button id="clearSearchBtn" class="icon-btn" title="Clear search">
+            ✕
+          </button>
+        </div>
+
+        <div class="filters-row">
+          <div class="category-chips" id="categoryChips">
+            <button data-category="" class="chip active">All</button>
+            <button data-category="Breakfast" class="chip">Breakfast</button>
+            <button data-category="Lunch" class="chip">Lunch</button>
+            <button data-category="Dinner" class="chip">Dinner</button>
+            <button data-category="Dessert" class="chip">Dessert</button>
+            <button data-category="Snack" class="chip">Snack</button>
+          </div>
+
+          <div class="toggle-row">
+            <button id="favouritesToggle" class="toggle-btn">
+              ⭐ Favourites only: Off
+            </button>
+          </div>
+        </div>
+
+        <div class="status-row">
+          <span id="resultCount">0 recipes</span>
+        </div>
+      </section>
+
+      <section class="layout">
+        <aside class="recipe-list" id="recipeList">
+          <!-- Filled by app.js -->
+        </aside>
+
+        <section class="recipe-detail" id="recipeDetail">
+          <p class="placeholder">
+            Select a recipe on the left or create a new one to get started.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Made for our family · Data stays on your device (localStorage) 🥄</small>
+    </footer>
+  </div>
+
+  <!-- Add/Edit Recipe Modal -->
+  <div class="modal-backdrop hidden" id="recipeModalBackdrop">
+    <div class="modal" id="recipeModal">
+      <header class="modal-header">
+        <h2 id="recipeModalTitle">Add recipe</h2>
+        <button class="icon-btn" id="closeRecipeModalBtn" aria-label="Close">✕</button>
+      </header>
+      <div class="modal-body">
+        <form id="recipeForm">
+          <div class="form-group">
+            <label for="recipeName">Recipe name</label>
+            <input type="text" id="recipeName" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="recipeCategory">Category</label>
+              <select id="recipeCategory" required>
+                <option value="">Select…</option>
+                <option>Breakfast</option>
+                <option>Lunch</option>
+                <option>Dinner</option>
+                <option>Dessert</option>
+                <option>Snack</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="recipeCookTime">Cook/prep time</label>
+              <input type="text" id="recipeCookTime" placeholder="e.g. 45 minutes" />
+            </div>
+
+            <div class="form-group">
+              <label for="recipeServings">Servings</label>
+              <input type="number" id="recipeServings" min="1" value="4" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="recipeTags">Tags</label>
+            <input
+              type="text"
+              id="recipeTags"
+              placeholder="Comma-separated (e.g. spicy, veggie, quick)"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="recipeIngredients">Ingredients (one per line)</label>
+            <textarea id="recipeIngredients" rows="5" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="recipeSteps">Method (one step per line)</label>
+            <textarea id="recipeSteps" rows="6" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="recipeNotes">Notes (optional)</label>
+            <textarea id="recipeNotes" rows="3"></textarea>
+          </div>
+
+          <input type="hidden" id="recipeId" />
+
+          <div class="form-actions">
+            <button type="button" class="ghost-btn" id="cancelRecipeBtn">Cancel</button>
+            <button type="submit" class="primary-btn" id="saveRecipeBtn">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Delete Modal -->
+  <div class="modal-backdrop hidden" id="confirmDeleteBackdrop">
+    <div class="modal small">
+      <header class="modal-header">
+        <h2>Delete recipe?</h2>
+      </header>
+      <div class="modal-body">
+        <p>This will remove the recipe from this device. This cannot be undone.</p>
+      </div>
+      <div class="form-actions">
+        <button class="ghost-btn" id="cancelDeleteBtn">Cancel</button>
+        <button class="danger-btn" id="confirmDeleteBtn">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('service-worker.js')
+        .catch(err => console.error('SW registration failed', err));
+    }
+  </script>
+</body>
+</html>

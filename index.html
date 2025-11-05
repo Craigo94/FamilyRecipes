@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Family Recipe Book</title>
@@ -16,6 +17,7 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="app-shell">
     <header class="app-header">
@@ -34,12 +36,7 @@
     <main class="app-main">
       <section class="controls">
         <div class="search-row">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search by name, ingredient or tag..."
-            autocomplete="off"
-          />
+          <input type="text" id="searchInput" placeholder="Search by name, ingredient or tag..." autocomplete="off" />
           <button id="clearSearchBtn" class="icon-btn" title="Clear search">
             ✕
           </button>
@@ -125,11 +122,7 @@
 
           <div class="form-group">
             <label for="recipeTags">Tags</label>
-            <input
-              type="text"
-              id="recipeTags"
-              placeholder="Comma-separated (e.g. spicy, veggie, quick)"
-            />
+            <input type="text" id="recipeTags" placeholder="Comma-separated (e.g. spicy, veggie, quick)" />
           </div>
 
           <div class="form-group">
@@ -174,47 +167,46 @@
     </div>
   </div>
 
-    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-database-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/12.5.0/firebase-auth-compat.js"></script>
-
-    <script>
+  <script>
     const firebaseConfig = {
-        apiKey: "AIzaSyBEpIXFaBpnJFN9I-CERUufy8Vqv7KDijo",
-        authDomain: "hgmt-recipes.firebaseapp.com",
-        databaseURL: "https://hgmt-recipes-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "hgmt-recipes",
-        storageBucket: "hgmt-recipes.firebasestorage.app",
-        messagingSenderId: "659778381380",
-        appId: "1:659778381380:web:24142008596dcbb7a6be11"
+      apiKey: "AIzaSyBEpIXFaBpnJFN9I-CERUufy8Vqv7KDijo",
+      authDomain: "hgmt-recipes.firebaseapp.com",
+      databaseURL: "https://hgmt-recipes-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "hgmt-recipes",
+      storageBucket: "hgmt-recipes.firebasestorage.app",
+      messagingSenderId: "659778381380",
+      appId: "1:659778381380:web:24142008596dcbb7a6be11"
     };
 
+    // Initialise Firebase once
     firebase.initializeApp(firebaseConfig);
 
-    const db = firebase.database();
-    const auth = firebase.auth();
+    // Just use firebase.auth() here, don't redeclare db/auth as const
+    firebase
+      .auth()
+      .signInAnonymously()
+      .then(() => console.log("Signed in anonymously"))
+      .catch(err => console.error("Firebase auth error:", err));
 
-    auth.signInAnonymously()
-        .then(() => console.log("Signed in anonymously"))
-        .catch(err => console.error("Firebase auth error:", err));
-
-    auth.onAuthStateChanged(user => {
-        if (user) {
+    firebase.auth().onAuthStateChanged(user => {
+      if (user) {
         console.log("Firebase user:", user.uid);
-        // app.js will use firebase.database() from here
-        }
+      }
     });
-    </script>
 
-    <script src="app.js"></script>
-    <script>
+    // Optional: one-off debug write if you still want it
+    // firebase.database().ref('debug').set({ ping: 'hello', time: Date.now() });
+  </script>
+
+  <script src="app.js"></script>
+  <script>
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker
+      navigator.serviceWorker
         .register('service-worker.js')
         .catch(err => console.error('SW registration failed', err));
     }
-    </script>
+  </script>
 
-    </body>
-    </html>
+</body>
 
+</html>

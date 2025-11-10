@@ -61,6 +61,12 @@ body {
   z-index: 20;
 }
 
+.title-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .title-group h1 {
   margin: 0;
   font-size: 1.7rem;
@@ -72,6 +78,28 @@ body {
   margin: 0.25rem 0 0;
   font-size: 0.9rem;
   color: var(--muted);
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 1.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.title-text p {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.brand-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 .header-actions {
@@ -142,9 +170,10 @@ body {
 .toggle-row {
   display: flex;
   align-items: center;
+  gap: 0.4rem;
 }
 
-/* BUTTONS */
+/* BUTTONS & CHIPS */
 
 .primary-btn,
 .ghost-btn,
@@ -236,7 +265,7 @@ body {
   color: #000;
 }
 
-/* STATUS */
+/* STATUS ROW */
 
 .status-row {
   margin-top: 0.4rem;
@@ -244,7 +273,7 @@ body {
   color: var(--muted);
 }
 
-/* LIST + DETAIL LAYOUT */
+/* LAYOUT: LIST + DETAIL */
 
 .layout {
   display: flex;
@@ -259,6 +288,8 @@ body {
     align-items: stretch;
   }
 }
+
+/* RECIPE LIST */
 
 .recipe-list {
   background: var(--bg-elevated);
@@ -355,6 +386,13 @@ body {
   overflow: hidden;
 }
 
+@media (min-width: 900px) {
+  .recipe-detail {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+
 .recipe-detail h2 {
   margin-top: 0;
   margin-bottom: 0.3rem;
@@ -408,6 +446,56 @@ body {
   color: #000;
 }
 
+/* INGREDIENTS & STEPS LISTS */
+
+.ingredients-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.1rem 0 0.6rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.1rem 0 0.6rem;
+}
+
+.ingredients-list li,
+.steps-list li {
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.steps-list li {
+  margin-bottom: 0.25rem;
+}
+
+.checkable-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.checkable-line input[type='checkbox'] {
+  accent-color: #ffffff;
+  margin-top: 0.05rem;
+}
+
+.checkable-line span.checked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.step-number {
+  width: 1.3rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+/* SECTION HEADERS */
+
 .section-header {
   display: flex;
   align-items: center;
@@ -424,36 +512,7 @@ body {
   color: var(--muted);
 }
 
-/* Ingredients / steps lists */
-
-ul,
-ol {
-  margin: 0.1rem 0 0.6rem;
-  padding-left: 1.3rem;
-}
-
-.ingredients-list li,
-.steps-list li {
-  margin-bottom: 0.2rem;
-  font-size: 0.9rem;
-}
-
-.checkable-line {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.checkable-line input[type='checkbox'] {
-  accent-color: #ffffff;
-}
-
-.checkable-line span.checked {
-  text-decoration: line-through;
-  opacity: 0.6;
-}
-
-/* Cook mode */
+/* COOK MODE */
 
 .cook-mode {
   border-radius: var(--radius-md);
@@ -479,7 +538,24 @@ ol {
   margin-top: 0.4rem;
 }
 
-/* PLACEHOLDER */
+/* CALORIE FILTER SELECT */
+
+.calorie-select {
+  font-family: inherit;
+  font-size: 0.8rem;
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border);
+  background: rgba(18, 18, 18, 0.9);
+  color: var(--fg);
+  outline: none;
+}
+
+.calorie-select:focus {
+  border-color: var(--accent);
+}
+
+/* PLACEHOLDER TEXT */
 
 .placeholder {
   color: var(--muted);
@@ -601,11 +677,9 @@ ol {
   gap: 0.5rem;
 }
 
-/* TOAST (JS creates #hgmt-toast, this just tweaks mobile behaviour) */
+/* TOAST */
 
 #hgmt-toast {
-  /* inline styles from JS handle most of it;
-     these are just safe fallbacks / overrides */
   font-weight: 500;
 }
 
@@ -681,73 +755,4 @@ ol {
     opacity: 1;
     transform: translateY(0) scale(1);
   }
-}
-.title-group {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.title-text h1 {
-  margin: 0;
-  font-size: 1.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.title-text p {
-  margin: 0.25rem 0 0;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-.brand-logo {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1px solid var(--border);
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
-}
-@media (min-width: 900px) {
-  .recipe-detail {
-    max-height: 70vh;
-    overflow-y: auto;
-  }
-}
-.calorie-select {
-  font-family: inherit;
-  font-size: 0.8rem;
-  border-radius: var(--radius-pill);
-  padding: 0.35rem 0.7rem;
-  border: 1px solid var(--border);
-  background: rgba(18, 18, 18, 0.9);
-  color: var(--fg);
-  outline: none;
-}
-
-.calorie-select:focus {
-  border-color: var(--accent);
-}
-/* Better numbering for method steps (fix mobile layout) */
-.steps-list {
-  list-style: none;           /* remove default numbers */
-  counter-reset: step;        /* start CSS counter at 0 */
-  margin: 0.1rem 0 0.6rem;
-  padding-left: 0;            /* no extra indent */
-}
-
-.steps-list li {
-  counter-increment: step;    /* step 1, 2, 3... */
-  position: relative;
-  padding-left: 1.8rem;       /* space for the number on the left */
-}
-
-.steps-list li::before {
-  content: counter(step) ".";
-  position: absolute;
-  left: 0;
-  top: 0.25rem;
-  font-size: 0.85rem;
-  color: var(--muted);
 }

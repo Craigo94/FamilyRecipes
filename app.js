@@ -429,13 +429,14 @@ function renderRecipeDetail() {
   const stepsHtml = (recipe.steps || [])
     .map(
       (step, idx) => `
-      <li>
-        <label class="checkable-line">
-          <input type="checkbox" data-step-index="${idx}">
-          <span>${step}</span>
-        </label>
-      </li>
-    `
+        <li>
+          <label class="checkable-line">
+            <span class="step-number">${idx + 1}.</span>
+            <input type="checkbox" data-step-index="${idx}">
+            <span>${step}</span>
+          </label>
+        </li>
+      `
     )
     .join('');
 

@@ -39,6 +39,11 @@ let cookMode = {
 
 let searchDebounceTimer = null;
 
+let calorieFilter = 'all'; // 'all' | 'under450' | '450to600' | 'over600'
+
+let calorieFilterSelect = null;
+
+
 // ----- DOM references -----
 
 const recipeListEl = document.getElementById('recipeList');
@@ -73,7 +78,7 @@ const cancelDeleteBtn = document.getElementById('cancelDeleteBtn');
 const confirmDeleteBtn = document.getElementById('confirmDeleteBtn');
 let recipeIdToDelete = null;
 
-// ----- Extra UI elements (sort + clear filters) -----
+// ----- Extra UI elements (sort + clear filters + calories) -----
 
 const statusRowEl = document.querySelector('.status-row');
 const sortToggleBtn = document.createElement('button');
@@ -96,6 +101,21 @@ if (statusRowEl) {
   statusRowEl.appendChild(spacer);
   statusRowEl.appendChild(sortToggleBtn);
   statusRowEl.appendChild(clearFiltersBtn);
+}
+
+// Calorie filter dropdown
+const toggleRowEl = document.querySelector('.toggle-row');
+if (toggleRowEl) {
+  calorieFilterSelect = document.createElement('select');
+  calorieFilterSelect.id = 'calorieFilter';
+  calorieFilterSelect.className = 'calorie-select';
+  calorieFilterSelect.innerHTML = `
+    <option value="all">All calories</option>
+    <option value="under450">Under 450 kcal</option>
+    <option value="450to600">450–600 kcal</option>
+    <option value="over600">Over 600 kcal</option>
+  `;
+  toggleRowEl.appendChild(calorieFilterSelect);
 }
 
 // ----- Local storage: favourites only -----
@@ -270,11 +290,25 @@ function sortRecipes(list) {
   return sorted;
 }
 
+function passesCalorieFilter(recipe) {
+  if (!recipe || calorieFilter === 'all' || typeof recipe.calories !== 'number') {
+    return true;
+  }
+  const c = recipe.calories;
+
+  if (calorieFilter === 'under450') return c < 450;
+  if (calorieFilter === '450to600') return c >= 450 && c <= 600;
+  if (calorieFilter === 'over600') return c > 600;
+
+  return true;
+}
+
 function getFilteredRecipes() {
   const term = searchInputEl.value.trim().toLowerCase();
   const filtered = recipes.filter(r => {
     if (activeCategory && r.category !== activeCategory) return false;
     if (showFavouritesOnly && !isFavourite(r.id)) return false;
+    if (!passesCalorieFilter(r)) return false;
 
     if (!term) return true;
 
@@ -323,9 +357,12 @@ function renderRecipeList() {
 
     const meta = document.createElement('small');
     const favStar = isFavourite(r.id) ? '⭐ ' : '';
-    meta.textContent = `${favStar}${r.category || 'Uncategorised'} • ${
-      r.cookTime || 'Time n/a'
-    } • Serves ${r.servings || '?'}`;
+    const calText = typeof r.calories === 'number' ? ` • ${r.calories} kcal` : '';
+    meta.textContent =
+      `${favStar}${r.category || 'Uncategorised'} • ` +
+      `${r.cookTime || 'Time n/a'} • ` +
+      `Serves ${r.servings || '?'}` +
+      calText;
 
     main.appendChild(title);
     main.appendChild(meta);
@@ -343,7 +380,14 @@ function renderRecipeList() {
       cookMode.currentStepIndex = 0;
       renderRecipeList();
       renderRecipeDetail();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // On narrow screens, scroll directly to the detail panel
+      const isNarrow = window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
+      if (isNarrow && recipeDetailEl) {
+        const rect = recipeDetailEl.getBoundingClientRect();
+        const absoluteTop = window.scrollY + rect.top;
+        window.scrollTo({ top: absoluteTop - 72, behavior: 'smooth' });
+      }
     });
 
     recipeListEl.appendChild(item);
@@ -421,6 +465,11 @@ function renderRecipeDetail() {
       <span>${recipe.category || 'Uncategorised'}</span> ·
       <span>${recipe.cookTime || 'Time not set'}</span> ·
       <span>Serves ${recipe.servings || '?'}</span>
+      ${
+        typeof recipe.calories === 'number'
+          ? ` · <span>${recipe.calories} kcal</span>`
+          : ''
+      }
     </div>
     <div class="tags">
       ${tagsHtml}
@@ -647,6 +696,15 @@ favouritesToggleEl.addEventListener('click', () => {
     : '⭐ Favourites only: Off';
   renderRecipeList();
 });
+
+// Calorie filter change
+if (calorieFilterSelect) {
+  calorieFilterSelect.addEventListener('change', () => {
+    calorieFilter = calorieFilterSelect.value;
+    renderRecipeList();
+  });
+}
+
 
 // Sort toggle
 sortToggleBtn.addEventListener('click', () => {

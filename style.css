@@ -709,3 +709,45 @@ ol {
   border: 1px solid var(--border);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
+@media (min-width: 900px) {
+  .recipe-detail {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+.calorie-select {
+  font-family: inherit;
+  font-size: 0.8rem;
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border);
+  background: rgba(18, 18, 18, 0.9);
+  color: var(--fg);
+  outline: none;
+}
+
+.calorie-select:focus {
+  border-color: var(--accent);
+}
+/* Better numbering for method steps (fix mobile layout) */
+.steps-list {
+  list-style: none;           /* remove default numbers */
+  counter-reset: step;        /* start CSS counter at 0 */
+  margin: 0.1rem 0 0.6rem;
+  padding-left: 0;            /* no extra indent */
+}
+
+.steps-list li {
+  counter-increment: step;    /* step 1, 2, 3... */
+  position: relative;
+  padding-left: 1.8rem;       /* space for the number on the left */
+}
+
+.steps-list li::before {
+  content: counter(step) ".";
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}

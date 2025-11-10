@@ -756,3 +756,97 @@ body {
     transform: translateY(0) scale(1);
   }
 }
+/* Full-screen cook mode */
+
+body.cook-mode-active .app-header,
+body.cook-mode-active .app-footer,
+body.cook-mode-active .controls,
+body.cook-mode-active .recipe-list {
+  display: none;
+}
+
+body.cook-mode-active .app-main {
+  max-width: 800px;
+}
+
+body.cook-mode-active .recipe-detail {
+  max-height: none;
+  min-height: calc(100vh - 2rem);
+  font-size: 1.05rem;
+}
+
+/* Timer UI inside cook mode */
+
+.cook-timer {
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.85rem;
+}
+
+.cook-timer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.cook-timer-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.cook-timer-display {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.cook-timer-controls {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+#cookTimerMinutes {
+  font-family: inherit;
+  font-size: 0.8rem;
+  border-radius: var(--radius-pill);
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--border);
+  background: rgba(18, 18, 18, 0.9);
+  color: var(--fg);
+  outline: none;
+}
+
+#cookTimerMinutes:focus {
+  border-color: var(--accent);
+}
+
+/* Ingredients & steps – align number + checkbox on one line, no weird bullets */
+
+.ingredients-list,
+.steps-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.1rem 0 0.6rem;
+}
+
+.steps-list li {
+  margin-bottom: 0.25rem;
+}
+
+.checkable-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.step-number {
+  width: 1.3rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}

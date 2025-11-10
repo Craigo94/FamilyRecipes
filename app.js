@@ -25,8 +25,8 @@ if (window.firebase && firebase.apps && firebase.apps.length) {
 
 // ----- App state -----
 
-let recipes = [];                     // comes from Firebase
-let favourites = loadFavourites();    // local only
+let recipes = []; // from Firebase
+let favourites = loadFavourites(); // local only
 let currentRecipeId = null;
 let activeCategory = '';
 let showFavouritesOnly = false;
@@ -37,12 +37,14 @@ let cookMode = {
   currentStepIndex: 0
 };
 
+let cookTimer = {
+  active: false,
+  endTime: null,
+  intervalId: null
+};
+
 let searchDebounceTimer = null;
-
 let calorieFilter = 'all'; // 'all' | 'under450' | '450to600' | 'over600'
-
-let calorieFilterSelect = null;
-
 
 // ----- DOM references -----
 
@@ -81,6 +83,7 @@ let recipeIdToDelete = null;
 // ----- Extra UI elements (sort + clear filters + calories) -----
 
 const statusRowEl = document.querySelector('.status-row');
+
 const sortToggleBtn = document.createElement('button');
 sortToggleBtn.className = 'toggle-btn';
 sortToggleBtn.id = 'sortToggleBtn';
@@ -104,17 +107,18 @@ if (statusRowEl) {
 }
 
 // Calorie filter dropdown
+const calorieFilterSelect = document.createElement('select');
+calorieFilterSelect.id = 'calorieFilter';
+calorieFilterSelect.className = 'calorie-select';
+calorieFilterSelect.innerHTML = `
+  <option value="all">All calories</option>
+  <option value="under450">Under 450 kcal</option>
+  <option value="450to600">450–600 kcal</option>
+  <option value="over600">Over 600 kcal</option>
+`;
+
 const toggleRowEl = document.querySelector('.toggle-row');
 if (toggleRowEl) {
-  calorieFilterSelect = document.createElement('select');
-  calorieFilterSelect.id = 'calorieFilter';
-  calorieFilterSelect.className = 'calorie-select';
-  calorieFilterSelect.innerHTML = `
-    <option value="all">All calories</option>
-    <option value="under450">Under 450 kcal</option>
-    <option value="450to600">450–600 kcal</option>
-    <option value="over600">Over 600 kcal</option>
-  `;
   toggleRowEl.appendChild(calorieFilterSelect);
 }
 
@@ -207,6 +211,31 @@ function generateId(name) {
     'recipe';
   return base + '-' + Date.now().toString(36);
 }
+
+// Simple beep using Web Audio API (best-effort)
+function playTimerBeep() {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = 'sine';
+    osc.frequency.value = 880;
+    gain.gain.value = 0.2;
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start();
+    osc.stop(ctx.currentTime + 0.4);
+  } catch (e) {
+    // Silent fail; some browsers may block this
+  }
+}
+
+// ----- Firebase sync (recipes shared across devices) -----
 
 function initFirebaseSync() {
   if (!auth || !recipesRef) {
@@ -357,7 +386,8 @@ function renderRecipeList() {
 
     const meta = document.createElement('small');
     const favStar = isFavourite(r.id) ? '⭐ ' : '';
-    const calText = typeof r.calories === 'number' ? ` • ${r.calories} kcal` : '';
+    const calText =
+      typeof r.calories === 'number' ? ` • ${r.calories} kcal` : '';
     meta.textContent =
       `${favStar}${r.category || 'Uncategorised'} • ` +
       `${r.cookTime || 'Time n/a'} • ` +
@@ -378,11 +408,13 @@ function renderRecipeList() {
       currentRecipeId = r.id;
       cookMode.enabled = false;
       cookMode.currentStepIndex = 0;
+      document.body.classList.remove('cook-mode-active');
       renderRecipeList();
       renderRecipeDetail();
 
       // On narrow screens, scroll directly to the detail panel
-      const isNarrow = window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
+      const isNarrow =
+        window.matchMedia && window.matchMedia('(max-width: 900px)').matches;
       if (isNarrow && recipeDetailEl) {
         const rect = recipeDetailEl.getBoundingClientRect();
         const absoluteTop = window.scrollY + rect.top;
@@ -429,14 +461,14 @@ function renderRecipeDetail() {
   const stepsHtml = (recipe.steps || [])
     .map(
       (step, idx) => `
-        <li>
-          <label class="checkable-line">
-            <span class="step-number">${idx + 1}.</span>
-            <input type="checkbox" data-step-index="${idx}">
-            <span>${step}</span>
-          </label>
-        </li>
-      `
+      <li>
+        <div class="checkable-line">
+          <span class="step-number">${idx + 1}.</span>
+          <input type="checkbox" data-step-index="${idx}">
+          <span>${step}</span>
+        </div>
+      </li>
+    `
     )
     .join('');
 
@@ -448,6 +480,23 @@ function renderRecipeDetail() {
       <div class="cook-controls">
         <button class="ghost-btn" id="cookPrevBtn">Previous</button>
         <button class="primary-btn" id="cookNextBtn">Next</button>
+      </div>
+      <div class="cook-timer">
+        <div class="cook-timer-row">
+          <span class="cook-timer-label">Step timer</span>
+          <span class="cook-timer-display" id="cookTimerDisplay">00:00</span>
+        </div>
+        <div class="cook-timer-controls">
+          <select id="cookTimerMinutes">
+            <option value="1">1 min</option>
+            <option value="3">3 min</option>
+            <option value="5" selected>5 min</option>
+            <option value="10">10 min</option>
+            <option value="15">15 min</option>
+          </select>
+          <button class="ghost-btn" id="cookTimerStartBtn">Start</button>
+          <button class="ghost-btn" id="cookTimerClearBtn">Clear</button>
+        </div>
       </div>
     </div>
   `
@@ -560,7 +609,7 @@ function renderRecipeDetail() {
     .querySelectorAll('.checkable-line input[type="checkbox"]')
     .forEach(cb => {
       cb.addEventListener('change', () => {
-        const span = cb.nextElementSibling;
+        const span = cb.parentElement.querySelector('span:last-of-type');
         if (!span) return;
         span.classList.toggle('checked', cb.checked);
       });
@@ -576,6 +625,15 @@ function renderRecipeDetail() {
 function toggleCookMode() {
   cookMode.enabled = !cookMode.enabled;
   cookMode.currentStepIndex = 0;
+
+  document.body.classList.toggle('cook-mode-active', cookMode.enabled);
+
+  if (!cookMode.enabled && cookTimer.intervalId) {
+    clearInterval(cookTimer.intervalId);
+    cookTimer.intervalId = null;
+    cookTimer.active = false;
+  }
+
   renderRecipeDetail();
 }
 
@@ -586,9 +644,14 @@ function initCookMode(recipe) {
   const prevBtn = document.getElementById('cookPrevBtn');
   const nextBtn = document.getElementById('cookNextBtn');
 
+  const timerDisplay = document.getElementById('cookTimerDisplay');
+  const timerMinutesSelect = document.getElementById('cookTimerMinutes');
+  const timerStartBtn = document.getElementById('cookTimerStartBtn');
+  const timerClearBtn = document.getElementById('cookTimerClearBtn');
+
   if (!box) return;
 
-  function update() {
+  function updateStep() {
     const total = (recipe.steps || []).length || 1;
     const index = cookMode.currentStepIndex;
     const stepNum = index + 1;
@@ -599,10 +662,65 @@ function initCookMode(recipe) {
     nextBtn.textContent = index === total - 1 ? 'Finish' : 'Next';
   }
 
+  function formatMs(ms) {
+    const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+    const m = Math.floor(totalSeconds / 60);
+    const s = totalSeconds % 60;
+    const mm = String(m).padStart(2, '0');
+    const ss = String(s).padStart(2, '0');
+    return `${mm}:${ss}`;
+  }
+
+  function clearTimer() {
+    if (cookTimer.intervalId) {
+      clearInterval(cookTimer.intervalId);
+      cookTimer.intervalId = null;
+    }
+    cookTimer.active = false;
+    cookTimer.endTime = null;
+    if (timerDisplay) {
+      timerDisplay.textContent = '00:00';
+    }
+  }
+
+  function updateTimerTick() {
+    if (!cookTimer.active || !cookTimer.endTime) return;
+    const remaining = cookTimer.endTime - Date.now();
+    if (remaining <= 0) {
+      clearTimer();
+      if (timerDisplay) {
+        timerDisplay.textContent = '00:00';
+      }
+      showToast('Timer done!', 'success');
+      playTimerBeep();
+      if (navigator.vibrate) {
+        navigator.vibrate([200, 100, 200]);
+      }
+      return;
+    }
+    if (timerDisplay) {
+      timerDisplay.textContent = formatMs(remaining);
+    }
+  }
+
+  function startTimer() {
+    const minutes = parseInt(timerMinutesSelect.value, 10) || 0;
+    if (minutes <= 0) return;
+
+    clearTimer();
+
+    cookTimer.active = true;
+    cookTimer.endTime = Date.now() + minutes * 60 * 1000;
+    timerDisplay.textContent = formatMs(minutes * 60 * 1000);
+
+    cookTimer.intervalId = setInterval(updateTimerTick, 500);
+    showToast(`Timer started for ${minutes} min`);
+  }
+
   prevBtn.addEventListener('click', () => {
     if (cookMode.currentStepIndex > 0) {
       cookMode.currentStepIndex--;
-      update();
+      updateStep();
     }
   });
 
@@ -610,15 +728,28 @@ function initCookMode(recipe) {
     const total = (recipe.steps || []).length || 1;
     if (cookMode.currentStepIndex < total - 1) {
       cookMode.currentStepIndex++;
-      update();
+      updateStep();
     } else {
+      // Finished
       cookMode.enabled = false;
       cookMode.currentStepIndex = 0;
+      document.body.classList.remove('cook-mode-active');
+      clearTimer();
       renderRecipeDetail();
     }
   });
 
-  update();
+  if (timerStartBtn && timerMinutesSelect) {
+    timerStartBtn.addEventListener('click', startTimer);
+  }
+  if (timerClearBtn) {
+    timerClearBtn.addEventListener('click', () => {
+      clearTimer();
+      showToast('Timer cleared');
+    });
+  }
+
+  updateStep();
 }
 
 // ----- Modals -----
@@ -699,13 +830,10 @@ favouritesToggleEl.addEventListener('click', () => {
 });
 
 // Calorie filter change
-if (calorieFilterSelect) {
-  calorieFilterSelect.addEventListener('change', () => {
-    calorieFilter = calorieFilterSelect.value;
-    renderRecipeList();
-  });
-}
-
+calorieFilterSelect.addEventListener('change', () => {
+  calorieFilter = calorieFilterSelect.value;
+  renderRecipeList();
+});
 
 // Sort toggle
 sortToggleBtn.addEventListener('click', () => {
@@ -720,6 +848,8 @@ clearFiltersBtn.addEventListener('click', () => {
   activeCategory = '';
   showFavouritesOnly = false;
   searchInputEl.value = '';
+  calorieFilter = 'all';
+  calorieFilterSelect.value = 'all';
 
   favouritesToggleEl.classList.remove('active');
   favouritesToggleEl.textContent = '⭐ Favourites only: Off';
@@ -739,6 +869,7 @@ randomRecipeBtn.addEventListener('click', () => {
   currentRecipeId = random.id;
   cookMode.enabled = false;
   cookMode.currentStepIndex = 0;
+  document.body.classList.remove('cook-mode-active');
   renderRecipeList();
   renderRecipeDetail();
   showToast('Random recipe selected');
@@ -842,6 +973,7 @@ recipeForm.addEventListener('submit', e => {
   currentRecipeId = id;
   cookMode.enabled = false;
   cookMode.currentStepIndex = 0;
+  document.body.classList.remove('cook-mode-active');
   closeRecipeModal();
   renderRecipeList();
   renderRecipeDetail();

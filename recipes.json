@@ -1,0 +1,3469 @@
+{
+  "recipes": {
+    "air-fryer-churro-bites-vr20": {
+      "_createdAt": 1763001900000,
+      "calories": 460,
+      "category": "Dessert",
+      "cookTime": "20 Minutes",
+      "id": "air-fryer-churro-bites-vr20",
+      "ingredients": [
+        "Ready-Rolled Puff Pastry Sheet (1)",
+        "Melted Butter (3 Tbsp)",
+        "Caster Sugar (4 Tbsp)",
+        "Ground Cinnamon (2 Tsp)",
+        "Chocolate Sauce, For Dipping"
+      ],
+      "name": "Air Fryer Churro Bites",
+      "notes": "Work in batches so the pastry has space to puff properly.",
+      "servings": 4,
+      "steps": [
+        "Preheat the air fryer to 190°C.",
+        "Unroll the puff pastry sheet and cut into small bite-sized rectangles.",
+        "Brush the pastry pieces lightly with melted butter.",
+        "Air fry in batches for 6 to 8 minutes until puffed and golden.",
+        "In a bowl, mix caster sugar and ground cinnamon.",
+        "Brush the hot pastry bites with any remaining butter, then toss in the cinnamon sugar until well coated.",
+        "Serve warm with chocolate sauce for dipping."
+      ],
+      "tags": [
+        "Air Fryer",
+        "Sharing",
+        "Sweet"
+      ]
+    },
+    "air-fryer-pizza-bagels-vr42": {
+      "_createdAt": 1763004100000,
+      "calories": 410,
+      "category": "Snack",
+      "cookTime": "15 minutes",
+      "id": "air-fryer-pizza-bagels-vr42",
+      "ingredients": [
+        "Bagels, halved (4)",
+        "Pizza sauce (120g)",
+        "Grated mozzarella (120g)",
+        "Pepperoni slices (20)",
+        "Dried oregano (0.5 tsp)"
+      ],
+      "name": "Air Fryer Pizza Bagels",
+      "notes": "Use mini bagels for bite-sized party snacks.",
+      "servings": 4,
+      "steps": [
+        "Preheat the air fryer to 190°C.",
+        "Spread pizza sauce over the cut side of each bagel half.",
+        "Top with grated mozzarella and pepperoni slices.",
+        "Air fry for 5 to 7 minutes until the cheese is melted and bubbly.",
+        "Sprinkle with dried oregano and serve hot."
+      ],
+      "tags": [
+        "Air fryer",
+        "Cheesy",
+        "Quick"
+      ]
+    },
+    "baked-feta-Eggs-vr37": {
+      "_createdAt": 1763003600000,
+      "calories": 410,
+      "category": "Breakfast",
+      "cookTime": "20 minutes",
+      "id": "baked-feta-Eggs-vr37",
+      "ingredients": [
+        "Cherry tomatoes (200g)",
+        "Olive oil (1 tbsp)",
+        "Garlic, minced (1 clove)",
+        "Feta cheese, crumbled (80g)",
+        "Eggs (4)",
+        "Dried oregano (0.5 tsp)",
+        "Salt",
+        "Black pepper",
+        "Crusty bread, to serve"
+      ],
+      "name": "Baked Feta Eggs",
+      "notes": "Great with a pinch of chilli flakes on top.",
+      "servings": 2,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Add cherry tomatoes to a small baking dish and drizzle with olive oil.",
+        "Stir in the minced garlic and season with salt and black pepper.",
+        "Bake for 8 to 10 minutes until the tomatoes start to burst.",
+        "Remove from the oven, sprinkle over the crumbled feta and make four small wells.",
+        "Crack an egg into each well and sprinkle with dried oregano.",
+        "Return to the oven for 8 to 10 minutes until the egg whites are set but yolks are still runny.",
+        "Serve straight from the dish with crusty bread for dipping."
+      ],
+      "tags": [
+        "Oven-bake",
+        "Eggs",
+        "Brunch"
+      ]
+    },
+    "baked-feta-Eggs-wrap-vr44": {
+      "_createdAt": 1763004300000,
+      "calories": 520,
+      "category": "Breakfast",
+      "cookTime": "20 minutes",
+      "id": "baked-feta-Eggs-wrap-vr44",
+      "ingredients": [
+        "Feta cheese, crumbled (80g)",
+        "Cherry tomatoes, halved (120g)",
+        "Eggs (3)",
+        "Olive oil (1 tbsp)",
+        "Dried oregano (0.5 tsp)",
+        "Salt",
+        "Black pepper",
+        "Tortilla wraps (2)",
+        "Spinach leaves (40g)"
+      ],
+      "name": "Baked Feta Eggs Breakfast Wrap",
+      "notes": "Great with a drizzle of hot sauce inside the wrap.",
+      "servings": 2,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Add cherry tomatoes and crumbled feta to a small baking dish, drizzle with olive oil and sprinkle with dried oregano.",
+        "Bake for 8 to 10 minutes until the tomatoes soften and the feta is warmed.",
+        "Crack the eggs into the dish and season with salt and black pepper.",
+        "Return to the oven for 6 to 8 minutes until the eggs are just set.",
+        "Warm the tortilla wraps and layer with spinach leaves.",
+        "Spoon the baked feta and eggs into each wrap, then roll up and serve."
+      ],
+      "tags": [
+        "Wrap",
+        "Eggs",
+        "Brunch"
+      ]
+    },
+    "baked-feta-pasta-vr11": {
+      "_createdAt": 1763001000000,
+      "calories": 720,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "baked-feta-pasta-vr11",
+      "ingredients": [
+        "Feta Cheese Block (250 g)",
+        "Cherry Tomatoes (500 g)",
+        "Olive Oil (3 Tbsp)",
+        "Garlic Cloves, Sliced (3)",
+        "Dried Oregano (1 Tsp)",
+        "Chilli Flakes (1 Tsp)",
+        "Pasta, Short Shape Like Fusilli Or Penne (350 g)",
+        "Salt",
+        "Black Pepper",
+        "Fresh Basil Leaves"
+      ],
+      "name": "Baked Feta Cherry Tomato Pasta",
+      "notes": "Use wholewheat pasta to make it a bit lighter but still comforting.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 200°C.",
+        "Add cherry tomatoes to a baking dish and drizzle with olive oil.",
+        "Place the block of feta in the centre of the dish.",
+        "Scatter sliced garlic, dried oregano and chilli flakes over the top.",
+        "Season with salt and black pepper.",
+        "Bake for 20 to 25 minutes until the tomatoes are blistered and the feta is soft.",
+        "Cook the pasta according to the packet instructions until al dente, then reserve a cup of pasta water and drain.",
+        "Use a fork to mash the feta and tomatoes together into a creamy sauce.",
+        "Stir in the cooked pasta, adding a splash of pasta water if needed to loosen the sauce.",
+        "Finish with fresh basil leaves and serve hot."
+      ],
+      "tags": [
+        "TikTok",
+        "One-Dish",
+        "Cheesy"
+      ]
+    },
+    "baked-oat-bars-vr47": {
+      "_createdAt": 1763004600000,
+      "calories": 230,
+      "category": "Snack",
+      "cookTime": "30 minutes",
+      "id": "baked-oat-bars-vr47",
+      "ingredients": [
+        "Rolled oats (200g)",
+        "Ripe banana, mashed (1)",
+        "Peanut butter (80g)",
+        "Honey (60g)",
+        "Egg (1)",
+        "Baking powder (0.5 tsp)",
+        "Dark chocolate chips (40g)",
+        "Pinch of salt"
+      ],
+      "name": "Peanut Butter Chocolate Chip Oat Bars",
+      "notes": "Store in an airtight container for up to 3 days.",
+      "servings": 8,
+      "steps": [
+        "Preheat the oven to 180°C and line a small baking tin with baking paper.",
+        "In a bowl mix mashed banana, peanut butter, honey and egg until smooth.",
+        "Stir in oats, baking powder, salt and chocolate chips.",
+        "Spread the mixture evenly into the tin.",
+        "Bake for 18 to 20 minutes until golden and set.",
+        "Allow to cool completely before cutting into bars."
+      ],
+      "tags": [
+        "Snack",
+        "Bake",
+        "High-fibre"
+      ]
+    },
+    "baked-oats-vr32": {
+      "_createdAt": 1763003100000,
+      "calories": 480,
+      "category": "Breakfast",
+      "cookTime": "25 minutes",
+      "id": "baked-oats-vr32",
+      "ingredients": [
+        "Rolled oats (50g)",
+        "Milk of choice (80 ml)",
+        "Egg (1)",
+        "Maple syrup (1 tbsp)",
+        "Vanilla extract (0.5 tsp)",
+        "Baking powder (0.25 tsp)",
+        "Dark chocolate chips (1 tbsp)",
+        "Pinch of salt"
+      ],
+      "name": "Chocolate Chip Baked Oats",
+      "notes": "Blend in half a banana for extra sweetness and moisture.",
+      "servings": 1,
+      "steps": [
+        "Preheat the oven to 180°C.",
+        "Add oats, milk, egg, maple syrup, vanilla, baking powder and salt to a blender.",
+        "Blend until smooth and creamy.",
+        "Pour the mixture into a small greased ovenproof dish or ramekin.",
+        "Sprinkle chocolate chips over the top.",
+        "Bake for 18 to 20 minutes until risen and just set in the middle.",
+        "Serve warm straight from the dish."
+      ],
+      "tags": [
+        "TikTok",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "bang-bang-chicken": {
+      "_createdAt": 1762765000001,
+      "calories": 532,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "bang-bang-chicken",
+      "ingredients": [
+        "Red Bell Pepper (400 g)",
+        "Chicken Breast (500 g)",
+        "Soy Sauce (4 Tbsp)",
+        "Sweet Chilli Sauce (120 g)",
+        "Sriracha (120 g)",
+        "Basmati Rice (200 g)",
+        "Lighter Than Light Mayo, Hellmann’s (200 g)",
+        "Bisto Onion Granules (24 g)",
+        "Garlic (2 Tsp)",
+        "Smoked Paprika (4 Tsp)"
+      ],
+      "name": "Bang Bang Chicken",
+      "notes": "532 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Add the peppers and chicken to an oven-proof dish.",
+        "Season with soy sauce, smoked paprika and onion granules.",
+        "Mix well.",
+        "In a separate bowl, make the bang bang sauce by mixing mayo, sweet chilli and sriracha.",
+        "Brush half of the bang bang sauce over the chicken mixture, then cook in the oven at 180°C for 30 minutes.",
+        "Whilst the chicken is cooking, cook the rice.",
+        "Add rice to a bowl, top it with the bang bang chicken and drizzle with the leftover sauce."
+      ]
+    },
+    "bbq-beef-baked-sweet-potato": {
+      "_createdAt": 1762765000000,
+      "calories": 542,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "bbq-beef-baked-sweet-potato",
+      "ingredients": [
+        "Sweet Potato (600 g)",
+        "Salt (Pinch)",
+        "Red Onion (1)",
+        "Red Bell Pepper (1)",
+        "Minced Garlic (½ Tsp)",
+        "Red Chilli Purée (½ Tsp)",
+        "5% Beef Mince (250 g)",
+        "Black Beans, Canned (100 g)",
+        "Classic BBQ Seasoning (2 g)",
+        "BBQ Sauce (60 g)",
+        "Guacamole & Coriander, To Garnish"
+      ],
+      "name": "BBQ Beef Baked Sweet Potato",
+      "notes": "542 calories per serving.",
+      "servings": 2,
+      "steps": [
+        "Pierce the sweet potatoes with a fork, then microwave for 5 minutes to soften them.",
+        "Lightly spray the potatoes with low-calorie spray, season with salt and air fry for 20 minutes.",
+        "Fry the onion and pepper in a pan until softened.",
+        "Season with garlic and chilli.",
+        "Add the mince and stir-fry until almost cooked.",
+        "Add the BBQ seasoning, BBQ sauce and black beans.",
+        "Stir-fry for another 3 to 4 minutes.",
+        "Once the sweet potatoes are cooked, slice them open, top with the BBQ beef mixture, then garnish with guacamole and coriander."
+      ],
+      "tags": [
+        "BBQ",
+        "Potato"
+      ]
+    },
+    "beef-enchilada-skillet": {
+      "_createdAt": 1762765000002,
+      "calories": 591,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "beef-enchilada-skillet",
+      "ingredients": [
+        "White Onions (2)",
+        "5% Beef Mince (500 g)",
+        "Bell Peppers (320 g)",
+        "Passata (1,000 g)",
+        "Paprika (4 Tsp)",
+        "Garlic (1 Tsp)",
+        "BBQ Seasoning Rub (32 g)",
+        "Sweetcorn (160 g)",
+        "Wraps (4)",
+        "Grated Cheese (80 g)",
+        "Water (50 ml)"
+      ],
+      "name": "Beef Enchilada Skillet",
+      "notes": "591 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onions until soft, then add the mince and cook until cooked through.",
+        "Add passata, smoked paprika, BBQ seasoning and garlic.",
+        "Mix in the sweetcorn along with the water.",
+        "Tear tortilla wraps into strips, then add to the pan, sprinkle with cheese and cook until the cheese has melted.",
+        "Remove from the pan and garnish with (optional) spring onions, sour cream and coriander."
+      ],
+      "tags": [
+        "Hearty"
+      ]
+    },
+    "beef-fried-rice": {
+      "_createdAt": 1762765000003,
+      "calories": 476,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "beef-fried-rice",
+      "ingredients": [
+        "Jasmine Rice (260 g)",
+        "Beef Mince (500 g)",
+        "White Onion (1)",
+        "Ginger (1 Tsp)",
+        "Crushed Chillies (1 Tsp)",
+        "Chinese 5 Spice (1 Tbsp)",
+        "Soy Sauce (4 Tbsp)",
+        "Red Bell Pepper (1)",
+        "Frozen Peas (160 g)",
+        "Sweetcorn (100 g)"
+      ],
+      "name": "Beef Fried Rice",
+      "notes": "476 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Combine the chicken, onion, peppers, chilli, garlic, ginger, pineapple, ketchup, honey, soy sauce and vinegar in the slow cooker.",
+        "Cover and cook on high for 3 hours or low for 6 hours.",
+        "Twenty minutes before serving, add the noodles and vegetable stock into the slow cooker."
+      ],
+      "tags": [
+        "Rice Dish"
+      ]
+    },
+    "big-mac-burger": {
+      "_createdAt": 1762765000004,
+      "calories": 539,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "big-mac-burger",
+      "ingredients": [
+        "Brioche Buns",
+        "5% Beef Mince (450 g)",
+        "Gherkins",
+        "Onions",
+        "Lettuce",
+        "Salt & Pepper (To Taste)",
+        "Lighter Mayo (45 g)",
+        "Ketchup (30 g)",
+        "American Mustard (1 Tsp)",
+        "Cheese"
+      ],
+      "name": "Big Mac Burger",
+      "notes": "539 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "In a small bowl, mix the mayo, ketchup, mustard and seasonings.",
+        "Add 150 g mince to a bowl and season with salt and pepper.",
+        "Mix these together until fully combined, then separate into 2 equal-sized burgers.",
+        "Fry the burgers in a pan using low-calorie spray and cook for 2 minutes on each side.",
+        "Once the burgers are cooked, add 1 slice of cheese to each patty and top with some white onions and gherkins.",
+        "As the cheese melts, remove the burgers from the pan and place the burger buns on the same pan and toast for 1 minute.",
+        "Remove from the pan, then add sauce to each burger bun.",
+        "Add some lettuce."
+      ],
+      "tags": [
+        "Burger"
+      ]
+    },
+    "biscoff-cheesecake-pots-vr50": {
+      "_createdAt": 1763004900000,
+      "calories": 480,
+      "category": "Dessert",
+      "cookTime": "20 minutes plus chilling",
+      "id": "biscoff-cheesecake-pots-vr50",
+      "ingredients": [
+        "Biscoff biscuits, crushed (120g)",
+        "Butter, melted (40g)",
+        "Cream cheese (200g)",
+        "Greek yoghurt (120g)",
+        "Icing sugar (3 tbsp)",
+        "Vanilla extract (0.5 tsp)",
+        "Biscoff spread, melted (3 tbsp)"
+      ],
+      "name": "No Bake Biscoff Cheesecake Pots",
+      "notes": "Top with extra crushed biscuits for crunch.",
+      "servings": 4,
+      "steps": [
+        "In a bowl mix crushed Biscoff biscuits with melted butter until the texture resembles wet sand.",
+        "Divide the biscuit mixture between serving glasses and press down lightly to form a base.",
+        "Whisk together cream cheese, Greek yoghurt, icing sugar and vanilla until smooth and fluffy.",
+        "Spoon the cheesecake mixture over the biscuit bases.",
+        "Drizzle the tops with melted Biscoff spread.",
+        "Chill for at least 1 hour before serving."
+      ],
+      "tags": [
+        "No-bake",
+        "Cheesecake",
+        "Sweet"
+      ]
+    },
+    "biscoff-lava-mug-cake-vr19": {
+      "_createdAt": 1763001800000,
+      "calories": 520,
+      "category": "Dessert",
+      "cookTime": "8 Minutes",
+      "id": "biscoff-lava-mug-cake-vr19",
+      "ingredients": [
+        "Plain Flour (3 Tbsp)",
+        "Brown Sugar (2 Tbsp)",
+        "Cocoa Powder (1 Tbsp)",
+        "Baking Powder (¼ Tsp)",
+        "Pinch Of Salt",
+        "Milk (3 Tbsp)",
+        "Vegetable Oil (1 Tbsp)",
+        "Vanilla Extract (1 Tsp)",
+        "Biscoff Spread, Heaped (1 Tbsp)"
+      ],
+      "name": "Biscoff Lava Mug Cake",
+      "notes": "Microwave times vary, so start with 45 seconds and check.",
+      "servings": 1,
+      "steps": [
+        "Add flour, brown sugar, cocoa powder, baking powder and salt to a large microwave-safe mug.",
+        "Stir to combine the dry ingredients.",
+        "Add milk, vegetable oil and vanilla extract.",
+        "Mix until you have a smooth batter with no lumps.",
+        "Drop a spoonful of Biscoff spread into the centre of the batter.",
+        "Microwave on high for 45 to 60 seconds until the cake is just set on top but still gooey in the middle.",
+        "Let it cool for 1 minute before eating straight from the mug."
+      ],
+      "tags": [
+        "Microwave",
+        "Single-Serve",
+        "Viral"
+      ]
+    },
+    "biscoff-overnight-oats-vr02": {
+      "_createdAt": 1763000100000,
+      "calories": 480,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes Plus Overnight Chill",
+      "id": "biscoff-overnight-oats-vr02",
+      "ingredients": [
+        "Rolled Oats (60 g)",
+        "Milk Of Choice (150 ml)",
+        "Greek Yoghurt (2 Tbsp)",
+        "Biscoff Spread (1 Tbsp)",
+        "Chia Seeds (1 Tsp)",
+        "Honey Or Maple Syrup (1 Tsp)",
+        "Biscoff Biscuit, Crushed (1)",
+        "Pinch Of Salt"
+      ],
+      "name": "Biscoff Overnight Oats",
+      "notes": "Use almond milk to keep it lighter, or whole milk for extra creaminess.",
+      "servings": 1,
+      "steps": [
+        "Add oats, milk, Greek yoghurt, chia seeds, honey and a pinch of salt to a jar.",
+        "Stir well until everything is evenly combined.",
+        "Microwave the Biscoff spread for a few seconds until runny, then swirl it through the oat mixture.",
+        "Cover the jar and chill in the fridge overnight or for at least 4 hours.",
+        "Before serving, top with crushed Biscoff biscuit and an extra drizzle of Biscoff if desired."
+      ],
+      "tags": [
+        "Viral",
+        "Make-Ahead",
+        "Sweet"
+      ]
+    },
+    "biscoff-tiramisu-cups-vr41": {
+      "_createdAt": 1763004000000,
+      "calories": 520,
+      "category": "Dessert",
+      "cookTime": "25 minutes plus chilling",
+      "id": "biscoff-tiramisu-cups-vr41",
+      "ingredients": [
+        "Mascarpone cheese (200g)",
+        "Double cream (120 ml)",
+        "Icing sugar (2 tbsp)",
+        "Vanilla extract (0.5 tsp)",
+        "Strong coffee, cooled (80 ml)",
+        "Biscoff biscuits (12)",
+        "Biscoff spread, melted (4 tbsp)",
+        "Cocoa powder for dusting"
+      ],
+      "name": "Biscoff Tiramisu Cups",
+      "notes": "Do not soak the biscuits for too long or they will go mushy.",
+      "servings": 4,
+      "steps": [
+        "In a bowl whisk mascarpone, double cream, icing sugar and vanilla until thick and fluffy.",
+        "Dip Biscoff biscuits quickly into the cooled coffee and break into pieces.",
+        "Layer soaked biscuit pieces, mascarpone cream and a drizzle of melted Biscoff spread into serving glasses.",
+        "Repeat the layers until the glasses are filled.",
+        "Chill for at least 2 hours.",
+        "Dust with cocoa powder before serving."
+      ],
+      "tags": [
+        "No-bake",
+        "Layered",
+        "Sweet"
+      ]
+    },
+    "buffalo-chicken-burger": {
+      "_createdAt": 1762765000006,
+      "calories": 548,
+      "category": "Lunch",
+      "cookTime": "30 Minutes",
+      "id": "buffalo-chicken-burger",
+      "ingredients": [
+        "Chicken Breast (2)",
+        "Brioche Burger Buns",
+        "Eggs, Medium (4)",
+        "Breadcrumbs",
+        "Smoked Paprika (2 Tsp)",
+        "Buffalo Sauce (160 ml)",
+        "Light Mayo (60 g)"
+      ],
+      "name": "Buffalo Chicken Burger",
+      "notes": "548 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Butterfly the chicken breast.",
+        "Crack the eggs into a bowl with 1 tbsp of buffalo sauce.",
+        "Whisk together with a fork until fully combined.",
+        "Add the panko breadcrumbs to a separate bowl.",
+        "Dip the chicken breast into the egg mixture, then straight into the breadcrumbs, making sure it is fully coated on both sides.",
+        "Air fry at the highest temperature for 12 to 15 minutes.",
+        "Once the chicken is cooked through, add it to a bowl with the remaining buffalo sauce.",
+        "Toss it around in the sauce until fully coated.",
+        "Add some ranch sauce and lettuce to your burger bun, then place the chicken on top."
+      ],
+      "tags": [
+        "Burger"
+      ]
+    },
+    "buffalo-chicken-crunchwrap": {
+      "_createdAt": 1762765000007,
+      "calories": 458,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "buffalo-chicken-crunchwrap",
+      "ingredients": [
+        "Spring Onions (4)",
+        "Cooked Chicken (300 g)",
+        "Buffalo Sauce (80 g)",
+        "Cheese (120 g)",
+        "0% Greek Yogurt (120 g)",
+        "Bell Peppers (120 g)",
+        "Wraps (4)"
+      ],
+      "name": "Buffalo Chicken Crunchwrap",
+      "notes": "458 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "In a bowl, combine the chicken and buffalo sauce.",
+        "Slice a tortilla halfway down the middle.",
+        "Add the cheese to the half where you haven’t sliced.",
+        "Add the chicken, Greek yogurt, spring onions and peppers to the remaining sections.",
+        "Fold each quarter of the wrap onto the next one until the wrap is fully sealed.",
+        "Fry the wrap in a frying pan for 1 to 2 minutes on each side."
+      ],
+      "tags": [
+        "Wraps"
+      ]
+    },
+    "buffalo-chicken-loaded-fries": {
+      "_createdAt": 1762765000005,
+      "calories": 522,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "buffalo-chicken-loaded-fries",
+      "ingredients": [
+        "Baby Potatoes (1.6 kg)",
+        "Chicken Breast (400 g)",
+        "Buffalo Sauce (120 g)",
+        "Light Philadelphia Cheese (120 g)",
+        "Cheese (80 g)",
+        "Light Mayo With Garlic (60 ml)",
+        "Spring Onions (4)",
+        "Garlic (2 Tsp)",
+        "Smoked Paprika (2 Tsp)"
+      ],
+      "name": "Buffalo Chicken Loaded Fries",
+      "notes": "522 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Cut the potatoes into chips and microwave them for 5 minutes to soften.",
+        "Once soft, season with garlic, onion and smoked paprika.",
+        "Place them in the air fryer at the highest temperature for 14 minutes.",
+        "Cut the chicken into small bite-size pieces and fry them in a pan until cooked through.",
+        "Transfer the cooked chicken to a bowl, then add the buffalo sauce and cream cheese.",
+        "Mix until everything is combined.",
+        "Once the chips are cooked, transfer them to a dish and top with the buffalo chicken mixture, cheese, spring onion and garlic mayo."
+      ],
+      "tags": [
+        "Potato"
+      ]
+    },
+    "buffalo-chicken-quesadilla": {
+      "_createdAt": 1762765000008,
+      "calories": 509,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "buffalo-chicken-quesadilla",
+      "ingredients": [
+        "Chicken Breast, Raw (500 g)",
+        "Light Philadelphia Cream Cheese (200 g)",
+        "Smoked Paprika (2 Tsp)",
+        "0% Fat Free Greek Yogurt (100 g)",
+        "Fresh Coriander",
+        "Bell Peppers (2)",
+        "Garlic Granules (2 Tsp)",
+        "Water (200 ml)",
+        "White Wraps (4)",
+        "Frank’s Buffalo Sauce (160 ml)",
+        "Low-Fat Cheese, Grated"
+      ],
+      "name": "Buffalo Chicken Quesadilla",
+      "notes": "509 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onions and peppers in a pan until soft.",
+        "Add the chicken and season with garlic, smoked paprika and water.",
+        "Stir until the chicken is cooked through.",
+        "Add the cream cheese and buffalo sauce.",
+        "Mix well until everything is fully combined.",
+        "Remove the buffalo chicken mixture from the pan.",
+        "Place a tortilla onto the same pan, then add the buffalo chicken mixture onto one half.",
+        "Sprinkle some low-fat cheese over the chicken, then fold the wrap over to make a quesadilla.",
+        "Fry the quesadilla on both sides until slightly crisp, then remove from the pan.",
+        "Open it up and add the Greek yogurt and some fresh coriander."
+      ],
+      "tags": [
+        "Wraps"
+      ]
+    },
+    "burrito-fold-quesadillas-vr45": {
+      "_createdAt": 1763004400000,
+      "calories": 650,
+      "category": "Lunch",
+      "cookTime": "20 minutes",
+      "id": "burrito-fold-quesadillas-vr45",
+      "ingredients": [
+        "Large tortilla wraps (2)",
+        "Cooked rice (120g)",
+        "Cooked chicken, shredded (150g)",
+        "Salsa (4 tbsp)",
+        "Grated cheese (80g)",
+        "Sour cream (2 tbsp)",
+        "Lettuce, shredded (40g)"
+      ],
+      "name": "Burrito Fold Quesadillas",
+      "notes": "Use leftover chilli instead of chicken for a different twist.",
+      "servings": 2,
+      "steps": [
+        "Place a tortilla on a chopping board and make a single cut from the centre to the edge.",
+        "Imagine the tortilla divided into four quarters.",
+        "Add rice to one quarter, shredded chicken and salsa to the next, grated cheese to the third and lettuce with sour cream to the last.",
+        "Fold each quarter over the next, working around to make a layered triangle.",
+        "Repeat with the second tortilla.",
+        "Cook the folded quesadillas in a dry frying pan for 2 to 3 minutes on each side until golden and the cheese has melted.",
+        "Serve hot."
+      ],
+      "tags": [
+        "Quesadilla",
+        "Cheesy",
+        "Viral"
+      ]
+    },
+    "butter-chicken-with-rice": {
+      "_createdAt": 1762765000009,
+      "calories": 420,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "butter-chicken-with-rice",
+      "ingredients": [
+        "Chicken Breast (400 g)",
+        "White Onion (1)",
+        "Garlic (2 Tsp)",
+        "Ginger (2 Tsp)",
+        "Garam Masala Powder (1 Tbsp)",
+        "Chilli Powder (2 Tsp)",
+        "Light Coconut Milk (320 ml)",
+        "Passata (160 g)",
+        "Butter (10 g)",
+        "Cornflour (1 Tbsp)",
+        "Water (32 ml)",
+        "0% Greek Yogurt (160 g)",
+        "Basmati Rice (200 g)"
+      ],
+      "name": "Butter Chicken With Rice",
+      "notes": "420 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Combine the chicken, onion, garlic, ginger, garam masala, chilli powder, turmeric, coconut milk, passata and butter in the slow cooker.",
+        "Cover and cook on high for 4 hours or low for 6 hours.",
+        "Fifteen minutes before serving, mix the cornflour and water until you get a smooth consistency.",
+        "Add the cornflour mix alongside the Greek yogurt into the slow cooker and mix well until fully combined.",
+        "Cover with the lid and cook on high for another 15 minutes.",
+        "Boil the rice."
+      ],
+      "tags": [
+        "Lighter",
+        "Rice Dish"
+      ]
+    },
+    "cajun-chicken-alfredo": {
+      "_createdAt": 1762765000010,
+      "calories": 412,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "cajun-chicken-alfredo",
+      "ingredients": [
+        "Linguine Pasta (300 g)",
+        "Chicken Breast (400 g)",
+        "Cajun Seasoning (4 Tsp)",
+        "Smoked Paprika (4 Tsp)",
+        "Garlic (4 Tsp)",
+        "Bell Peppers (200 g)",
+        "Pasta Water (200 ml)",
+        "Garlic Purée (20 g)",
+        "Spinach (120 g)",
+        "Single Light Cream (200 ml)",
+        "Light Cream Cheese (60 g)",
+        "Tomato Purée (4 Tsp)"
+      ],
+      "name": "Cajun Chicken Alfredo",
+      "notes": "412 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Dice the sweet potatoes, then microwave for 5 minutes.",
+        "Spray with low-calorie spray and season with 1 tbsp chilli powder and 1 tsp smoked paprika.",
+        "Air fry the potatoes at the highest temperature for 15 minutes.",
+        "Whilst the potatoes are cooking, fry the onions until soft.",
+        "Add the mince and fry until brown.",
+        "Then add the peppers, taco seasoning and 1 tsp smoked paprika.",
+        "Then add passata, salt and pepper and stir until combined.",
+        "Reduce to a simmer until the potatoes are ready.",
+        "Portion it out, add a handful of spring onions, chillies and 10 g sriracha mayo."
+      ],
+      "tags": [
+        "Lighter"
+      ]
+    },
+    "caramelised-banana-toast-vr29": {
+      "_createdAt": 1763002800000,
+      "calories": 430,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "caramelised-banana-toast-vr29",
+      "ingredients": [
+        "Bread (4 Slices)",
+        "Banana, Sliced (1 Large)",
+        "Butter (1 Tbsp)",
+        "Brown Sugar (2 Tbsp)",
+        "Peanut Butter (2 Tbsp)",
+        "Chopped Nuts (1 Tbsp)",
+        "Pinch Of Cinnamon"
+      ],
+      "name": "Caramelised Banana Crunch Toast",
+      "notes": "Tastes like dessert but still works as a fun breakfast.",
+      "servings": 2,
+      "steps": [
+        "Toast the bread slices until golden.",
+        "Spread peanut butter over each slice.",
+        "Melt butter in a frying pan over medium heat.",
+        "Add sliced banana and brown sugar.",
+        "Cook for 3 to 4 minutes, gently turning, until the bananas are soft and caramelised.",
+        "Spoon the caramelised banana over the peanut butter toast.",
+        "Sprinkle with chopped nuts and a pinch of cinnamon before serving."
+      ],
+      "tags": [
+        "Sweet",
+        "Pan-Fry",
+        "Comfort"
+      ]
+    },
+    "carbonara": {
+      "_createdAt": 1762765000011,
+      "calories": 567,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "carbonara",
+      "ingredients": [
+        "Pasta, Dry (240 g)",
+        "Unsmoked Bacon Medallions (12 Slices)",
+        "Garlic Purée (20 g)",
+        "Eggs (8)",
+        "Parmesan (120 g)",
+        "Pepper (4 Dashes)",
+        "Salt (4 Dashes)"
+      ],
+      "name": "Carbonara",
+      "notes": "567 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onions.",
+        "Then, add the mince and season with garlic, ginger, chilli and Chinese 5 spice.",
+        "Stir-fry until the beef is cooked, then remove from the pan.",
+        "In the same pan, fry off the peppers, peas and sweetcorn until soft.",
+        "Once the rice is cooked, drain it and add it to the pan along with soy sauce.",
+        "Mix well until everything is fully combined, then add the beef back into the pan."
+      ],
+      "tags": [
+        "Hearty"
+      ]
+    },
+    "cheesy-broccoli-pasta-bake-vr28": {
+      "_createdAt": 1763002700000,
+      "calories": 710,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "cheesy-broccoli-pasta-bake-vr28",
+      "ingredients": [
+        "Pasta (350 g)",
+        "Broccoli, Cut Into Small Florets (1 Medium Head)",
+        "Butter (2 Tbsp)",
+        "Flour (2 Tbsp)",
+        "Milk (500 ml)",
+        "Grated Cheddar (120 g)",
+        "Grated Parmesan (30 g)",
+        "Mustard (1 Tsp)",
+        "Salt",
+        "Black Pepper",
+        "Breadcrumbs (Handful)"
+      ],
+      "name": "Cheesy Broccoli Pasta Bake",
+      "notes": "Add cooked bacon or ham for a meatier version.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Cook the pasta in salted boiling water for 8 minutes, adding the broccoli florets for the last 3 minutes.",
+        "Drain the pasta and broccoli and set aside.",
+        "In a saucepan, melt butter over medium heat.",
+        "Stir in flour and cook for 1 minute.",
+        "Gradually whisk in milk until you have a smooth sauce.",
+        "Simmer for 3 to 4 minutes until slightly thickened.",
+        "Stir in grated cheddar, half the parmesan and mustard until melted.",
+        "Season with salt and black pepper.",
+        "Combine the pasta, broccoli and cheese sauce in a baking dish.",
+        "Top with breadcrumbs and the remaining parmesan.",
+        "Bake for 15 to 20 minutes until golden and bubbling."
+      ],
+      "tags": [
+        "Family",
+        "Baked",
+        "Veg-Packed"
+      ]
+    },
+    "chicken-burrito-bowl": {
+      "_createdAt": 1762765000012,
+      "calories": 507,
+      "category": "Lunch",
+      "cookTime": "30–40 Minutes",
+      "id": "chicken-burrito-bowl",
+      "ingredients": [
+        "Lettuce (100 g)",
+        "Basmati Microwave Rice (250 g)",
+        "Red Kidney Beans (80 g)",
+        "Sweetcorn (80 g)",
+        "Cherry Tomatoes (100 g)",
+        "Cooked Chicken (200 g)",
+        "Grated Cheese (40 g)",
+        "Salsa (2 Tbsp)",
+        "0% Greek Yogurt (2 Tbsp)",
+        "Pickled Red Onions (20 g)",
+        "Lime Juice",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Chicken Burrito Bowl",
+      "notes": "507 calories per serving.",
+      "servings": 2,
+      "steps": [
+        "In a small bowl, mix the mayo, ketchup, mustard and seasonings.",
+        "Add 150 g mince to a bowl and season with salt and pepper.",
+        "Mix these together until fully combined, then separate into 2 equal-sized burgers.",
+        "Fry the burgers in a pan using low-calorie spray and cook for 2 minutes on each side.",
+        "Once the burgers are cooked, add 1 slice of cheese to each patty and top with some white onions and gherkins.",
+        "As the cheese melts, remove the burgers from the pan and place the burger buns on the same pan and toast for 1 minute.",
+        "Remove from the pan, then add sauce to each burger bun.",
+        "Add some lettuce."
+      ],
+      "tags": [
+        "Rice Dish",
+        "Wraps"
+      ]
+    },
+    "chicken-caesar-wraps-vr49": {
+      "_createdAt": 1763004800000,
+      "calories": 540,
+      "category": "Lunch",
+      "cookTime": "15 minutes",
+      "id": "chicken-caesar-wraps-vr49",
+      "ingredients": [
+        "Large tortilla wraps (2)",
+        "Cooked chicken, sliced (180g)",
+        "Romaine lettuce, shredded (60g)",
+        "Parmesan, grated (20g)",
+        "Caesar dressing (4 tbsp)",
+        "Croutons, roughly crushed (20g)"
+      ],
+      "name": "Chicken Caesar Wraps",
+      "notes": "Use a low fat Caesar dressing if you want to lighten it up.",
+      "servings": 2,
+      "steps": [
+        "In a bowl toss shredded lettuce with Caesar dressing.",
+        "Lay the tortilla wraps on a board and add the dressed lettuce down the centre of each.",
+        "Top with sliced chicken, grated parmesan and crushed croutons.",
+        "Roll up tightly, tucking in the ends, then slice in half to serve."
+      ],
+      "tags": [
+        "Wrap",
+        "Quick",
+        "Chicken"
+      ]
+    },
+    "chicken-curried-crispy-potatoes": {
+      "_createdAt": 1762765000013,
+      "calories": 407,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "chicken-curried-crispy-potatoes",
+      "ingredients": [
+        "Baby Potatoes (1.4 kg)",
+        "Chicken Breast (400 g)",
+        "White Onions (2)",
+        "Red Bell Peppers (2)",
+        "Minced Garlic (4 Tsp)",
+        "Crushed Chillies (4 Tsp)",
+        "Water (500 ml)",
+        "Mayflower Curry Sauce (80 g)"
+      ],
+      "name": "Chicken Curried Crispy Potatoes",
+      "notes": "407 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Dice the potatoes and microwave for 5 minutes to soften them, then air fry at 200°C for 15 minutes.",
+        "Fry the onions, then add the chicken with garlic and chilli.",
+        "Once the chicken is cooked, add in the peppers and stir-fry for 3 to 4 minutes.",
+        "Add the water and curry sauce and mix well until combined.",
+        "Once the curry starts to thicken, reduce the pan to a simmer until the potatoes are cooked.",
+        "Add the potatoes and mix well."
+      ],
+      "tags": [
+        "Lighter",
+        "Potato"
+      ]
+    },
+    "chicken-satay-noodles": {
+      "_createdAt": 1762765000015,
+      "calories": 455,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "chicken-satay-noodles",
+      "ingredients": [
+        "Light Coconut Milk (320 ml)",
+        "Garlic Purée (2 Tbsp)",
+        "Mild Curry Powder (2 Tbsp)",
+        "Soy Sauce (4 Tbsp)",
+        "Peanut Butter (40 g)",
+        "Bell Peppers (2)",
+        "Vegetable Stock (240 ml)",
+        "Noodles, Dry, Uncooked (160 g)",
+        "Chicken Breast (500 g)"
+      ],
+      "name": "Chicken Satay Noodles",
+      "notes": "455 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Combine the chicken, coconut milk, garlic, curry powder, soy sauce and peanut butter in the slow cooker.",
+        "Give it a good stir, then add in the peppers.",
+        "Cover and cook on low for 8 hours, or high for 4 hours.",
+        "Fifteen minutes before serving, add the vegetable stock and dry noodles into the slow cooker.",
+        "Cover with a lid and cook on low for another 15 minutes."
+      ],
+      "tags": [
+        "Noodles"
+      ]
+    },
+    "chicken-tikka-masala": {
+      "_createdAt": 1762765000016,
+      "calories": 623,
+      "category": "Dinner",
+      "cookTime": "45–60 Minutes",
+      "id": "chicken-tikka-masala",
+      "ingredients": [
+        "Onion Powder (1 Tsp)",
+        "Garlic Powder (1 Tsp)",
+        "Tikka Masala Spice Paste (70 g)",
+        "0% Fat Free Greek Yogurt (180 g)",
+        "Onion (1)",
+        "Chopped Tomatoes (400 g)",
+        "Ginger (1 Tsp)",
+        "Philadelphia Lightest Cream Cheese (50 g)",
+        "Microwave Pilau Rice (2 Packs)",
+        "Pitta Bread",
+        "Chicken Breast (560 g)"
+      ],
+      "name": "Chicken Tikka Masala",
+      "notes": "623 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Mix the chicken pieces, some onion and garlic granules, tikka masala paste and yogurt until combined.",
+        "Fry the chicken off in a pan on medium heat.",
+        "Once it is semi-cooked, add 50 ml water to prevent the chicken from sticking to the pan.",
+        "Once cooked through, remove the chicken from the pan and set aside.",
+        "In the same pan, add the onions and peppers and fry until softened.",
+        "Add 50 ml water to prevent the vegetables from sticking to the pan.",
+        "Add in the chopped tomatoes, ginger, garlic and tikka masala paste and stir until fully combined.",
+        "Reduce to a simmer and stir in the yogurt.",
+        "Then, add the chicken back into the pan and stir until fully combined.",
+        "Remove the curry from the heat, then stir in the cream cheese."
+      ],
+      "tags": [
+        "Curry",
+        "Hearty"
+      ]
+    },
+    "chicken-tzatziki-flatbread": {
+      "_createdAt": 1762765000014,
+      "calories": 363,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "chicken-tzatziki-flatbread",
+      "ingredients": [
+        "0% Fat Greek Yogurt (400 g)",
+        "Garlic (4 Tsp)",
+        "Lemon Juice (12 Tbsp)",
+        "Olive Oil (2 Tsp)",
+        "Cucumber (200 g)",
+        "Flatbread (240 g)",
+        "Cooked Chicken Breast (300 g)",
+        "Cherry Tomatoes (200 g)",
+        "Lettuce (200 g)",
+        "Red Onion (1)",
+        "Dill (4 Tsp)"
+      ],
+      "name": "Chicken Tzatziki Flatbread",
+      "notes": "363 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Prepare the tzatziki sauce by combining the yogurt, cucumber (chopped), dill, garlic, lemon juice and olive oil.",
+        "Mix well until combined, then season with salt.",
+        "Microwave the flatbread for 10 to 15 seconds to warm it.",
+        "Spread half of the tzatziki sauce over the base.",
+        "Top with the lettuce, tomato, onions and cooked chicken, then drizzle any leftover sauce over the top.",
+        "Wrap it up tight."
+      ],
+      "tags": [
+        "Lighter"
+      ]
+    },
+    "chilli-cheese-rice": {
+      "_createdAt": 1762765000017,
+      "calories": 494,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "chilli-cheese-rice",
+      "ingredients": [
+        "5% Beef Mince (500 g)",
+        "Onions (2)",
+        "Chopped Garlic (2 Tsp)",
+        "Mixed Peppers (200 g)",
+        "Passata (400 g)",
+        "Smoked Paprika (2 Tsp)",
+        "BBQ Flavouring (1 Packet)",
+        "Mild Chilli Powder (3 Tsp)",
+        "Water (200 ml)",
+        "Spicy Mexican Microwave Rice (2 Packets)",
+        "Sweetcorn (1 Can)",
+        "Lime Juice (1 Tsp)",
+        "Low-Fat Cheddar Cheese, Grated (80 g)"
+      ],
+      "name": "Chilli Cheese Rice",
+      "notes": "494 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onions and mince in a pan with some chilli and garlic.",
+        "Once the mince is cooked, add in the peppers and stir-fry for 2 minutes.",
+        "Add in the passata and season with the smoked paprika, BBQ seasoning and chilli powder.",
+        "Add in 100 ml water and stir until you get a nice saucy consistency.",
+        "Reduce to a simmer, then add in the full packet of microwave rice.",
+        "Stir-fry for another 2 to 3 minutes, until the rice is cooked through.",
+        "Stir in the sweetcorn and season with some salt, pepper and lime juice.",
+        "Top it off with some cheese, then put the lid on for 30 seconds to help the cheese melt.",
+        "Remove from the pan and garnish with some spring onions and chilli."
+      ],
+      "tags": [
+        "Rice Dish"
+      ]
+    },
+    "chilli-garlic-butter-chicken": {
+      "_createdAt": 1762765000018,
+      "calories": 544,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "chilli-garlic-butter-chicken",
+      "ingredients": [
+        "Baby Potatoes (1,400 g)",
+        "Mild Chilli Powder (8 g)",
+        "Red Onions (2)",
+        "Reduced-Fat Salted Butter (56 g)",
+        "Garlic Purée (4 Tsp)",
+        "Red Chilli Purée (2 Tsp)",
+        "Chicken Breast Fillets (460 g)",
+        "Bell Peppers (2)",
+        "Water (200 ml)",
+        "Unsweetened Almond Milk (200 ml)",
+        "Philadelphia Light Cream Cheese (100 g)",
+        "Parsley (4 Tbsp)"
+      ],
+      "name": "Chilli Garlic Butter Chicken",
+      "notes": "544 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Dice the potatoes and microwave for 5 minutes until softened.",
+        "Season with ½ tsp chilli powder and ½ tsp garlic.",
+        "Air fry at the highest temperature for 15 minutes.",
+        "In a frying pan, fry the onions with the butter, garlic and chilli paste.",
+        "Once you get a jammy texture, add the chicken and stir-fry until almost cooked.",
+        "Add the peppers, water, milk, cream cheese and parsley.",
+        "Mix well until fully combined and stir-fry for 3 minutes until the sauce thickens.",
+        "Remove the pan from the heat and mix in the crispy air-fried potatoes."
+      ]
+    },
+    "chopped-italian-salad-sub-vr09": {
+      "_createdAt": 1763000800000,
+      "calories": 580,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "chopped-italian-salad-sub-vr09",
+      "ingredients": [
+        "Sub Rolls Or Baguette Sections (3)",
+        "Mixed Lettuce, Shredded (120 g)",
+        "Salami, Chopped (8 Slices)",
+        "Ham, Chopped (6 Slices)",
+        "Provolone Or Cheddar, Diced (60 g)",
+        "Cherry Tomatoes, Chopped (8)",
+        "Red Onion, Finely Sliced (¼)",
+        "Mayonnaise (4 Tbsp)",
+        "Red Wine Vinegar (1 Tbsp)",
+        "Dried Oregano (1 Tsp)",
+        "Dijon Mustard (1 Tsp)",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Chopped Italian Salad Sub",
+      "notes": "Add sliced pepperoncini or jalapeños for extra tang.",
+      "servings": 3,
+      "steps": [
+        "Add shredded lettuce, chopped salami, ham, cheese, cherry tomatoes and red onion to a large bowl.",
+        "In a separate small bowl, whisk together mayonnaise, red wine vinegar, Dijon mustard, dried oregano, salt and black pepper.",
+        "Pour the dressing over the salad mix.",
+        "Use a large knife or scissors to chop and mix everything together in the bowl until finely chopped and well coated.",
+        "Slice the sub rolls open and lightly toast if you like.",
+        "Stuff each roll generously with the chopped salad mixture and serve immediately."
+      ],
+      "tags": [
+        "Chopped Salad",
+        "Sandwich",
+        "Viral"
+      ]
+    },
+    "cookie-dough-protein-bites-vr22": {
+      "_createdAt": 1763002100000,
+      "calories": 120,
+      "category": "Snack",
+      "cookTime": "15 Minutes Plus Chill",
+      "id": "cookie-dough-protein-bites-vr22",
+      "ingredients": [
+        "Oats (120 g)",
+        "Vanilla Protein Powder (2 Scoops)",
+        "Peanut Butter (4 Tbsp)",
+        "Honey (3 Tbsp)",
+        "Milk (3 Tbsp)",
+        "Dark Chocolate Chips (2 Tbsp)",
+        "Pinch Of Salt"
+      ],
+      "name": "Cookie Dough Protein Bites",
+      "notes": "Store in the fridge for up to 5 days.",
+      "servings": 10,
+      "steps": [
+        "Add oats, protein powder and a pinch of salt to a bowl and stir.",
+        "Add peanut butter, honey and milk.",
+        "Mix until a thick dough forms, adding a splash more milk if needed.",
+        "Stir in dark chocolate chips.",
+        "Roll the mixture into small bite-sized balls.",
+        "Refrigerate for at least 30 minutes to firm up before eating."
+      ],
+      "tags": [
+        "No-Bake",
+        "High-Protein",
+        "Snack"
+      ]
+    },
+    "corn-riblets-vr59": {
+      "_createdAt": 1763005800000,
+      "calories": 210,
+      "category": "Snack",
+      "cookTime": "25 minutes",
+      "id": "corn-riblets-vr59",
+      "ingredients": [
+        "Corn on the cob (4)",
+        "Olive oil (2 tbsp)",
+        "Paprika (1 tsp)",
+        "Garlic powder (1 tsp)",
+        "Salt",
+        "Black pepper",
+        "Lime wedges, to serve"
+      ],
+      "name": "Air Fryer Corn Riblets",
+      "notes": "Take care when cutting the corn; use a sharp knife and work slowly.",
+      "servings": 4,
+      "steps": [
+        "Carefully quarter each corn on the cob lengthways to create riblet shapes.",
+        "In a bowl mix olive oil, paprika, garlic powder, salt and black pepper.",
+        "Toss the corn riblets in the seasoned oil until well coated.",
+        "Air fry at 190°C for 12 to 15 minutes, shaking halfway, until charred and tender.",
+        "Serve hot with lime wedges for squeezing over."
+      ],
+      "tags": [
+        "Viral",
+        "Veggie",
+        "Air fryer"
+      ]
+    },
+    "cottage-cheese-ice-cream-vr34": {
+      "_createdAt": 1763003300000,
+      "calories": 260,
+      "category": "Dessert",
+      "cookTime": "10 minutes plus freezing",
+      "id": "cottage-cheese-ice-cream-vr34",
+      "ingredients": [
+        "Cottage cheese (200g)",
+        "Honey or maple syrup (1.5 tbsp)",
+        "Vanilla extract (0.5 tsp)",
+        "Frozen berries (80g)",
+        "Dark chocolate chips (1 tbsp)"
+      ],
+      "name": "Cottage Cheese Protein Ice Cream",
+      "notes": "If freezing longer, let it sit at room temperature for 10 minutes before scooping.",
+      "servings": 2,
+      "steps": [
+        "Add cottage cheese, honey, vanilla and frozen berries to a blender.",
+        "Blend until completely smooth and creamy.",
+        "Stir in the dark chocolate chips.",
+        "Transfer the mixture to a shallow container and freeze for 1 to 2 hours until scoopable.",
+        "Scoop into bowls and serve."
+      ],
+      "tags": [
+        "High-protein",
+        "Frozen",
+        "Viral"
+      ]
+    },
+    "craigo-s-mac-cheese-mhmj01yg": {
+      "_createdAt": 1762379080936,
+      "category": "Dinner",
+      "cookTime": "1 Hour",
+      "id": "craigo-s-mac-cheese-mhmj01yg",
+      "ingredients": [
+        "Macaroni",
+        "Loads of cheese",
+        "Breadcrumbs",
+        "Mushroom (Leave out if your name is Claire)",
+        "Flour",
+        "Milk",
+        "Butter",
+        "Dijon mustard",
+        "Paprika",
+        "Salt",
+        "Pepper"
+      ],
+      "name": "Craigo's Mac & Cheese",
+      "notes": "",
+      "servings": 6,
+      "steps": [
+        "Put pan of water on and boil",
+        "Add a pinch of salt",
+        "Add butter to a pan and melt",
+        "Add 2/3 heaped tablespoons of flour",
+        "Whisk until melted butter and flour have come together",
+        "Add little bits of milk and keep whisking until it becomes a white sauce - this is your roux",
+        "Add as much cheese to the sauce as you like",
+        "Add a tablespoon of Dijon Mustard",
+        "Add some Paprika, Salt and Pepper",
+        "Whisk until cheese has melted and simmer",
+        "Preheat oven to 180C",
+        "Put Macaroni into boiling water",
+        "Cook mushroom with butter until brown",
+        "Once pasta is El Dente drain and add to baking tray",
+        "Add cooked mushrooms to baking tray with Pasta",
+        "Pour over cheese sauce",
+        "Mix all until fully incorporated",
+        "Sprinkle breadcrumbs on top",
+        "Put extra cheese on top until covered",
+        "Place in oven for 30 mins",
+        "Eat once nice and brown"
+      ],
+      "tags": [
+        "Cheesy"
+      ]
+    },
+    "creamy-peppercorn-chicken": {
+      "_createdAt": 1762765000019,
+      "calories": 408,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "creamy-peppercorn-chicken",
+      "ingredients": [
+        "Chicken Breast (500 g)",
+        "White Onions (2)",
+        "Mushrooms (4 Cups)",
+        "Garlic Purée (12 g)",
+        "Aromat All-Purpose Seasoning (12 g)",
+        "Peppercorn Sauce Mix (1 Packet)",
+        "Spinach (4 Cups)",
+        "Single Cream (100 ml)",
+        "Basmati Microwave Rice (2 Packets)"
+      ],
+      "name": "Creamy Peppercorn Chicken",
+      "notes": "408 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry chicken in a pan until cooked through.",
+        "Add the green peppers, soy sauce, ginger and garlic.",
+        "Stir well and fry these off until soft.",
+        "Add in hoisin sauce with 100 ml water.",
+        "Stir-fry until everything is fully combined and the sauce thickens.",
+        "Add in the cooked noodles and spring onions, fry for another 2 minutes.",
+        "Remove the pan from the heat and garnish with more spring onions, fresh chillies and sesame seeds."
+      ],
+      "tags": [
+        "Lighter"
+      ]
+    },
+    "creamy-sweet-chilli-chicken-pasta": {
+      "_createdAt": 1762765000021,
+      "calories": 498,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "creamy-sweet-chilli-chicken-pasta",
+      "ingredients": [
+        "Pasta, Dry (240 g)",
+        "White Onions (2)",
+        "Chicken Breast (500 g)",
+        "Smoked Paprika (2 Tsp)",
+        "Garlic (2 Tsp)",
+        "Bell Peppers (200 g)",
+        "Light Sweet Chilli Sauce (Blue Dragon) (100 g)",
+        "Light Cream Cheese (160 g)",
+        "Pasta Water (100 ml)",
+        "Salt & Pepper (To Taste)",
+        "Fresh Basil (20 Leaves)"
+      ],
+      "name": "Creamy Sweet Chilli Chicken Pasta",
+      "notes": "498 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Boil the pasta until cooked.",
+        "Fry the onion, add the chicken and stir-fry until semi-cooked.",
+        "Season with smoked paprika and garlic, then add in the bell peppers and stir-fry until the chicken is cooked through.",
+        "Add the sweet chilli, cream cheese and pasta water.",
+        "Mix well.",
+        "Add basil, salt and pepper.",
+        "Once the sauce starts to bubble, add in the cooked pasta and toss it around until fully coated in the sauce.",
+        "Divide into portions and garnish with extra basil and chilli flakes."
+      ],
+      "tags": [
+        "Pasta"
+      ]
+    },
+    "creamy-tomato-gnocchi-bake-vr15": {
+      "_createdAt": 1763001400000,
+      "calories": 690,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "creamy-tomato-gnocchi-bake-vr15",
+      "ingredients": [
+        "Fresh Gnocchi (500 g)",
+        "Olive Oil (1 Tbsp)",
+        "Garlic Cloves, Minced (2)",
+        "Passata Or Crushed Tomatoes (400 g)",
+        "Double Cream (150 ml)",
+        "Dried Basil (1 Tsp)",
+        "Dried Oregano (1 Tsp)",
+        "Grated Mozzarella (80 g)",
+        "Grated Parmesan (40 g)",
+        "Salt",
+        "Black Pepper",
+        "Fresh Basil Leaves"
+      ],
+      "name": "Creamy Tomato Gnocchi Bake",
+      "notes": "If your pan is not ovenproof, transfer everything to a baking dish before topping with cheese.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Heat olive oil in an ovenproof pan over medium heat.",
+        "Add minced garlic and cook for 1 minute.",
+        "Pour in passata and stir in dried basil, dried oregano, salt and black pepper.",
+        "Simmer for 3 to 4 minutes.",
+        "Stir in the double cream.",
+        "Add the gnocchi directly to the sauce and stir until coated.",
+        "Top with grated mozzarella and parmesan.",
+        "Bake for 15 minutes until the cheese is golden and bubbling and the gnocchi is tender.",
+        "Scatter with fresh basil leaves before serving."
+      ],
+      "tags": [
+        "Gnocchi",
+        "Oven-Bake",
+        "Cheesy"
+      ]
+    },
+    "creamy-tuscan-salmon": {
+      "_createdAt": 1762765000020,
+      "calories": 415,
+      "category": "Dinner",
+      "cookTime": "30–45 Minutes",
+      "id": "creamy-tuscan-salmon",
+      "ingredients": [
+        "Wild Salmon Fillets (Tesco) (200 g)",
+        "Shallot, Raw (1 Large)",
+        "Sundried Tomatoes (74 g)",
+        "Cherry Tomatoes (200 g)",
+        "Basil (10 Leaves)",
+        "Vegetable Stock (10 g)",
+        "Smoked Paprika (2 Tsp)",
+        "Butter Beans in Water (Tesco) (1 Tin)",
+        "Low-Fat Crème Fraîche (2 Tbsp)",
+        "Spinach (2 Cups)",
+        "Parmesan Cheese, Grated (2 Tbsp)"
+      ],
+      "name": "Creamy Tuscan Salmon",
+      "notes": "415 calories per serving.",
+      "servings": 2,
+      "steps": [
+        "Season salmon fillets with salt and pepper.",
+        "Sear in a hot pan on all sides until coloured, then remove from the heat and set aside.",
+        "In the same pan, fry the shallot and garlic.",
+        "Mix in the cherry tomatoes, sundried tomatoes, smoked paprika and basil.",
+        "Sauté for a few minutes, then add in a stock cube mixed with 200 ml water.",
+        "Bring to a simmer, tip in the butter beans and leave for 5 minutes.",
+        "Add in the crème fraîche, parmesan and spinach.",
+        "Then place the salmon fillets into the dish and allow to warm through until they are cooked."
+      ],
+      "tags": [
+        "Fish",
+        "Lighter"
+      ]
+    },
+    "crispy-chicken-wraps-vr06": {
+      "_createdAt": 1763000500000,
+      "calories": 650,
+      "category": "Lunch",
+      "cookTime": "30 Minutes",
+      "id": "crispy-chicken-wraps-vr06",
+      "ingredients": [
+        "Crispy Chicken Fillets (4, Oven Or Air Fryer)",
+        "Large Tortilla Wraps (4)",
+        "Mayonnaise (4 Tbsp)",
+        "Hot Sauce (2 Tbsp)",
+        "Shredded Lettuce (80 g)",
+        "Tomato, Sliced (1)",
+        "Grated Cheddar (60 g)",
+        "Tortilla Chips, Crushed (Handful)",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Crispy Chicken Crunch Wraps",
+      "notes": "Use a non-stick pan so the wraps crisp without extra oil.",
+      "servings": 4,
+      "steps": [
+        "Cook the crispy chicken fillets according to the packet instructions until golden and hot.",
+        "In a small bowl, mix mayonnaise and hot sauce to make a spicy mayo.",
+        "Lay a tortilla wrap on a board and spread the centre with spicy mayo.",
+        "Add shredded lettuce, sliced tomato and a crispy chicken fillet.",
+        "Top with grated cheddar and a small handful of crushed tortilla chips.",
+        "Season lightly with salt and black pepper.",
+        "Fold the edges of the wrap tightly into a hexagon shape, tucking as you go.",
+        "Place the wrap seam-side down in a dry pan and cook over medium heat for 2 to 3 minutes per side until crisp and sealed.",
+        "Repeat with the remaining wraps and serve warm."
+      ],
+      "tags": [
+        "Viral",
+        "Crispy",
+        "Wrap"
+      ]
+    },
+    "crispy-parmesan-courgette-fries-vr26": {
+      "_createdAt": 1763002500000,
+      "calories": 290,
+      "category": "Snack",
+      "cookTime": "25 Minutes",
+      "id": "crispy-parmesan-courgette-fries-vr26",
+      "ingredients": [
+        "Courgettes (2 Medium)",
+        "Egg (1)",
+        "Breadcrumbs (50 g)",
+        "Grated Parmesan (30 g)",
+        "Garlic Powder (½ Tsp)",
+        "Salt",
+        "Black Pepper",
+        "Spray Oil"
+      ],
+      "name": "Crispy Parmesan Courgette Fries",
+      "notes": "These work well in an air fryer too; cook at 200°C for about 10 minutes.",
+      "servings": 3,
+      "steps": [
+        "Preheat the oven to 210°C and line a baking tray with baking paper.",
+        "Cut courgettes into fry-shaped sticks.",
+        "Beat the egg in a shallow bowl.",
+        "In another bowl, mix breadcrumbs, grated parmesan, garlic powder, salt and black pepper.",
+        "Dip each courgette stick into egg, then coat in the breadcrumb mixture.",
+        "Place on the tray and spray lightly with oil.",
+        "Bake for 15 to 18 minutes, turning once, until crisp and golden.",
+        "Serve with your favourite dipping sauce."
+      ],
+      "tags": [
+        "Veggie",
+        "Oven-Bake",
+        "Crispy"
+      ]
+    },
+    "crispy-parmesan-taco-shells-vr40": {
+      "_createdAt": 1763003900000,
+      "calories": 230,
+      "category": "Snack",
+      "cookTime": "15 minutes",
+      "id": "crispy-parmesan-taco-shells-vr40",
+      "ingredients": [
+        "Grated parmesan (120g)",
+        "Dried oregano (0.5 tsp)",
+        "Chilli flakes (0.25 tsp)",
+        "Black pepper"
+      ],
+      "name": "Crispy Parmesan Taco Shells",
+      "notes": "Work quickly when shaping as the cheese firms up fast.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 190°C and line a baking tray with baking paper.",
+        "Mix grated parmesan with dried oregano, chilli flakes and a little black pepper.",
+        "Spoon small mounds of the cheese mixture onto the tray and spread into thin circles.",
+        "Bake for 6 to 8 minutes until golden and bubbling.",
+        "Carefully lift each circle off the tray and drape over a wooden spoon handle balanced between two cups to form a taco shell shape.",
+        "Allow to cool and harden, then fill with your favourite taco fillings."
+      ],
+      "tags": [
+        "Low-carb",
+        "Cheesy",
+        "Snack"
+      ]
+    },
+    "crispy-rice-salmon-bites-vr35": {
+      "_createdAt": 1763003400000,
+      "calories": 540,
+      "category": "Lunch",
+      "cookTime": "30 minutes",
+      "id": "crispy-rice-salmon-bites-vr35",
+      "ingredients": [
+        "Cooked sushi rice (250g)",
+        "Rice vinegar (1 tbsp)",
+        "Soy sauce (1 tsp)",
+        "Salmon fillet, finely diced (200g)",
+        "Mayonnaise (2 tbsp)",
+        "Sriracha (1 tbsp)",
+        "Spring onion, finely sliced (1)",
+        "Sesame oil (0.5 tsp)",
+        "Sesame seeds",
+        "Vegetable oil for shallow frying"
+      ],
+      "name": "Crispy Rice Salmon Bites",
+      "notes": "Use good quality sushi-grade salmon if serving raw.",
+      "servings": 3,
+      "steps": [
+        "Mix the warm sushi rice with rice vinegar and soy sauce, then press it firmly into a small lined dish to about 2 cm thick.",
+        "Chill in the fridge for at least 20 minutes to firm up.",
+        "In a bowl mix diced salmon, mayonnaise, sriracha, spring onion and sesame oil.",
+        "Once the rice is firm, cut it into bite-sized rectangles.",
+        "Heat a thin layer of vegetable oil in a frying pan over medium-high heat.",
+        "Fry the rice rectangles for 2 to 3 minutes on each side until crisp and golden, then drain on kitchen paper.",
+        "Top each crispy rice piece with a spoonful of salmon mix and sprinkle with sesame seeds.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Viral",
+        "Rice",
+        "Sharing"
+      ]
+    },
+    "crispy-smashed-potatoes-vr18": {
+      "_createdAt": 1763001700000,
+      "calories": 430,
+      "category": "Dinner",
+      "cookTime": "40 Minutes",
+      "id": "crispy-smashed-potatoes-vr18",
+      "ingredients": [
+        "Small New Potatoes (800 g)",
+        "Olive Oil (3 Tbsp)",
+        "Garlic Powder (1 Tsp)",
+        "Smoked Paprika (1 Tsp)",
+        "Salt",
+        "Black Pepper",
+        "Fresh Parsley, Chopped"
+      ],
+      "name": "Crispy Smashed Potatoes",
+      "notes": "Delicious dipped in garlic mayo or sour cream.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 210°C.",
+        "Boil the new potatoes in salted water for 12 to 15 minutes until just tender.",
+        "Drain the potatoes and let them steam dry for a minute.",
+        "Transfer to a lined baking tray.",
+        "Use a glass or potato masher to gently smash each potato until flattened but still in one piece.",
+        "Drizzle with olive oil and sprinkle with garlic powder, smoked paprika, salt and black pepper.",
+        "Roast for 20 to 25 minutes until very crisp and golden.",
+        "Scatter with chopped parsley and serve hot."
+      ],
+      "tags": [
+        "Side",
+        "Crispy",
+        "Viral"
+      ]
+    },
+    "fajita-chicken-crunchwrap": {
+      "_createdAt": 1762765000022,
+      "calories": 445,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "fajita-chicken-crunchwrap",
+      "ingredients": [
+        "Wholemeal Wrap (1)",
+        "Low-Fat Cheddar Cheese, Grated",
+        "Cooked Chicken (75 g)",
+        "Avocado (40 g)",
+        "Cherry Tomatoes (20 g)",
+        "Spring Onion (1)",
+        "Salsa (25 g)"
+      ],
+      "name": "Fajita Chicken Crunchwrap",
+      "notes": "445 calories per serving.",
+      "servings": 1,
+      "steps": [
+        "Slice the tortilla halfway down the middle.",
+        "Add the cheese to the first quarter.",
+        "Add the chicken to the second quarter.",
+        "Add the avocado, tomatoes and spring onion to the third quarter.",
+        "Add the salsa to the fourth quarter.",
+        "Fold each quarter onto the next one until the wrap is fully sealed.",
+        "Fry the wrap in a frying pan for 1 to 2 minutes on each side, or until crispy."
+      ],
+      "tags": [
+        "Lighter",
+        "Wraps"
+      ]
+    },
+    "fajita-chicken-with-crispy-potato-cubes": {
+      "_createdAt": 1762765000023,
+      "calories": 494,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "fajita-chicken-with-crispy-potato-cubes",
+      "ingredients": [
+        "Baby Potatoes (1,400 g)",
+        "Garlic Granules (2 Tsp)",
+        "Fajita Seasoning Mix (8 Tbsp)",
+        "Chicken Breast, Raw (600 g)",
+        "Bell Peppers (200 g)",
+        "Coriander (40 g)",
+        "Chopped Red Chillies (4 Tsp)",
+        "Tomato Purée (4 Tbsp)",
+        "Water (400 ml)",
+        "Parmesan (40 g)",
+        "Salt & Pepper (To Taste)"
+      ],
+      "name": "Fajita Chicken With Crispy Potato Cubes",
+      "notes": "494 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Dice the potatoes, then microwave for 5 minutes until soft.",
+        "Spray the potatoes with some low-calorie spray and season with ½ tsp garlic and 1 tbsp fajita seasoning.",
+        "Air fry at 200°C for 12 to 15 minutes, or place them in the oven at the highest temperature for 20 minutes.",
+        "Whilst the potatoes are cooking, fry the chicken and onions in a pan until the chicken is almost cooked through.",
+        "Add the peppers, chopped chillies, tomato purée and water.",
+        "Mix everything together until a sauce consistency is formed and add some salt and pepper.",
+        "Reduce to a simmer for another 5 minutes, or until the potatoes are nice and crisp.",
+        "Remove the pan from the heat, then add the crispy potatoes on top.",
+        "Mix well until the potatoes are coated in the sauce.",
+        "Top with some fresh coriander and parmesan."
+      ],
+      "tags": [
+        "Potato"
+      ]
+    },
+    "feta-watermelon-salad-vr25": {
+      "_createdAt": 1763002400000,
+      "calories": 260,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "feta-watermelon-salad-vr25",
+      "ingredients": [
+        "Watermelon, Cubed (600 g)",
+        "Feta Cheese, Crumbled (120 g)",
+        "Red Onion, Thinly Sliced (½)",
+        "Fresh Mint Leaves (Handful)",
+        "Olive Oil (2 Tbsp)",
+        "Lime Juice (1 Tbsp)",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Feta Watermelon Summer Salad",
+      "notes": "Great as a side dish for barbecues.",
+      "servings": 4,
+      "steps": [
+        "Add watermelon cubes to a large serving bowl.",
+        "Scatter over crumbled feta and sliced red onion.",
+        "Tear mint leaves and sprinkle on top.",
+        "Drizzle with olive oil and lime juice.",
+        "Season lightly with salt and black pepper and toss gently.",
+        "Serve chilled."
+      ],
+      "tags": [
+        "Refreshing",
+        "Summer",
+        "Light"
+      ]
+    },
+    "garlic-bread-nandos-burger": {
+      "_createdAt": 1762765000024,
+      "calories": 523,
+      "category": "Lunch",
+      "cookTime": "30 Minutes",
+      "id": "garlic-bread-nandos-burger",
+      "ingredients": [
+        "Chicken Breast (480 g)",
+        "Medium Peri-Peri Rub (24 g)",
+        "Nando's Garlic Medium Peri-Peri Sauce (80 g)",
+        "Grated Cheese (80 g)",
+        "Butter (40 g)",
+        "Garlic Purée (20 g)",
+        "Mixed Herbs (1 Tsp)",
+        "Ciabatta (320 g)",
+        "Nando's Mild Perinaise (40 g)",
+        "Lettuce"
+      ],
+      "name": "Garlic Bread Nando's Burger",
+      "notes": "523 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Tenderise the chicken with a meat mallet, then transfer to a bowl.",
+        "Add the Nando's seasoning and sauce, making sure the chicken is fully coated on all sides.",
+        "Place the chicken into the air fryer at 200°C for 16 minutes.",
+        "Add the butter and garlic purée to a small dish and microwave until melted.",
+        "Once melted, stir in some mixed herbs and toast the ciabatta roll.",
+        "When there are 2 minutes left on the chicken cooking time, add the low-fat cheese on top of the chicken, then air fry for the remaining 2 minutes.",
+        "Spread the garlic butter over the toasted ciabatta, add some lettuce and top with the cheesy chicken and Perinaise."
+      ],
+      "tags": [
+        "Burger"
+      ]
+    },
+    "garlic-parmesan-chicken-bites-vr16": {
+      "_createdAt": 1763001500000,
+      "calories": 640,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "garlic-parmesan-chicken-bites-vr16",
+      "ingredients": [
+        "Chicken Breast, Cut Into Small Cubes (500 g)",
+        "Olive Oil (2 Tbsp)",
+        "Grated Parmesan (2 Tbsp)",
+        "Garlic Powder (1 Tsp)",
+        "Smoked Paprika (1 Tsp)",
+        "Salt",
+        "Black Pepper",
+        "Fresh Parsley, Chopped (1 Tbsp)",
+        "Extra Parmesan, For Serving"
+      ],
+      "name": "Garlic Parmesan Chicken Bites",
+      "notes": "Serve with a side salad or rice to make it a full meal.",
+      "servings": 3,
+      "steps": [
+        "Add chicken cubes to a bowl and drizzle with olive oil.",
+        "Sprinkle over grated parmesan, garlic powder, smoked paprika, salt and black pepper.",
+        "Toss until the chicken is evenly coated.",
+        "Air fry at 190°C for 10 to 12 minutes, shaking halfway, until golden and cooked through.",
+        "Alternatively, bake on a lined tray at 200°C for 15 to 18 minutes.",
+        "Toss with chopped parsley and extra parmesan before serving."
+      ],
+      "tags": [
+        "Air Fryer",
+        "Bites",
+        "High-Protein"
+      ]
+    },
+    "green-goddess-salad-vr46": {
+      "_createdAt": 1763004500000,
+      "calories": 310,
+      "category": "Lunch",
+      "cookTime": "20 minutes",
+      "id": "green-goddess-salad-vr46",
+      "ingredients": [
+        "White cabbage, finely chopped (200g)",
+        "Cucumber, finely chopped (1)",
+        "Spring onions, finely sliced (3)",
+        "Fresh basil (10g)",
+        "Fresh parsley (10g)",
+        "Fresh chives (10g)",
+        "Spinach leaves (30g)",
+        "Greek yoghurt (120g)",
+        "Olive oil (1 tbsp)",
+        "Lemon juice (1.5 tbsp)",
+        "Garlic clove (1)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "Green Goddess Chopped Salad",
+      "notes": "Keeps well in the fridge for a day so it is great for meal prep.",
+      "servings": 3,
+      "steps": [
+        "Add chopped cabbage, cucumber and spring onions to a large bowl.",
+        "In a blender combine basil, parsley, chives, spinach, Greek yoghurt, olive oil, lemon juice, garlic, salt and black pepper.",
+        "Blend until smooth and vibrant green.",
+        "Pour the dressing over the chopped vegetables and toss until everything is well coated.",
+        "Serve with tortilla chips or on toast."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Fresh"
+      ]
+    },
+    "hoisin-chicken-noodles": {
+      "_createdAt": 1762765000025,
+      "calories": 412,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "hoisin-chicken-noodles",
+      "ingredients": [
+        "Chicken Breast (400 g)",
+        "Green Pepper (1)",
+        "Soy Sauce (8 Tbsp)",
+        "Ginger (20 g)",
+        "Garlic (20 g)",
+        "Hoisin Sauce (80 g)",
+        "Spring Onions (4)",
+        "Egg Tender Noodles, Straight to Wok (Tesco) (600 g)",
+        "Water (200 ml)",
+        "Green Chillies (20 g)",
+        "Sesame Seeds (2 Tbsp)"
+      ],
+      "name": "Hoisin Chicken Noodles",
+      "notes": "412 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Tenderise the chicken with a meat mallet, then transfer to a bowl.",
+        "Add the Nando's seasoning and sauce, making sure the chicken is fully coated on all sides.",
+        "Place the chicken into the air fryer at 200°C for 16 minutes.",
+        "Add the butter and garlic purée to a small dish and microwave until melted.",
+        "Once melted, stir in some mixed herbs and toast the ciabatta roll.",
+        "When there are 2 minutes left on the chicken cooking time, add the low-fat cheese on top of the chicken, then air fry for the remaining 2 minutes.",
+        "Spread the garlic butter over the toasted ciabatta, add some lettuce."
+      ],
+      "tags": [
+        "Lighter",
+        "Noodles"
+      ]
+    },
+    "honey-bbq-chicken-sweet-potato": {
+      "_createdAt": 1762765000026,
+      "calories": 440,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "honey-bbq-chicken-sweet-potato",
+      "ingredients": [
+        "Sweet Potato (1 kg)",
+        "Smoked Paprika (1 Tsp)",
+        "Garlic (1 Tsp)",
+        "All-Purpose Seasoning (1 Tsp)",
+        "Red Onion (1)",
+        "Bell Peppers (2)",
+        "5% Chicken Mince (500 g)",
+        "Soy Sauce (32 g)",
+        "Minced Garlic (1 Tsp)",
+        "BBQ Sauce (40 g)",
+        "Honey (40 g)",
+        "Rocket (2 Cups)"
+      ],
+      "name": "Honey BBQ Chicken & Sweet Potato",
+      "notes": "440 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Microwave the sweet potato for 5 minutes, then season with 1 tsp smoked paprika, garlic and all-purpose seasoning.",
+        "Air fry at 200°C for 12 to 15 minutes.",
+        "Fry the peppers and onions until soft.",
+        "Add the chicken mince, soy sauce, garlic, smoked paprika, BBQ sauce and honey.",
+        "Stir-fry until the meat is cooked through and the sauce thickens.",
+        "Divide the sweet potatoes and chicken mixture into 4 portions and serve with rocket.",
+        "Optional: garnish with spring onions and a pinch of sesame seeds."
+      ],
+      "tags": [
+        "BBQ",
+        "Honey",
+        "Lighter",
+        "Potato"
+      ]
+    },
+    "honey-chipotle-chicken-tacos-vr12": {
+      "_createdAt": 1763001100000,
+      "calories": 680,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "honey-chipotle-chicken-tacos-vr12",
+      "ingredients": [
+        "Chicken Thighs, Cut Into Strips (600 g)",
+        "Olive Oil (2 Tbsp)",
+        "Honey (2 Tbsp)",
+        "Chipotle Paste (2 Tbsp)",
+        "Smoked Paprika (1 Tsp)",
+        "Garlic Powder (1 Tsp)",
+        "Small Tortillas (8)",
+        "Shredded Lettuce (80 g)",
+        "Red Onion, Thinly Sliced (1)",
+        "Grated Cheese (80 g)",
+        "Sour Cream (4 Tbsp)",
+        "Lime Wedges",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Honey Chipotle Chicken Tacos",
+      "notes": "Use chicken breast if you prefer leaner meat, but thighs stay juicier.",
+      "servings": 4,
+      "steps": [
+        "In a bowl, mix olive oil, honey, chipotle paste, smoked paprika, garlic powder, salt and black pepper.",
+        "Add the chicken strips and toss until well coated, then leave to marinate for at least 10 minutes.",
+        "Heat a large frying pan over medium-high heat.",
+        "Add the chicken and cook for 8 to 10 minutes, stirring often, until cooked through and caramelised.",
+        "Warm the tortillas in a dry pan or the microwave.",
+        "Fill each tortilla with shredded lettuce and chipotle chicken.",
+        "Top with sliced red onion, grated cheese and a spoon of sour cream.",
+        "Serve immediately with lime wedges for squeezing."
+      ],
+      "tags": [
+        "Tacos",
+        "Spicy-Sweet",
+        "Viral"
+      ]
+    },
+    "hot-honey-chicken-rice": {
+      "_createdAt": 1762765000027,
+      "calories": 395,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "hot-honey-chicken-rice",
+      "ingredients": [
+        "Chicken Breast, Raw (500 g)",
+        "Onion (1)",
+        "Bell Peppers (2)",
+        "Garlic Granules (2 Tsp)",
+        "Chilli Powder (1 Tsp)",
+        "Honey (80 g)",
+        "Sriracha (20 g)",
+        "Basmati Rice (2 Packets, Microwave)"
+      ],
+      "name": "Hot Honey Chicken & Rice",
+      "notes": "395 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Add all ingredients except the rice to the slow cooker.",
+        "Cook on high for 3 to 4 hours or low for 6 hours until the chicken is tender.",
+        "Shred the chicken into the sauce.",
+        "Heat the microwave rice according to packet instructions and serve with the hot honey chicken."
+      ],
+      "tags": [
+        "Honey",
+        "Lighter",
+        "Rice Dish"
+      ]
+    },
+    "jalapeno-popper-chicken-pasta": {
+      "_createdAt": 1762765000028,
+      "calories": 492,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "jalapeno-popper-chicken-pasta",
+      "ingredients": [
+        "Pasta, Dry (260 g)",
+        "Red Onions (2)",
+        "Minced Garlic (2 Tsp)",
+        "Jalapeños (2 Peppers)",
+        "Chicken Breast, Raw (500 g)",
+        "Unsweetened Almond Milk (400 ml)",
+        "Low-Fat Grated Cheese (80 g)",
+        "Fresh Parsley, Chopped (4 Tbsp)",
+        "Lightest Philadelphia 3% Fat Soft Cheese (120 g)"
+      ],
+      "name": "Jalapeño Popper Chicken Pasta",
+      "notes": "492 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Boil the pasta until cooked.",
+        "Fry the onions, garlic and half of the jalapeños.",
+        "Once the onion has softened, add the chicken and stir-fry for 4 minutes until the chicken is almost cooked through.",
+        "Add the milk and cream cheese and mix well until everything is fully combined.",
+        "Add in half of the low-fat cheese.",
+        "Once the sauce starts to bubble, drain the pasta and mix it into the sauce.",
+        "Add the parsley and season with some salt, then top the pan with the remaining cheese and jalapeños.",
+        "Cover with a lid until the cheese melts."
+      ],
+      "tags": [
+        "Pasta"
+      ]
+    },
+    "korean-style-sticky-beef-bowl-vr17": {
+      "_createdAt": 1763001600000,
+      "calories": 670,
+      "category": "Dinner",
+      "cookTime": "20 Minutes",
+      "id": "korean-style-sticky-beef-bowl-vr17",
+      "ingredients": [
+        "Beef Mince (400 g)",
+        "Sesame Oil (1 Tbsp)",
+        "Garlic Cloves, Minced (2)",
+        "Soy Sauce (2 Tbsp)",
+        "Brown Sugar (2 Tbsp)",
+        "Gochujang Or Sriracha (1 Tbsp)",
+        "Cooked Rice (250 g)",
+        "Carrot, Julienned (1)",
+        "Cucumber, Sliced (½)",
+        "Spring Onions, Chopped (2)",
+        "Sesame Seeds"
+      ],
+      "name": "Korean Style Sticky Beef Bowl",
+      "notes": "Use reduced-salt soy sauce if you prefer a less salty dish.",
+      "servings": 3,
+      "steps": [
+        "Heat sesame oil in a frying pan over medium-high heat.",
+        "Add beef mince and cook, breaking it up, until browned.",
+        "Stir in minced garlic and cook for 1 minute.",
+        "Add soy sauce, brown sugar and gochujang.",
+        "Simmer for 3 to 4 minutes until the sauce thickens and coats the beef.",
+        "Warm the cooked rice and divide between bowls.",
+        "Top each bowl with sticky beef, carrot, cucumber and spring onions.",
+        "Sprinkle with sesame seeds and serve."
+      ],
+      "tags": [
+        "Rice Bowl",
+        "Beef",
+        "Sweet-Spicy"
+      ]
+    },
+    "lemon-garlic-prawn-pasta-vr27": {
+      "_createdAt": 1763002600000,
+      "calories": 640,
+      "category": "Dinner",
+      "cookTime": "20 Minutes",
+      "id": "lemon-garlic-prawn-pasta-vr27",
+      "ingredients": [
+        "Spaghetti (250 g)",
+        "Raw Prawns, Peeled (250 g)",
+        "Butter (2 Tbsp)",
+        "Olive Oil (1 Tbsp)",
+        "Garlic Cloves, Minced (3)",
+        "Lemon Zest And Juice (From 1 Lemon)",
+        "Pasta Water, Reserved (60 ml)",
+        "Parsley, Chopped (2 Tbsp)",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Lemon Garlic Prawn Pasta",
+      "notes": "Do not overcook the prawns or they will turn rubbery.",
+      "servings": 3,
+      "steps": [
+        "Cook the spaghetti according to packet instructions until al dente, then reserve some pasta water and drain.",
+        "Heat butter and olive oil in a large pan over medium heat.",
+        "Add minced garlic and cook for 1 minute until fragrant.",
+        "Add the prawns and season with salt and black pepper.",
+        "Cook for 3 to 4 minutes until the prawns are pink and cooked through.",
+        "Add lemon zest, lemon juice and a splash of pasta water.",
+        "Toss the cooked spaghetti through the sauce.",
+        "Stir in chopped parsley and adjust seasoning if needed.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Quick",
+        "Seafood",
+        "Fresh"
+      ]
+    },
+    "mexican-beef-burrito": {
+      "_createdAt": 1762765000029,
+      "calories": 554,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "mexican-beef-burrito",
+      "ingredients": [
+        "5% Beef Mince (500 g)",
+        "Red Bell Pepper (1)",
+        "White Onion (1)",
+        "Tomato Purée (4 Tbsp)",
+        "Taco Seasoning (To Taste)",
+        "Mexican Rice (300 g)",
+        "Sweetcorn (120 g)",
+        "Grated Cheese (80 g)",
+        "Salt & Pepper (To Taste)",
+        "Wraps (4)",
+        "Chilli Mayo (20 ml)"
+      ],
+      "name": "Mexican Beef Burrito",
+      "notes": "554 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onion, then add the beef mince and cook until browned.",
+        "Add the red pepper and cook for a few minutes until softened.",
+        "Stir in the tomato purée and taco seasoning and cook for 2 minutes.",
+        "Add the cooked Mexican rice and sweetcorn and mix well.",
+        "Season with salt and pepper to taste.",
+        "Warm the wraps, then fill each with the beef and rice mixture and some grated cheese.",
+        "Roll up the burritos and drizzle with chilli mayo before serving."
+      ],
+      "tags": [
+        "Hearty",
+        "Wraps"
+      ]
+    },
+    "moroccan-chicken-with-rice": {
+      "_createdAt": 1762765000030,
+      "calories": 463,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "moroccan-chicken-with-rice",
+      "ingredients": [
+        "Chicken Breast (400 g)",
+        "Onions (2)",
+        "Carrots (2)",
+        "Red Peppers (2)",
+        "Garlic (1.5 Tsp)",
+        "Chopped Tomatoes (1 Tin)",
+        "Chickpeas (1 Tin)",
+        "Moroccan Seasoning (4 g)",
+        "Rice (200 g)",
+        "Green Beans, Raw (132 g)"
+      ],
+      "name": "Moroccan Chicken With Rice",
+      "notes": "463 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Boil the rice.",
+        "Fry the onions and carrots until soft.",
+        "Add the chicken and minced garlic.",
+        "Stir-fry until the chicken is cooked.",
+        "Add the peppers, tinned tomatoes, chickpeas and seasoning.",
+        "Mix well and cook for 5 to 10 minutes.",
+        "Mix in the green beans until they are heated through."
+      ],
+      "tags": [
+        "Rice Dish"
+      ]
+    },
+    "mozzarella-pesto-toasties-vr23": {
+      "_createdAt": 1763002200000,
+      "calories": 430,
+      "category": "Snack",
+      "cookTime": "15 Minutes",
+      "id": "mozzarella-pesto-toasties-vr23",
+      "ingredients": [
+        "Sourdough Or Sandwich Bread (6 Slices)",
+        "Green Pesto (3 Tbsp)",
+        "Mozzarella, Sliced (120 g)",
+        "Tomato, Thinly Sliced (1)",
+        "Butter, For Spreading"
+      ],
+      "name": "Mozzarella Pesto Toasties",
+      "notes": "Add a little chilli flakes inside for a spicy kick.",
+      "servings": 3,
+      "steps": [
+        "Butter one side of each slice of bread.",
+        "Lay three slices butter-side down and spread the unbuttered sides with pesto.",
+        "Top with sliced mozzarella and tomato.",
+        "Season lightly with salt and black pepper if you like.",
+        "Place the remaining bread slices on top, butter-side up.",
+        "Toast in a pan or sandwich press for 3 to 4 minutes per side until the bread is golden and the cheese has melted.",
+        "Slice and serve hot."
+      ],
+      "tags": [
+        "Cheesy",
+        "Toasted",
+        "Quick"
+      ]
+    },
+    "nacho-beef-crunch-wrap": {
+      "_createdAt": 1762765000031,
+      "calories": 481,
+      "category": "Lunch",
+      "cookTime": "30–45 Minutes",
+      "id": "nacho-beef-crunch-wrap",
+      "ingredients": [
+        "5% Beef Mince (400 g)",
+        "Onions (2)",
+        "Red Peppers (2)",
+        "Tomato Purée (4 Tbsp)",
+        "Taco Seasoning (2 Tbsp)",
+        "Water (100 ml)",
+        "Wraps (4)",
+        "Low-Fat Cheese, Grated (80 g)",
+        "Jalapeños (80 g)",
+        "Salsa (8 Tsp)",
+        "Tortilla Chips (40 g)"
+      ],
+      "name": "Nacho Beef Crunch Wrap",
+      "notes": "481 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Fry the onions; once softened, add in the mince and fry for 2 to 3 minutes.",
+        "Once the mince is almost cooked, add the peppers, tomato purée, taco seasoning and water.",
+        "Mix well until everything is fully coated in the seasoning and stir-fry for another 2 minutes.",
+        "Take one of the wraps and cut into quarters.",
+        "Take the remaining tortillas and divide the mince mixture evenly between them.",
+        "Top the mince with some low-fat cheese, jalapeños, salsa and crushed tortilla chips.",
+        "Place one of the quarter tortillas on top, then fold the wrap over it, enclosing the filling.",
+        "Place the filled wrap back in the pan with the folded side facing downwards.",
+        "Fry for 2 minutes on a high heat until the wrap is crispy and sealed shut.",
+        "Flip it over and fry on the other side for another 2 minutes until crispy."
+      ],
+      "tags": [
+        "Wraps"
+      ]
+    },
+    "one-pan-feta-chicken-orzo-vr48": {
+      "_createdAt": 1763004700000,
+      "calories": 690,
+      "category": "Dinner",
+      "cookTime": "30 minutes",
+      "id": "one-pan-feta-chicken-orzo-vr48",
+      "ingredients": [
+        "Olive oil (1 tbsp)",
+        "Chicken breast, diced (500g)",
+        "Garlic cloves, minced (2)",
+        "Cherry tomatoes (250g)",
+        "Dried oregano (1 tsp)",
+        "Orzo pasta (250g)",
+        "Chicken stock (600 ml)",
+        "Feta cheese, crumbled (100g)",
+        "Spinach (60g)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "One Pan Feta Chicken Orzo",
+      "notes": "Add a squeeze of lemon juice at the end to brighten the flavours.",
+      "servings": 4,
+      "steps": [
+        "Heat olive oil in a large deep pan over medium heat.",
+        "Add diced chicken and cook until browned all over.",
+        "Stir in minced garlic, cherry tomatoes and dried oregano and cook for 2 minutes.",
+        "Pour in the orzo and chicken stock, season with salt and black pepper and bring to a simmer.",
+        "Cook for 10 to 12 minutes, stirring often, until the orzo is tender and most of the liquid is absorbed.",
+        "Stir in spinach until just wilted.",
+        "Sprinkle over crumbled feta and serve."
+      ],
+      "tags": [
+        "One-pan",
+        "Chicken",
+        "Comfort"
+      ]
+    },
+    "one-pot-garlic-butter-orzo-vr13": {
+      "_createdAt": 1763001200000,
+      "calories": 640,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "one-pot-garlic-butter-orzo-vr13",
+      "ingredients": [
+        "Orzo Pasta (250 g)",
+        "Butter (2 Tbsp)",
+        "Olive Oil (1 Tbsp)",
+        "Garlic Cloves, Minced (3)",
+        "Chicken Or Vegetable Stock (600 ml)",
+        "Grated Parmesan (60 g)",
+        "Double Cream Or Milk (60 ml)",
+        "Spinach (Handful)",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "One Pot Garlic Butter Orzo",
+      "notes": "Top with grilled chicken or roasted vegetables to turn it into a full meal.",
+      "servings": 4,
+      "steps": [
+        "Heat butter and olive oil in a large pan over medium heat.",
+        "Add minced garlic and cook for 1 minute until fragrant.",
+        "Pour in the orzo and toast for 1 to 2 minutes, stirring constantly.",
+        "Add the stock and bring to a gentle simmer.",
+        "Cook for 8 to 10 minutes, stirring often, until the orzo is tender and most of the liquid is absorbed.",
+        "Lower the heat and stir in grated parmesan and cream.",
+        "Add the spinach and cook for 1 to 2 minutes until just wilted.",
+        "Season with salt and black pepper to taste and serve immediately."
+      ],
+      "tags": [
+        "One-Pot",
+        "Comfort",
+        "Creamy"
+      ]
+    },
+    "oreo-ice-cream-sandwich-vr24": {
+      "_createdAt": 1763002300000,
+      "calories": 380,
+      "category": "Dessert",
+      "cookTime": "20 Minutes Plus Freezing",
+      "id": "oreo-ice-cream-sandwich-vr24",
+      "ingredients": [
+        "Oreo Biscuits (24)",
+        "Vanilla Ice Cream, Softened Slightly (500 ml)",
+        "Milk (2 Tbsp)",
+        "Dark Chocolate, Melted (50 g)",
+        "Sprinkles (Optional)"
+      ],
+      "name": "Oreo Ice Cream Sandwich Stack",
+      "notes": "Let it sit for 5 minutes before slicing so it is easier to cut.",
+      "servings": 8,
+      "steps": [
+        "Line a small loaf tin with cling film or baking paper.",
+        "In a bowl, mix softened vanilla ice cream with milk until spreadable.",
+        "Place a layer of Oreo biscuits on the base of the tin.",
+        "Spread half of the ice cream over the biscuits.",
+        "Add another layer of Oreos and top with the remaining ice cream.",
+        "Finish with a final layer of Oreos on top, pressing gently.",
+        "Cover and freeze for at least 4 hours until firm.",
+        "Turn out onto a board, drizzle with melted dark chocolate and sprinkles, then slice into sandwiches."
+      ],
+      "tags": [
+        "No-Churn",
+        "Viral",
+        "Party"
+      ]
+    },
+    "oreo-protein-mug-cake-vr57": {
+      "_createdAt": 1763005600000,
+      "calories": 360,
+      "category": "Dessert",
+      "cookTime": "5 minutes",
+      "id": "oreo-protein-mug-cake-vr57",
+      "ingredients": [
+        "Vanilla protein powder (25g)",
+        "Plain flour (1 tbsp)",
+        "Cocoa powder (1 tsp)",
+        "Baking powder (0.25 tsp)",
+        "Milk of choice (70 ml)",
+        "Greek yoghurt (1 tbsp)",
+        "Oreo biscuits, crushed (2)"
+      ],
+      "name": "Oreo Protein Mug Cake",
+      "notes": "Do not overcook or it will turn rubbery.",
+      "servings": 1,
+      "steps": [
+        "Add protein powder, flour, cocoa powder and baking powder to a large mug and mix.",
+        "Stir in milk and Greek yoghurt until a smooth batter forms.",
+        "Fold in most of the crushed Oreos.",
+        "Microwave on high for 45 to 60 seconds until risen and just set.",
+        "Top with the remaining crushed Oreo and eat warm."
+      ],
+      "tags": [
+        "Microwave",
+        "High-protein",
+        "Single-serve"
+      ]
+    },
+    "pesto-eggs-breakfast-wrap-vr03": {
+      "_createdAt": 1763000200000,
+      "calories": 520,
+      "category": "Breakfast",
+      "cookTime": "12 Minutes",
+      "id": "pesto-eggs-breakfast-wrap-vr03",
+      "ingredients": [
+        "Eggs (2 Large)",
+        "Green Pesto (1 Tbsp)",
+        "Soft Tortilla Wrap (1)",
+        "Grated Mozzarella (30 g)",
+        "Cherry Tomatoes, Sliced (4)",
+        "Small Handful Spinach",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Pesto Eggs Breakfast Wrap",
+      "notes": "Use red pesto for a sweeter twist.",
+      "servings": 1,
+      "steps": [
+        "Spread the pesto in a thin layer over the base of a non-stick frying pan.",
+        "Place the pan over medium heat until the pesto starts to sizzle.",
+        "Crack the eggs directly onto the pesto and season with salt and black pepper.",
+        "Cook until the whites are set but yolks are still soft, or to your liking.",
+        "Place the tortilla over the eggs in the pan and press gently so it sticks.",
+        "Carefully flip everything so the tortilla is now on the bottom.",
+        "Sprinkle mozzarella, sliced tomatoes and spinach on top and let the cheese melt.",
+        "Fold the tortilla over into a wrap shape and cook for 1 to 2 minutes more, then serve hot."
+      ],
+      "tags": [
+        "TikTok",
+        "Eggs",
+        "Savory"
+      ]
+    },
+    "poke-inspired-salmon-rice-bowl-vr36": {
+      "_createdAt": 1763003500000,
+      "calories": 610,
+      "category": "Lunch",
+      "cookTime": "20 minutes",
+      "id": "poke-inspired-salmon-rice-bowl-vr36",
+      "ingredients": [
+        "Cooked rice (250g)",
+        "Salmon fillet, diced (220g)",
+        "Soy sauce (2 tbsp)",
+        "Sesame oil (1 tsp)",
+        "Rice vinegar (1 tbsp)",
+        "Honey (1 tsp)",
+        "Cucumber, diced (0.5)",
+        "Carrot, shredded (1 small)",
+        "Edamame beans, cooked (80g)",
+        "Avocado, sliced (0.5)",
+        "Sesame seeds"
+      ],
+      "name": "Poke Inspired Salmon Rice Bowl",
+      "notes": "Swap salmon for tofu to make it vegetarian.",
+      "servings": 2,
+      "steps": [
+        "In a bowl whisk together soy sauce, sesame oil, rice vinegar and honey.",
+        "Add the diced salmon and marinate for 10 minutes in the fridge.",
+        "Warm the cooked rice and divide between two bowls.",
+        "Top each bowl with marinated salmon, cucumber, carrot, edamame and avocado.",
+        "Drizzle over any leftover marinade and sprinkle with sesame seeds before serving."
+      ],
+      "tags": [
+        "Bowl",
+        "Fish",
+        "Fresh"
+      ]
+    },
+    "ricotta-toast-vr38": {
+      "_createdAt": 1763003700000,
+      "calories": 380,
+      "category": "Breakfast",
+      "cookTime": "10 minutes",
+      "id": "ricotta-toast-vr38",
+      "ingredients": [
+        "Sourdough bread slices (4)",
+        "Ricotta cheese (120g)",
+        "Honey (2 tbsp)",
+        "Lemon zest (0.5 tsp)",
+        "Fresh berries (80g)",
+        "Crushed pistachios (1 tbsp)"
+      ],
+      "name": "Whipped Ricotta Honey Toast",
+      "notes": "Drizzle with a little extra honey if you like it sweeter.",
+      "servings": 2,
+      "steps": [
+        "Toast the sourdough slices until golden.",
+        "In a small bowl whisk together ricotta, honey and lemon zest until light and creamy.",
+        "Spread the whipped ricotta over the toast.",
+        "Top with fresh berries and sprinkle with crushed pistachios.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Toast",
+        "Sweet",
+        "Quick"
+      ]
+    },
+    "sheet-pan-breakfast-hash-vr05": {
+      "_createdAt": 1763000400000,
+      "calories": 510,
+      "category": "Breakfast",
+      "cookTime": "35 Minutes",
+      "id": "sheet-pan-breakfast-hash-vr05",
+      "ingredients": [
+        "Potatoes, Diced Small (600 g)",
+        "Red Pepper, Diced (1)",
+        "Yellow Pepper, Diced (1)",
+        "Red Onion, Sliced (1)",
+        "Olive Oil (3 Tbsp)",
+        "Smoked Paprika (1 Tsp)",
+        "Garlic Powder (1 Tsp)",
+        "Salt",
+        "Black Pepper",
+        "Eggs (4)",
+        "Fresh Parsley, Chopped"
+      ],
+      "name": "Sheet Pan Breakfast Hash",
+      "notes": "Add chopped chorizo or bacon before roasting for extra flavour.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 200°C.",
+        "Add diced potatoes, peppers and sliced red onion to a large baking tray.",
+        "Drizzle with olive oil and sprinkle with smoked paprika, garlic powder, salt and black pepper.",
+        "Toss everything together until the vegetables are well coated.",
+        "Roast for 20 to 25 minutes, turning once, until the potatoes are almost tender.",
+        "Make four little wells in the vegetables and crack an egg into each space.",
+        "Return the tray to the oven for 6 to 8 minutes until the eggs are cooked to your liking.",
+        "Sprinkle with chopped parsley and serve straight from the tray."
+      ],
+      "tags": [
+        "One-Pan",
+        "Meal Prep",
+        "Comfort"
+      ]
+    },
+    "slow-cooker-hiney-chilli-chicken": {
+      "_createdAt": 1762765000032,
+      "calories": 404,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "slow-cooker-hiney-chilli-chicken",
+      "ingredients": [
+        "Chicken Breast (900 g)",
+        "Chinese 5 Spice (6 g)",
+        "Passata (150 g)",
+        "Soy Sauce (60 g)",
+        "Honey (42 g)",
+        "Garlic (1 Tbsp)",
+        "Red Onion (1)",
+        "Red Peppers (2)",
+        "Basmati Rice, Dry (300 g)",
+        "Sriracha (To Taste)"
+      ],
+      "name": "Slow Cooker Honey Chilli Chicken",
+      "notes": "404 calories per serving.",
+      "servings": 6,
+      "steps": [
+        "Add the chicken, Chinese 5 spice, passata, soy sauce, sriracha, honey and garlic into the slow cooker.",
+        "Cook on high for 3 hours or low for 6 hours.",
+        "Thirty minutes before serving, add the peppers and onions and cook for the remaining time.",
+        "Boil the rice and serve with the honey chilli chicken."
+      ],
+      "tags": [
+        "Lighter",
+        "Slow Cooker"
+      ]
+    },
+    "slow-cooker-pulled-bbq-beef-tacos": {
+      "_createdAt": 1762765000033,
+      "calories": 565,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "slow-cooker-pulled-bbq-beef-tacos",
+      "ingredients": [
+        "BBQ Sauce (65 g)",
+        "Passata (200 g)",
+        "Taco Seasoning (35 g)",
+        "Green Chilli Peppers (2)",
+        "White Onion (1)",
+        "Mini Wraps (12)",
+        "Feta Cheese, Crumbled (4 Tbsp)",
+        "Lime (1)",
+        "Coriander (4 Tsp)",
+        "5% Beef Steak Mince (500 g)"
+      ],
+      "name": "Slow Cooker Pulled BBQ Beef Tacos",
+      "notes": "565 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Add all of the ingredients except the wraps into the slow cooker.",
+        "Cook on high for 4 hours or low for 6 hours.",
+        "Once the cooking time is up, shred the beef apart using 2 forks.",
+        "Serve each portion with 3 wraps, coriander, lime and 10 g feta."
+      ],
+      "tags": [
+        "BBQ",
+        "Hearty",
+        "Slow Cooker"
+      ]
+    },
+    "smash-burger-sliders-vr51": {
+      "_createdAt": 1763005000000,
+      "calories": 720,
+      "category": "Dinner",
+      "cookTime": "25 minutes",
+      "id": "smash-burger-sliders-vr51",
+      "ingredients": [
+        "Beef mince (600g)",
+        "Slider buns (12)",
+        "Cheddar slices (6)",
+        "Onion, finely diced (1)",
+        "Gherkins, sliced (4)",
+        "Mayonnaise (4 tbsp)",
+        "Ketchup (2 tbsp)",
+        "Mustard (1 tbsp)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "Smash Burger Sliders",
+      "notes": "Cover the pan briefly after adding cheese to help it melt.",
+      "servings": 4,
+      "steps": [
+        "Mix beef mince with salt and black pepper and divide into 12 equal balls.",
+        "Heat a large frying pan or griddle over high heat.",
+        "Place a beef ball onto the hot surface and smash it flat with a spatula, cooking for 2 to 3 minutes per side until browned and cooked through.",
+        "Repeat with remaining beef.",
+        "Mix mayonnaise, ketchup and mustard in a small bowl to make a burger sauce.",
+        "Toast the slider buns lightly, then spread with burger sauce.",
+        "Fill each bun with a smash patty, cheese slice, diced onion and sliced gherkins.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Burger",
+        "Sharing",
+        "Viral"
+      ]
+    },
+    "smash-burger-tacos-vr14": {
+      "_createdAt": 1763001300000,
+      "calories": 710,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "smash-burger-tacos-vr14",
+      "ingredients": [
+        "Beef Mince (400 g)",
+        "Small Flour Tortillas (8)",
+        "Grated Cheddar (80 g)",
+        "Salt",
+        "Black Pepper",
+        "Mayonnaise (4 Tbsp)",
+        "Ketchup (2 Tbsp)",
+        "Mustard (1 Tbsp)",
+        "Pickled Gherkin Juice (1 Tsp)",
+        "Shredded Lettuce",
+        "Gherkins, Sliced (2)",
+        "Red Onion, Finely Sliced (½ Small)"
+      ],
+      "name": "Smash Burger Tacos",
+      "notes": "Cook the mince thoroughly until no pink remains.",
+      "servings": 4,
+      "steps": [
+        "In a small bowl, mix mayonnaise, ketchup, mustard and gherkin juice to make a burger sauce.",
+        "Divide the beef mince into 8 equal balls.",
+        "Place a tortilla on a board and press a beef ball directly onto the centre of the tortilla to form a thin patty.",
+        "Repeat with the remaining tortillas and beef.",
+        "Heat a large dry frying pan over medium-high heat.",
+        "Place a tortilla beef-side down in the pan and cook for 2 to 3 minutes until the meat is browned.",
+        "Flip so the tortilla is now on the bottom, sprinkle with grated cheddar and cook for another minute.",
+        "Repeat with the remaining smash tacos.",
+        "Serve topped with burger sauce, shredded lettuce, sliced gherkins and red onion."
+      ],
+      "tags": [
+        "Viral",
+        "Tacos",
+        "Beef"
+      ]
+    },
+    "smashed-cucumber-noodle-bowl-vr10": {
+      "_createdAt": 1763000900000,
+      "calories": 430,
+      "category": "Lunch",
+      "cookTime": "18 Minutes",
+      "id": "smashed-cucumber-noodle-bowl-vr10",
+      "ingredients": [
+        "Rice Noodles (150 g)",
+        "Cucumber (1 Large)",
+        "Spring Onions, Sliced (2)",
+        "Carrot, Julienned (1 Small)",
+        "Soy Sauce (2 Tbsp)",
+        "Rice Vinegar (1 Tbsp)",
+        "Sesame Oil (1 Tbsp)",
+        "Honey (1 Tsp)",
+        "Chilli Flakes (1 Tsp)",
+        "Garlic Clove, Minced (1)",
+        "Sesame Seeds",
+        "Salt"
+      ],
+      "name": "Smashed Cucumber Noodle Bowl",
+      "notes": "Tastes even better after chilling for 20 minutes in the fridge.",
+      "servings": 2,
+      "steps": [
+        "Cook rice noodles according to the packet instructions, then drain and rinse under cold water.",
+        "Place the cucumber on a board and lightly smash it with a rolling pin or the side of a knife.",
+        "Slice the smashed cucumber into bite-sized pieces and sprinkle with a pinch of salt.",
+        "In a bowl, whisk together soy sauce, rice vinegar, sesame oil, honey, chilli flakes and minced garlic.",
+        "Add cooked noodles, cucumber, carrot and spring onions to a large bowl.",
+        "Pour over the dressing and toss everything until well combined.",
+        "Serve in bowls and finish with sesame seeds."
+      ],
+      "tags": [
+        "Refreshing",
+        "Noodles",
+        "Viral"
+      ]
+    },
+    "spicy-noodles-with-crispy-eg-vr30": {
+      "_createdAt": 1763002900000,
+      "calories": 590,
+      "category": "Dinner",
+      "cookTime": "15 Minutes",
+      "id": "spicy-noodles-with-crispy-eg-vr30",
+      "ingredients": [
+        "Instant Noodles (1 Block)",
+        "Soy Sauce (1 Tbsp)",
+        "Sriracha (1 Tbsp)",
+        "Sesame Oil (1 Tsp)",
+        "Honey (1 Tsp)",
+        "Egg (1)",
+        "Vegetable Oil (1 Tbsp)",
+        "Spring Onion, Sliced (1)",
+        "Sesame Seeds"
+      ],
+      "name": "Spicy Noodles With Crispy Egg",
+      "notes": "Add some frozen peas or spinach to the noodles for extra veg.",
+      "servings": 1,
+      "steps": [
+        "Cook instant noodles according to the packet instructions, leaving out the flavour sachet.",
+        "In a bowl, mix soy sauce, sriracha, sesame oil and honey.",
+        "Drain the noodles and toss them in the spicy sauce.",
+        "Heat vegetable oil in a small pan over medium-high heat.",
+        "Crack in the egg and fry until the edges are crispy and the yolk is cooked to your liking.",
+        "Tip the dressed noodles into a bowl.",
+        "Top with the crispy fried egg, sliced spring onion and sesame seeds.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Quick",
+        "Noodles",
+        "Spicy"
+      ]
+    },
+    "spicy-salmon-rice-bowl-vr07": {
+      "_createdAt": 1763000600000,
+      "calories": 620,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "spicy-salmon-rice-bowl-vr07",
+      "ingredients": [
+        "Salmon Fillets, Skin Removed (2)",
+        "Soy Sauce (2 Tbsp)",
+        "Sriracha (1 Tbsp)",
+        "Honey (1 Tbsp)",
+        "Sesame Oil (1 Tsp)",
+        "Cooked Rice (250 g, Microwave Pouch Is Fine)",
+        "Avocado, Sliced (½)",
+        "Carrot, Grated (1 Small)",
+        "Spring Onion, Sliced (1)",
+        "Mayonnaise (1 Tbsp)",
+        "Sriracha (1 Tsp, Extra For Drizzle)",
+        "Sesame Seeds"
+      ],
+      "name": "Spicy Salmon Rice Bowl",
+      "notes": "Use brown rice for more fibre and a nuttier flavour.",
+      "servings": 2,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Place the salmon fillets into a small baking dish.",
+        "In a bowl, mix soy sauce, sriracha, honey and sesame oil.",
+        "Pour the sauce over the salmon and bake for 10 to 12 minutes until just cooked through.",
+        "Warm the cooked rice and divide between two bowls.",
+        "Flake the cooked salmon over the rice, spooning over some of the sauce.",
+        "Top each bowl with sliced avocado, grated carrot and spring onion.",
+        "In a small bowl, stir together mayonnaise and extra sriracha, then drizzle over the bowls.",
+        "Finish with sesame seeds and more sriracha if you like it extra spicy."
+      ],
+      "tags": [
+        "Viral",
+        "Bowl",
+        "Salmon"
+      ]
+    },
+    "strawberry-yoghurt-bark-vr21": {
+      "_createdAt": 1763002000000,
+      "calories": 210,
+      "category": "Dessert",
+      "cookTime": "10 Minutes Plus Freezing",
+      "id": "strawberry-yoghurt-bark-vr21",
+      "ingredients": [
+        "Greek Yoghurt (500 g)",
+        "Honey Or Maple Syrup (2 Tbsp)",
+        "Vanilla Extract (1 Tsp)",
+        "Strawberries, Chopped (120 g)",
+        "Granola (2 Tbsp)",
+        "Dark Chocolate Chips (1 Tbsp)"
+      ],
+      "name": "Strawberry Yoghurt Freezer Bark",
+      "notes": "Eat straight from the freezer for the best texture.",
+      "servings": 6,
+      "steps": [
+        "Line a baking tray with baking paper.",
+        "In a bowl, mix Greek yoghurt, honey and vanilla extract.",
+        "Spread the yoghurt mixture evenly over the lined tray to about 1 cm thick.",
+        "Scatter chopped strawberries, granola and dark chocolate chips over the top.",
+        "Freeze for at least 3 hours until solid.",
+        "Break into shards and store in a freezer-safe container until ready to eat."
+      ],
+      "tags": [
+        "Frozen",
+        "Healthier",
+        "Snack"
+      ]
+    },
+    "sushi-bake-vr55": {
+      "_createdAt": 1763005400000,
+      "calories": 640,
+      "category": "Dinner",
+      "cookTime": "30 minutes",
+      "id": "sushi-bake-vr55",
+      "ingredients": [
+        "Cooked sushi rice (400g)",
+        "Rice vinegar (2 tbsp)",
+        "Sugar (1 tbsp)",
+        "Salt (0.5 tsp)",
+        "Salmon fillet, flaked (300g)",
+        "Mayonnaise (3 tbsp)",
+        "Sriracha (1.5 tbsp)",
+        "Soy sauce (1 tbsp)",
+        "Nori sheets, cut into small rectangles (4)",
+        "Spring onions, sliced (2)",
+        "Sesame seeds"
+      ],
+      "name": "Salmon Sushi Bake",
+      "notes": "Use tinned salmon if you do not have fresh.",
+      "servings": 4,
+      "steps": [
+        "Preheat the oven to 190°C.",
+        "Mix warm sushi rice with rice vinegar, sugar and salt, then press into an even layer in a small baking dish.",
+        "In a bowl mix flaked salmon, mayonnaise, sriracha and soy sauce.",
+        "Spread the salmon mixture evenly over the rice.",
+        "Bake for 12 to 15 minutes until warmed through and slightly golden on top.",
+        "Top with sliced spring onions and sesame seeds.",
+        "Scoop portions onto nori rectangles and eat like little sushi tacos."
+      ],
+      "tags": [
+        "Oven-bake",
+        "Rice",
+        "Sharing"
+      ]
+    },
+    "sweet-chilli-beef-rice": {
+      "_createdAt": 1762765000035,
+      "calories": 512,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "sweet-chilli-beef-rice",
+      "ingredients": [
+        "Onions (2)",
+        "Reduced-Sugar Sweet Chilli Sauce (Blue Dragon) (20 g)",
+        "5% Beef Mince (500 g)",
+        "Wholegrain Microwave Rice (Tesco) (2 Packs)"
+      ],
+      "name": "Sweet Chilli Beef & Rice",
+      "notes": "512 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Add mince to a medium-heat pan with some low-calorie spray.",
+        "Chop the onion and add.",
+        "Cook the microwave rice according to the packet instructions.",
+        "Once the mince is browned, add the sweet chilli sauce and mix to combine.",
+        "Serve the beef over the rice."
+      ],
+      "tags": [
+        "Rice Dish"
+      ]
+    },
+    "sweet-chilli-chicken-wrap": {
+      "_createdAt": 1762765000036,
+      "calories": 492,
+      "category": "Lunch",
+      "cookTime": "30 Minutes",
+      "id": "sweet-chilli-chicken-wrap",
+      "ingredients": [
+        "Onion (1)",
+        "Red Pepper (1 Small)",
+        "Cooked Chicken (200 g)",
+        "Sweet Chilli Sauce (60 g)",
+        "Light Mayo (60 g)",
+        "Cheese (50 g)",
+        "Tomatoes (50 g)",
+        "Wraps (2)"
+      ],
+      "name": "Sweet Chilli Chicken Wrap",
+      "notes": "492 calories per serving.",
+      "servings": 2,
+      "steps": [
+        "Mix all ingredients in a bowl.",
+        "Add the mixture to your wrap, then wrap it tight.",
+        "Air fry at 200°C for 6 to 7 minutes.",
+        "Slice down the middle and serve."
+      ],
+      "tags": [
+        "Wraps"
+      ]
+    },
+    "sweet-sour-chicken-noodles": {
+      "_createdAt": 1762765000034,
+      "calories": 493,
+      "category": "Dinner",
+      "cookTime": "30–40 Minutes",
+      "id": "sweet-sour-chicken-noodles",
+      "ingredients": [
+        "Chicken Breast (640 g)",
+        "Red Onion (1)",
+        "Bell Peppers (200 g)",
+        "Chilli Flakes (1 Tsp)",
+        "Garlic (1 Tsp)",
+        "Ginger (1 Tsp)",
+        "Pineapple, Canned in Juice (320 g)",
+        "Tomato Ketchup (96 g)",
+        "Honey (48 g)",
+        "Soy Sauce (1.6 Tbsp)",
+        "White Wine Vinegar (1.6 Tbsp)",
+        "Vegetable Stock (200 ml)",
+        "Dry Noodles (160 g)"
+      ],
+      "name": "Sweet & Sour Chicken Noodles",
+      "notes": "493 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Add the peppers and chicken to an oven-proof dish.",
+        "Season with soy sauce, smoked paprika and onion granules.",
+        "Mix well.",
+        "In a separate bowl make the bang bang sauce by mixing mayo, sweet chilli and sriracha.",
+        "Brush half of the bang bang sauce over the chicken mixture, then cook in the oven at 180°C for 30 minutes.",
+        "Whilst the chicken is cooking, cook the rice.",
+        "Add rice to a bowl, top it with the bang bang chicken and drizzle the leftover sauce."
+      ],
+      "tags": [
+        "Noodles"
+      ]
+    },
+    "taco-beef-loaded-fries": {
+      "_createdAt": 1762765000038,
+      "calories": 457,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "taco-beef-loaded-fries",
+      "ingredients": [
+        "Baby Potatoes (1,400 g)",
+        "3% Beef Mince (400 g)",
+        "0% Greek Yogurt (160 g)",
+        "Pickled Red Onion (80 g)",
+        "Tomato Purée (4 Tbsp)",
+        "All-Purpose Seasoning (4 Tsp)",
+        "Taco Seasoning (4 Tsp)",
+        "Coriander (40 g)",
+        "Grated Cheese (20 g)"
+      ],
+      "name": "Taco Beef Loaded Fries",
+      "notes": "457 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Cut the potatoes into chips and microwave for 5 minutes.",
+        "Season with all-purpose seasoning and air fry at 200°C for 12 to 15 minutes.",
+        "Fry the beef with taco seasoning and tomato purée.",
+        "Once the beef is cooked through, sprinkle the cheese on top and cover with the lid to help it melt.",
+        "Serve the chips on a plate and top with cheesy taco beef.",
+        "Garnish with pickled red onion, Greek yogurt and coriander."
+      ],
+      "tags": [
+        "Potato"
+      ]
+    },
+    "taco-beef-with-crispy-sweet-potato-cubes": {
+      "_createdAt": 1762765000037,
+      "calories": 457,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "taco-beef-with-crispy-sweet-potato-cubes",
+      "ingredients": [
+        "Sweet Potato (1 kg)",
+        "Chilli Powder (30 g)",
+        "Smoked Paprika (1 Tsp)",
+        "5% Beef Mince (500 g)",
+        "Fajita Seasoning (1 Sachet)",
+        "Passata (200 ml)",
+        "Salt (4 Pinches)",
+        "Pepper (1 Tsp)",
+        "Spring Onion (1)",
+        "Sriracha Chilli Mayo Sauce (40 g)"
+      ],
+      "name": "Taco Beef With Crispy Sweet Potato Cubes",
+      "notes": "457 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Dice the sweet potatoes, then microwave for 5 minutes.",
+        "Spray with low-calorie spray and season with 1 tbsp chilli powder and 1 tsp smoked paprika.",
+        "Air fry the potatoes at the highest temperature for 15 minutes.",
+        "Whilst the potatoes are cooking, fry the onions until soft.",
+        "Add the mince and fry until brown.",
+        "Add the peppers, fajita seasoning and 1 tsp smoked paprika.",
+        "Add passata, salt and pepper and stir until combined.",
+        "Reduce to a simmer until the potatoes are ready.",
+        "Portion it out, add a handful of spring onions, chillies and 10 g sriracha mayo."
+      ],
+      "tags": [
+        "Potato"
+      ]
+    },
+    "thai-red-curry-noodles": {
+      "_createdAt": 1762765000039,
+      "calories": 453,
+      "category": "Dinner",
+      "cookTime": "4–6 Hours (Slow Cooker)",
+      "id": "thai-red-curry-noodles",
+      "ingredients": [
+        "Light Coconut Milk (Tesco) (400 ml)",
+        "Garlic Purée (1 Tbsp)",
+        "Ginger Purée (1 Tbsp)",
+        "Soy Sauce (3 Tbsp)",
+        "Thai Red Curry Paste (200 g)",
+        "Bell Peppers (250 g)",
+        "Green Chilli Peppers (1 Serving)",
+        "Cornflour (1 Tbsp)",
+        "Water (3 Tbsp)",
+        "Lime Juice (To Taste)",
+        "Medium Noodles (4 Nests)",
+        "Chicken Breast, Raw (480 g)"
+      ],
+      "name": "Thai Red Curry Noodles",
+      "notes": "453 calories per serving.",
+      "servings": 4,
+      "steps": [
+        "Combine the chicken, coconut milk, garlic, ginger, soy sauce, red curry paste and peppers in the slow cooker.",
+        "Cover and cook on high for 3 to 4 hours or low for 6 to 8 hours.",
+        "Fifteen minutes before serving, mix the cornflour and water until you get a smooth consistency.",
+        "Add this to the slow cooker alongside the lime juice and mix well.",
+        "Place noodle nests into the slow cooker, making sure they are fully submerged in the curry.",
+        "Cook on high for 10 minutes."
+      ],
+      "tags": [
+        "Curry",
+        "Noodles"
+      ]
+    },
+    "tiktok-birria-tacos-inspired-vr53": {
+      "_createdAt": 1763005200000,
+      "calories": 720,
+      "category": "Dinner",
+      "cookTime": "2 hours",
+      "id": "tiktok-birria-tacos-inspired-vr53",
+      "ingredients": [
+        "Beef braising steak, diced (800g)",
+        "Onion, quartered (1)",
+        "Garlic cloves (4)",
+        "Beef stock (600 ml)",
+        "Chipotle paste (1 tbsp)",
+        "Tomato puree (2 tbsp)",
+        "Cumin (1 tsp)",
+        "Dried oregano (1 tsp)",
+        "Small tortillas (12)",
+        "Grated cheese (120g)",
+        "Fresh coriander, chopped (2 tbsp)"
+      ],
+      "name": "Easy Birria Inspired Beef Tacos",
+      "notes": "Skim excess fat from the top of the cooking liquid before using as a dip.",
+      "servings": 4,
+      "steps": [
+        "Add beef, onion, garlic, beef stock, chipotle paste, tomato puree, cumin and dried oregano to a large pot.",
+        "Bring to the boil, then reduce to a gentle simmer, cover and cook for 1.5 to 2 hours until the beef is very tender.",
+        "Remove the beef pieces from the liquid and shred with two forks.",
+        "Dip the tortillas briefly into the cooking liquid, then place into a hot frying pan.",
+        "Add shredded beef and grated cheese to one half of each tortilla, then fold over.",
+        "Cook for 2 to 3 minutes on each side until crisp and the cheese is melted.",
+        "Serve with small bowls of the cooking liquid for dipping and sprinkle with fresh coriander."
+      ],
+      "tags": [
+        "Tacos",
+        "Beef",
+        "Comfort"
+      ]
+    },
+    "tiktok-cucumber-feta-bites-vr56": {
+      "_createdAt": 1763005500000,
+      "calories": 120,
+      "category": "Snack",
+      "cookTime": "10 minutes",
+      "id": "tiktok-cucumber-feta-bites-vr56",
+      "ingredients": [
+        "Cucumber, thickly sliced (1)",
+        "Feta cheese, crumbled (60g)",
+        "Greek yoghurt (2 tbsp)",
+        "Lemon juice (1 tsp)",
+        "Honey (1 tsp)",
+        "Fresh dill, chopped (1 tbsp)",
+        "Black pepper"
+      ],
+      "name": "Cucumber Feta Bites",
+      "notes": "Sprinkle with chilli flakes if you like a little heat.",
+      "servings": 4,
+      "steps": [
+        "In a small bowl mash feta with Greek yoghurt, lemon juice, honey, chopped dill and black pepper.",
+        "Use a teaspoon or melon baller to scoop a small indent out of each cucumber slice.",
+        "Fill each indent with the feta mixture.",
+        "Serve immediately as a light snack or starter."
+      ],
+      "tags": [
+        "Snack",
+        "Fresh",
+        "Low-carb"
+      ]
+    },
+    "tiktok-grinder-salad-sandwich-vr39": {
+      "_createdAt": 1763003800000,
+      "calories": 640,
+      "category": "Lunch",
+      "cookTime": "20 minutes",
+      "id": "tiktok-grinder-salad-sandwich-vr39",
+      "ingredients": [
+        "Sub rolls (3)",
+        "Lettuce, shredded (120g)",
+        "Red onion, thinly sliced (0.5)",
+        "Salami slices (6)",
+        "Ham slices (6)",
+        "Provolone or cheddar slices (6)",
+        "Mayonnaise (4 tbsp)",
+        "Red wine vinegar (1.5 tbsp)",
+        "Dried oregano (1 tsp)",
+        "Garlic powder (0.5 tsp)",
+        "Chilli flakes (0.25 tsp)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "TikTok Grinder Salad Sandwich",
+      "notes": "Toast the subs first for a warm melty version.",
+      "servings": 3,
+      "steps": [
+        "In a large bowl add shredded lettuce and sliced red onion.",
+        "In a separate bowl whisk together mayonnaise, red wine vinegar, dried oregano, garlic powder, chilli flakes, salt and black pepper.",
+        "Pour the dressing over the lettuce and onion and toss well.",
+        "Slice the sub rolls and layer with salami, ham and cheese.",
+        "Pile the grinder salad mixture generously into each roll.",
+        "Close the subs, press gently and serve."
+      ],
+      "tags": [
+        "Sandwich",
+        "Viral",
+        "Chopped salad"
+      ]
+    },
+    "tiktok-pasta-chips-vr43": {
+      "_createdAt": 1763004200000,
+      "calories": 320,
+      "category": "Snack",
+      "cookTime": "25 minutes",
+      "id": "tiktok-pasta-chips-vr43",
+      "ingredients": [
+        "Short pasta shapes (250g)",
+        "Olive oil (1.5 tbsp)",
+        "Garlic powder (1 tsp)",
+        "Paprika (1 tsp)",
+        "Grated parmesan (30g)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "TikTok Pasta Chips",
+      "notes": "Make sure the pasta is well drained so it crisps properly.",
+      "servings": 4,
+      "steps": [
+        "Cook the pasta until just al dente, then drain well.",
+        "Toss the warm pasta with olive oil, garlic powder, paprika, grated parmesan, salt and black pepper.",
+        "Air fry at 190°C for 10 to 12 minutes, shaking halfway, until crisp and golden.",
+        "Serve with your favourite dip such as marinara or garlic yoghurt."
+      ],
+      "tags": [
+        "Air fryer",
+        "Snack",
+        "Crispy"
+      ]
+    },
+    "tiktok-ramen-vr31": {
+      "_createdAt": 1763003000000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "15 minutes",
+      "id": "tiktok-ramen-vr31",
+      "ingredients": [
+        "Instant ramen block (1)",
+        "Butter (1 tbsp)",
+        "Garlic, minced (1 clove)",
+        "Soy sauce (1 tbsp)",
+        "Brown sugar (1 tsp)",
+        "Egg (1)",
+        "Spring onion, sliced (1)",
+        "Sesame seeds",
+        "Chilli flakes"
+      ],
+      "name": "TikTok Garlic Butter Ramen",
+      "notes": "Add leftover chicken or prawns for extra protein.",
+      "servings": 1,
+      "steps": [
+        "Cook the ramen according to packet instructions, then drain and set aside.",
+        "Melt butter in a frying pan over medium heat and add the minced garlic.",
+        "Cook for 1 minute until fragrant, then stir in soy sauce and brown sugar.",
+        "Add the drained noodles to the pan and toss to coat in the sauce.",
+        "Push the noodles to one side and crack in the egg, scrambling gently until just cooked.",
+        "Toss everything together, then serve topped with sliced spring onion, sesame seeds and chilli flakes."
+      ],
+      "tags": [
+        "Viral",
+        "Noodles",
+        "Quick"
+      ]
+    },
+    "tiktok-tomato-feta-Eggs-toast-vr52": {
+      "_createdAt": 1763005100000,
+      "calories": 430,
+      "category": "Breakfast",
+      "cookTime": "15 minutes",
+      "id": "tiktok-tomato-feta-Eggs-toast-vr52",
+      "ingredients": [
+        "Cherry tomatoes, halved (150g)",
+        "Olive oil (1 tbsp)",
+        "Garlic, minced (1 clove)",
+        "Eggs (3)",
+        "Feta cheese, crumbled (60g)",
+        "Salt",
+        "Black pepper",
+        "Sourdough bread slices (4)"
+      ],
+      "name": "Tomato Feta Eggs on Toast",
+      "notes": "Finish with a drizzle of chilli oil if you like heat.",
+      "servings": 2,
+      "steps": [
+        "Heat olive oil in a frying pan over medium heat and add cherry tomatoes and minced garlic.",
+        "Cook for 3 to 4 minutes until the tomatoes soften.",
+        "Push the tomatoes to the side and crack in the eggs.",
+        "Cook until the whites are set but yolks are still soft.",
+        "Sprinkle crumbled feta over the top and season with salt and black pepper.",
+        "Toast the sourdough slices and spoon the tomato and egg mixture over the toast to serve."
+      ],
+      "tags": [
+        "Eggs",
+        "Toast",
+        "Viral"
+      ]
+    },
+    "tortilla-pizza-wrap-vr08": {
+      "_createdAt": 1763000700000,
+      "calories": 540,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "tortilla-pizza-wrap-vr08",
+      "ingredients": [
+        "Large Tortilla Wraps (2)",
+        "Pizza Sauce Or Passata (4 Tbsp)",
+        "Grated Mozzarella (80 g)",
+        "Pepperoni Slices (4)",
+        "Sweetcorn (4 Tbsp)",
+        "Dried Oregano (1 Tsp)",
+        "Olive Oil Spray"
+      ],
+      "name": "Tortilla Pizza Fold Wrap",
+      "notes": "Swap pepperoni for sliced mushrooms or peppers for a veggie version.",
+      "servings": 2,
+      "steps": [
+        "Lay a tortilla wrap on a chopping board.",
+        "Cut a single straight line from the centre of the wrap to the edge.",
+        "Spread pizza sauce over the entire wrap.",
+        "Sprinkle mozzarella over the whole surface.",
+        "Place pepperoni in one quarter, sweetcorn in another and leave two quarters just cheesy.",
+        "Fold each quarter over onto the next, working around to create a layered triangle.",
+        "Repeat with the second wrap.",
+        "Heat a non-stick pan over medium heat and lightly spray with olive oil.",
+        "Cook the folded wraps for 2 to 3 minutes on each side until golden and the cheese has melted.",
+        "Sprinkle with dried oregano before serving."
+      ],
+      "tags": [
+        "TikTok",
+        "Quick",
+        "Cheesy"
+      ]
+    },
+    "vodka-pasta-vr58": {
+      "_createdAt": 1763005700000,
+      "calories": 690,
+      "category": "Dinner",
+      "cookTime": "25 minutes",
+      "id": "vodka-pasta-vr58",
+      "ingredients": [
+        "Pasta (300g)",
+        "Olive oil (1 tbsp)",
+        "Garlic cloves, minced (2)",
+        "Tomato puree (3 tbsp)",
+        "Vodka (60 ml)",
+        "Double cream (150 ml)",
+        "Grated parmesan (40g)",
+        "Chilli flakes (0.5 tsp)",
+        "Salt",
+        "Black pepper"
+      ],
+      "name": "Creamy Vodka Tomato Pasta",
+      "notes": "You can omit the vodka if you prefer and still get a great sauce.",
+      "servings": 4,
+      "steps": [
+        "Cook the pasta according to packet instructions until al dente, then reserve a cup of pasta water and drain.",
+        "Heat olive oil in a pan over medium heat and add minced garlic.",
+        "Cook for 1 minute, then stir in tomato puree and cook for another 2 minutes.",
+        "Pour in vodka and let it bubble for 2 minutes to cook off the alcohol.",
+        "Stir in double cream and chilli flakes and simmer gently.",
+        "Add the cooked pasta to the sauce, along with a splash of pasta water to loosen if needed.",
+        "Stir in grated parmesan and season with salt and black pepper.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Pasta",
+        "Creamy",
+        "Viral"
+      ]
+    },
+    "whipped-feta-breakfast-toast-vr01": {
+      "_createdAt": 1763000000000,
+      "calories": 420,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "whipped-feta-breakfast-toast-vr01",
+      "ingredients": [
+        "Sourdough Bread (4 Slices)",
+        "Feta Cheese (120 g)",
+        "Greek Yoghurt (3 Tbsp)",
+        "Olive Oil (1 Tbsp)",
+        "Honey (1 Tsp)",
+        "Avocado, Sliced (1 Small)",
+        "Cherry Tomatoes, Halved (6)",
+        "Fresh Basil Leaves",
+        "Salt",
+        "Black Pepper"
+      ],
+      "name": "Whipped Feta Breakfast Toast",
+      "notes": "Great with a poached egg on top if you want extra protein.",
+      "servings": 2,
+      "steps": [
+        "Toast the sourdough slices until golden and crisp.",
+        "Add feta, Greek yoghurt, olive oil and honey to a bowl.",
+        "Whisk or blend the feta mixture until smooth and creamy.",
+        "Spread a generous layer of whipped feta over each slice of toast.",
+        "Top with sliced avocado and cherry tomatoes.",
+        "Season with salt and black pepper to taste.",
+        "Finish with fresh basil leaves and an extra drizzle of olive oil if you like."
+      ],
+      "tags": [
+        "TikTok",
+        "Quick",
+        "Creamy"
+      ]
+    },
+    "yoghurt-breakfast-bowl-vr04": {
+      "_createdAt": 1763000300000,
+      "calories": 360,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "yoghurt-breakfast-bowl-vr04",
+      "ingredients": [
+        "Greek Yoghurt (300 g)",
+        "Honey (2 Tbsp)",
+        "Granola (60 g)",
+        "Peanut Butter (1 Tbsp)",
+        "Banana, Sliced (1 Small)",
+        "Mixed Berries (Handful)",
+        "Chia Seeds (1 Tsp)"
+      ],
+      "name": "Crunchy Yoghurt Breakfast Bowl",
+      "notes": "Swap honey for maple syrup to keep it vegan if you use plant yoghurt.",
+      "servings": 2,
+      "steps": [
+        "Spoon the Greek yoghurt into two bowls.",
+        "Drizzle honey over the yoghurt.",
+        "Top each bowl with granola, sliced banana and mixed berries.",
+        "Warm the peanut butter slightly so it is runny and drizzle over the bowls.",
+        "Finish with a sprinkle of chia seeds and serve immediately."
+      ],
+      "tags": [
+        "High-Protein",
+        "No-Cook",
+        "Healthy"
+      ]
+    },
+    "yoghurt-marinated-chicken-skewers-vr54": {
+      "_createdAt": 1763005300000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "35 minutes",
+      "id": "yoghurt-marinated-chicken-skewers-vr54",
+      "ingredients": [
+        "Chicken breast, cubed (600g)",
+        "Greek yoghurt (120g)",
+        "Lemon juice (2 tbsp)",
+        "Garlic, minced (2 cloves)",
+        "Paprika (1 tsp)",
+        "Ground cumin (1 tsp)",
+        "Olive oil (1 tbsp)",
+        "Salt",
+        "Black pepper",
+        "Skewers"
+      ],
+      "name": "Yoghurt Marinated Chicken Skewers",
+      "notes": "Soak wooden skewers in water for 20 minutes before using so they do not burn.",
+      "servings": 4,
+      "steps": [
+        "In a bowl mix Greek yoghurt, lemon juice, minced garlic, paprika, cumin, olive oil, salt and black pepper.",
+        "Add chicken cubes and toss to coat, then cover and marinate in the fridge for at least 30 minutes.",
+        "Thread the marinated chicken onto skewers.",
+        "Grill or air fry at 190°C for 12 to 15 minutes, turning once, until cooked through and slightly charred.",
+        "Serve with flatbreads and salad."
+      ],
+      "tags": [
+        "Grill",
+        "Chicken",
+        "High-protein"
+      ]
+    },
+    "yoghurt-toast-vr33": {
+      "_createdAt": 1763003200000,
+      "calories": 350,
+      "category": "Breakfast",
+      "cookTime": "15 minutes",
+      "id": "yoghurt-toast-vr33",
+      "ingredients": [
+        "Thick sliced bread (4 slices)",
+        "Greek yoghurt (80g)",
+        "Egg (1)",
+        "Honey (1 tbsp)",
+        "Vanilla extract (0.5 tsp)",
+        "Strawberries, sliced (4)",
+        "Blueberries (2 tbsp)"
+      ],
+      "name": "Custard Yoghurt Toast",
+      "notes": "Dust with icing sugar just before serving if you like.",
+      "servings": 2,
+      "steps": [
+        "Preheat the oven or air fryer to 180°C.",
+        "In a small bowl mix Greek yoghurt, egg, honey and vanilla until smooth.",
+        "Use the back of a spoon to press down the centre of each bread slice, leaving a raised border.",
+        "Spoon the yoghurt mixture into the indent on each slice.",
+        "Top with sliced strawberries and blueberries.",
+        "Bake or air fry for 8 to 10 minutes until the edges are crisp and the custard is set.",
+        "Serve warm."
+      ],
+      "tags": [
+        "Viral",
+        "Toasted",
+        "Sweet"
+      ]
+    }
+  }
+}

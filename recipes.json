@@ -3466,6 +3466,2938 @@
         "Toasted",
         "Sweet"
       ]
+    },
+    "tiktok-salmon-rice-bowl-vr101": {
+      "_createdAt": 1764010100000,
+      "calories": 520,
+      "category": "Lunch",
+      "cookTime": "25 Minutes",
+      "id": "tiktok-salmon-rice-bowl-vr101",
+      "ingredients": [
+        "2 salmon fillets",
+        "2 cups cooked jasmine rice",
+        "2 tablespoons soy sauce",
+        "2 tablespoons kewpie mayo",
+        "1 teaspoon sriracha",
+        "1 avocado, sliced",
+        "1/2 cucumber, diced",
+        "Nori strips and sesame seeds for serving"
+      ],
+      "name": "TikTok Salmon Rice Bowl",
+      "notes": "Use leftover rice for the best texture.",
+      "servings": 2,
+      "steps": [
+        "Season salmon with soy sauce and bake at 200°C for 12 to 14 minutes.",
+        "Flake the salmon with a fork and stir in mayo and sriracha.",
+        "Divide warm rice into bowls and top with salmon mixture.",
+        "Add avocado, cucumber, nori, and sesame seeds.",
+        "Serve immediately while warm."
+      ],
+      "tags": [
+        "Viral",
+        "Seafood",
+        "Bowl"
+      ]
+    },
+    "green-goddess-salad-vr102": {
+      "_createdAt": 1764010200000,
+      "calories": 380,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "green-goddess-salad-vr102",
+      "ingredients": [
+        "3 cups shredded cabbage",
+        "2 cucumbers, diced",
+        "1/2 cup chopped green onions",
+        "1 cup baby spinach",
+        "1/4 cup basil leaves",
+        "1/4 cup chives",
+        "1/2 lemon, juiced",
+        "3 tablespoons olive oil",
+        "1/3 cup crumbled feta"
+      ],
+      "name": "Green Goddess Salad",
+      "notes": "Serve with tortilla chips for scooping.",
+      "servings": 4,
+      "steps": [
+        "Add cabbage, cucumber, and green onions to a large bowl.",
+        "Blend spinach, basil, chives, lemon juice, olive oil, and feta until smooth.",
+        "Pour the dressing over the salad and toss well.",
+        "Chill for 10 minutes before serving."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Vegetarian"
+      ]
+    },
+    "hot-honey-chicken-bites-vr103": {
+      "_createdAt": 1764010300000,
+      "calories": 540,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "hot-honey-chicken-bites-vr103",
+      "ingredients": [
+        "500 g chicken breast, cubed",
+        "1/2 cup buttermilk",
+        "1 cup panko breadcrumbs",
+        "1 teaspoon smoked paprika",
+        "2 tablespoons hot honey",
+        "1 tablespoon butter",
+        "Salt and pepper"
+      ],
+      "name": "Hot Honey Chicken Bites",
+      "notes": "Swap in an air fryer if you like extra crisp edges.",
+      "servings": 4,
+      "steps": [
+        "Marinate chicken in buttermilk, salt, and pepper for 10 minutes.",
+        "Coat chicken in panko mixed with paprika.",
+        "Bake at 220°C for 15 minutes until crisp.",
+        "Warm hot honey with butter and toss chicken to coat.",
+        "Serve with extra drizzle."
+      ],
+      "tags": [
+        "Viral",
+        "Spicy",
+        "Chicken"
+      ]
+    },
+    "butter-board-with-garlic-herbs-vr104": {
+      "_createdAt": 1764010400000,
+      "calories": 320,
+      "category": "Snack",
+      "cookTime": "10 Minutes",
+      "id": "butter-board-with-garlic-herbs-vr104",
+      "ingredients": [
+        "1/2 cup salted butter, softened",
+        "1 clove garlic, minced",
+        "1 tablespoon chopped parsley",
+        "1 teaspoon lemon zest",
+        "Flaky sea salt",
+        "Crushed red pepper",
+        "Crusty bread for serving"
+      ],
+      "name": "Butter Board with Garlic Herbs",
+      "notes": "Let the butter sit at room temperature for easier spreading.",
+      "servings": 4,
+      "steps": [
+        "Spread softened butter over a serving board.",
+        "Sprinkle with garlic, herbs, lemon zest, salt, and pepper.",
+        "Drizzle with olive oil if desired.",
+        "Serve with warm bread."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Vegetarian"
+      ]
+    },
+    "grinder-sandwich-salad-vr105": {
+      "_createdAt": 1764010500000,
+      "calories": 430,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "grinder-sandwich-salad-vr105",
+      "ingredients": [
+        "4 cups chopped romaine",
+        "1/2 cup cherry tomatoes, halved",
+        "1/2 cup sliced pepperoncini",
+        "1/3 cup diced salami",
+        "1/3 cup diced turkey",
+        "1/3 cup shredded provolone",
+        "2 tablespoons mayonnaise",
+        "1 tablespoon red wine vinegar"
+      ],
+      "name": "Grinder Sandwich Salad",
+      "notes": "Add toasted breadcrumbs for crunch.",
+      "servings": 4,
+      "steps": [
+        "Combine romaine, tomatoes, pepperoncini, and deli meats in a bowl.",
+        "Whisk mayonnaise and vinegar to make the dressing.",
+        "Toss salad with dressing and add provolone.",
+        "Serve chilled."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Lunch"
+      ]
+    },
+    "chopped-italian-sandwich-bowl-vr106": {
+      "_createdAt": 1764010600000,
+      "calories": 410,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "chopped-italian-sandwich-bowl-vr106",
+      "ingredients": [
+        "3 cups chopped iceberg lettuce",
+        "1/2 cup diced ham",
+        "1/2 cup diced salami",
+        "1/2 cup chopped mozzarella",
+        "1/2 cup cherry tomatoes",
+        "1/4 cup sliced olives",
+        "2 tablespoons Italian dressing"
+      ],
+      "name": "Chopped Italian Sandwich Bowl",
+      "notes": "Swap in turkey or pepperoni as needed.",
+      "servings": 4,
+      "steps": [
+        "Add lettuce, meats, mozzarella, tomatoes, and olives to a bowl.",
+        "Drizzle with Italian dressing and toss.",
+        "Season with black pepper.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Quick"
+      ]
+    },
+    "baked-oats-with-blueberry-lemon-vr107": {
+      "_createdAt": 1764010700000,
+      "calories": 360,
+      "category": "Breakfast",
+      "cookTime": "25 Minutes",
+      "id": "baked-oats-with-blueberry-lemon-vr107",
+      "ingredients": [
+        "1 cup rolled oats",
+        "1 ripe banana",
+        "1 egg",
+        "1/2 cup milk",
+        "1/2 cup blueberries",
+        "1 teaspoon lemon zest",
+        "1 tablespoon honey"
+      ],
+      "name": "Baked Oats with Blueberry Lemon",
+      "notes": "Top with extra berries for serving.",
+      "servings": 2,
+      "steps": [
+        "Blend oats, banana, egg, milk, lemon zest, and honey until smooth.",
+        "Fold in blueberries.",
+        "Pour into a greased ramekin.",
+        "Bake at 180°C for 20 minutes.",
+        "Serve warm."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "cottage-cheese-ice-cream-vr108": {
+      "_createdAt": 1764010800000,
+      "calories": 280,
+      "category": "Dessert",
+      "cookTime": "10 Minutes",
+      "id": "cottage-cheese-ice-cream-vr108",
+      "ingredients": [
+        "2 cups cottage cheese",
+        "1/4 cup maple syrup",
+        "1 teaspoon vanilla extract",
+        "1/2 cup frozen strawberries",
+        "Pinch of salt"
+      ],
+      "name": "Cottage Cheese Ice Cream",
+      "notes": "Let it sit for 5 minutes before scooping.",
+      "servings": 4,
+      "steps": [
+        "Blend cottage cheese, syrup, vanilla, and salt until creamy.",
+        "Fold in frozen strawberries.",
+        "Transfer to a loaf pan and freeze for 2 hours.",
+        "Scoop and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "No-Bake"
+      ]
+    },
+    "sushi-bake-cups-vr109": {
+      "_createdAt": 1764010900000,
+      "calories": 510,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "sushi-bake-cups-vr109",
+      "ingredients": [
+        "2 cups cooked sushi rice",
+        "1 tablespoon rice vinegar",
+        "200 g canned salmon",
+        "3 tablespoons kewpie mayo",
+        "1 teaspoon sriracha",
+        "1/2 cup shredded nori",
+        "1/4 cup diced cucumber"
+      ],
+      "name": "Sushi Bake Cups",
+      "notes": "Use tuna if preferred.",
+      "servings": 6,
+      "steps": [
+        "Mix rice with vinegar and press into a muffin tin.",
+        "Stir salmon with mayo and sriracha.",
+        "Spoon salmon mixture into rice cups.",
+        "Bake at 200°C for 12 minutes.",
+        "Top with nori and cucumber before serving."
+      ],
+      "tags": [
+        "Viral",
+        "Seafood",
+        "Baked"
+      ]
+    },
+    "tortilla-wrap-hack-trio-vr110": {
+      "_createdAt": 1764011000000,
+      "calories": 450,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "tortilla-wrap-hack-trio-vr110",
+      "ingredients": [
+        "2 large tortillas",
+        "1/2 cup shredded chicken",
+        "1/4 cup shredded cheese",
+        "1/4 cup sliced avocado",
+        "2 tablespoons salsa",
+        "2 tablespoons Greek yoghurt"
+      ],
+      "name": "Tortilla Wrap Hack Trio",
+      "notes": "Swap fillings with tuna or veggies.",
+      "servings": 2,
+      "steps": [
+        "Cut a slit from the center to the edge of each tortilla.",
+        "Place chicken, cheese, avocado, and salsa in quadrants.",
+        "Fold into a triangle wrap.",
+        "Toast in a pan for 2 minutes per side.",
+        "Serve with Greek yoghurt."
+      ],
+      "tags": [
+        "Viral",
+        "Wrap",
+        "Quick"
+      ]
+    },
+    "pesto-eggs-on-toast-vr111": {
+      "_createdAt": 1764011100000,
+      "calories": 320,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "pesto-eggs-on-toast-vr111",
+      "ingredients": [
+        "2 slices sourdough",
+        "2 tablespoons basil pesto",
+        "2 eggs",
+        "1/4 avocado, sliced",
+        "Salt and pepper"
+      ],
+      "name": "Pesto Eggs on Toast",
+      "notes": "Add chili flakes for heat.",
+      "servings": 2,
+      "steps": [
+        "Spread pesto in a hot nonstick pan.",
+        "Crack eggs into the pesto and fry until set.",
+        "Toast the bread.",
+        "Serve eggs over toast with avocado."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    "onion-boil-foil-packets-vr112": {
+      "_createdAt": 1764011200000,
+      "calories": 260,
+      "category": "Dinner",
+      "cookTime": "40 Minutes",
+      "id": "onion-boil-foil-packets-vr112",
+      "ingredients": [
+        "4 large onions",
+        "4 tablespoons butter",
+        "2 cloves garlic, minced",
+        "1 teaspoon paprika",
+        "Salt and pepper",
+        "Fresh parsley"
+      ],
+      "name": "Onion Boil Foil Packets",
+      "notes": "Serve alongside grilled meats or fish.",
+      "servings": 4,
+      "steps": [
+        "Peel onions and cut a deep cross on top.",
+        "Stuff each onion with butter, garlic, paprika, salt, and pepper.",
+        "Wrap tightly in foil.",
+        "Bake at 200°C for 35 minutes until tender.",
+        "Garnish with parsley."
+      ],
+      "tags": [
+        "Viral",
+        "Side",
+        "Vegetarian"
+      ]
+    },
+    "cloud-bread-sandwich-vr113": {
+      "_createdAt": 1764011300000,
+      "calories": 210,
+      "category": "Snack",
+      "cookTime": "30 Minutes",
+      "id": "cloud-bread-sandwich-vr113",
+      "ingredients": [
+        "3 egg whites",
+        "1 tablespoon sugar",
+        "2 tablespoons cornstarch",
+        "1/4 teaspoon cream of tartar",
+        "Pinch of salt"
+      ],
+      "name": "Cloud Bread Sandwich",
+      "notes": "Handle gently for best texture.",
+      "servings": 4,
+      "steps": [
+        "Whip egg whites with cream of tartar until foamy.",
+        "Add sugar and whip to stiff peaks.",
+        "Fold in cornstarch and salt.",
+        "Pipe into rounds and bake at 150°C for 25 minutes.",
+        "Cool before using as sandwich bread."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Gluten-Free"
+      ]
+    },
+    "whipped-coffee-dalgona-vr114": {
+      "_createdAt": 1764011400000,
+      "calories": 180,
+      "category": "Snack",
+      "cookTime": "10 Minutes",
+      "id": "whipped-coffee-dalgona-vr114",
+      "ingredients": [
+        "2 tablespoons instant coffee",
+        "2 tablespoons sugar",
+        "2 tablespoons hot water",
+        "1 cup milk",
+        "Ice cubes"
+      ],
+      "name": "Whipped Coffee Dalgona",
+      "notes": "Use oat milk for a dairy-free version.",
+      "servings": 2,
+      "steps": [
+        "Whisk coffee, sugar, and hot water until thick and fluffy.",
+        "Fill a glass with ice and milk.",
+        "Spoon whipped coffee on top.",
+        "Stir before drinking."
+      ],
+      "tags": [
+        "Viral",
+        "Drink",
+        "No-Bake"
+      ]
+    },
+    "pancake-cereal-vr115": {
+      "_createdAt": 1764011500000,
+      "calories": 340,
+      "category": "Breakfast",
+      "cookTime": "20 Minutes",
+      "id": "pancake-cereal-vr115",
+      "ingredients": [
+        "1 cup pancake mix",
+        "3/4 cup milk",
+        "1 tablespoon melted butter",
+        "Maple syrup",
+        "Fresh berries"
+      ],
+      "name": "Pancake Cereal",
+      "notes": "Use a squeeze bottle for easy piping.",
+      "servings": 2,
+      "steps": [
+        "Mix pancake batter until smooth.",
+        "Pipe small dots onto a greased skillet.",
+        "Flip when bubbles form and cook through.",
+        "Serve in a bowl with syrup and berries."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "quesabirria-tacos-vr116": {
+      "_createdAt": 1764011600000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "60 Minutes",
+      "id": "quesabirria-tacos-vr116",
+      "ingredients": [
+        "500 g shredded beef",
+        "8 corn tortillas",
+        "1 cup birria consommé",
+        "1 cup shredded mozzarella",
+        "1/2 onion, diced",
+        "Fresh cilantro"
+      ],
+      "name": "Quesabirria Tacos",
+      "notes": "Use leftover birria for speed.",
+      "servings": 4,
+      "steps": [
+        "Heat shredded beef in a skillet with consommé.",
+        "Dip tortillas in consommé and place on a hot griddle.",
+        "Fill with beef, cheese, onion, and cilantro.",
+        "Fold and cook until crispy.",
+        "Serve with extra consommé for dipping."
+      ],
+      "tags": [
+        "Viral",
+        "Tacos",
+        "Beef"
+      ]
+    },
+    "nashville-hot-mozzarella-sticks-vr117": {
+      "_createdAt": 1764011700000,
+      "calories": 460,
+      "category": "Snack",
+      "cookTime": "25 Minutes",
+      "id": "nashville-hot-mozzarella-sticks-vr117",
+      "ingredients": [
+        "12 mozzarella sticks",
+        "1 cup flour",
+        "2 eggs",
+        "1 cup breadcrumbs",
+        "1 tablespoon hot sauce",
+        "1 teaspoon cayenne",
+        "2 tablespoons butter"
+      ],
+      "name": "Nashville Hot Mozzarella Sticks",
+      "notes": "Serve with ranch or blue cheese.",
+      "servings": 4,
+      "steps": [
+        "Dip mozzarella sticks in flour, egg, and breadcrumbs.",
+        "Freeze for 10 minutes.",
+        "Fry or bake until golden.",
+        "Toss with melted butter, hot sauce, and cayenne."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Spicy"
+      ]
+    },
+    "spicy-rigatoni-vodka-vr118": {
+      "_createdAt": 1764011800000,
+      "calories": 590,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "spicy-rigatoni-vodka-vr118",
+      "ingredients": [
+        "400 g rigatoni",
+        "2 tablespoons olive oil",
+        "2 cloves garlic",
+        "1/2 teaspoon red pepper flakes",
+        "1/2 cup tomato paste",
+        "1/2 cup cream",
+        "1/4 cup vodka"
+      ],
+      "name": "Spicy Rigatoni Vodka",
+      "notes": "Reserve pasta water to loosen the sauce.",
+      "servings": 4,
+      "steps": [
+        "Cook rigatoni until al dente.",
+        "Sauté garlic and pepper flakes in oil.",
+        "Stir in tomato paste and cook until deep red.",
+        "Add vodka and cream, then toss with pasta.",
+        "Serve with grated parmesan."
+      ],
+      "tags": [
+        "Viral",
+        "Pasta",
+        "Spicy"
+      ]
+    },
+    "gochujang-butter-noodles-vr119": {
+      "_createdAt": 1764011900000,
+      "calories": 500,
+      "category": "Dinner",
+      "cookTime": "15 Minutes",
+      "id": "gochujang-butter-noodles-vr119",
+      "ingredients": [
+        "200 g noodles",
+        "2 tablespoons butter",
+        "1 tablespoon gochujang",
+        "1 tablespoon soy sauce",
+        "1 teaspoon honey",
+        "2 green onions, sliced",
+        "Sesame seeds"
+      ],
+      "name": "Gochujang Butter Noodles",
+      "notes": "Add a fried egg for extra richness.",
+      "servings": 2,
+      "steps": [
+        "Cook noodles and reserve 1/4 cup of pasta water.",
+        "Melt butter and whisk in gochujang, soy sauce, and honey.",
+        "Toss noodles with sauce and a splash of pasta water.",
+        "Top with green onions and sesame seeds."
+      ],
+      "tags": [
+        "Viral",
+        "Noodles",
+        "Spicy"
+      ]
+    },
+    "chili-crisp-garlic-butter-eggs-vr120": {
+      "_createdAt": 1764012000000,
+      "calories": 290,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "chili-crisp-garlic-butter-eggs-vr120",
+      "ingredients": [
+        "2 eggs",
+        "1 tablespoon butter",
+        "1 teaspoon chili crisp",
+        "1/2 teaspoon minced garlic",
+        "Salt and pepper",
+        "Toasted bread"
+      ],
+      "name": "Chili Crisp Garlic Butter Eggs",
+      "notes": "Use chili crisp oil for extra crunch.",
+      "servings": 2,
+      "steps": [
+        "Melt butter in a pan and add garlic.",
+        "Crack in eggs and spoon chili crisp over the whites.",
+        "Cook until whites are set.",
+        "Serve over toast."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Spicy"
+      ]
+    },
+    "tiktok-lemon-pasta-vr121": {
+      "_createdAt": 1764012100000,
+      "calories": 470,
+      "category": "Dinner",
+      "cookTime": "20 Minutes",
+      "id": "tiktok-lemon-pasta-vr121",
+      "ingredients": [
+        "400 g spaghetti",
+        "1/4 cup butter",
+        "1/3 cup grated parmesan",
+        "1 lemon, zested and juiced",
+        "1/4 cup pasta water",
+        "Black pepper"
+      ],
+      "name": "TikTok Lemon Pasta",
+      "notes": "Add basil for freshness.",
+      "servings": 4,
+      "steps": [
+        "Cook spaghetti until al dente.",
+        "Melt butter with lemon zest and juice in a pan.",
+        "Add pasta water and parmesan, stirring until creamy.",
+        "Toss spaghetti in the sauce.",
+        "Finish with black pepper."
+      ],
+      "tags": [
+        "Viral",
+        "Pasta",
+        "Quick"
+      ]
+    },
+    "smashed-burger-tacos-vr122": {
+      "_createdAt": 1764012200000,
+      "calories": 560,
+      "category": "Dinner",
+      "cookTime": "20 Minutes",
+      "id": "smashed-burger-tacos-vr122",
+      "ingredients": [
+        "500 g ground beef",
+        "8 small tortillas",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1 cup shredded lettuce",
+        "1/2 cup diced onions",
+        "Burger sauce"
+      ],
+      "name": "Smashed Burger Tacos",
+      "notes": "Use a cast-iron pan for best sear.",
+      "servings": 4,
+      "steps": [
+        "Press beef onto tortillas and season.",
+        "Cook beef-side down in a hot skillet until browned.",
+        "Flip to toast the tortilla.",
+        "Top with lettuce, onion, and burger sauce."
+      ],
+      "tags": [
+        "Viral",
+        "Beef",
+        "Tacos"
+      ]
+    },
+    "sheet-pan-gnocchi-caprese-vr123": {
+      "_createdAt": 1764012300000,
+      "calories": 480,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "sheet-pan-gnocchi-caprese-vr123",
+      "ingredients": [
+        "500 g potato gnocchi",
+        "2 cups cherry tomatoes",
+        "1/2 cup pesto",
+        "200 g fresh mozzarella",
+        "2 tablespoons olive oil",
+        "Fresh basil"
+      ],
+      "name": "Sheet Pan Gnocchi Caprese",
+      "notes": "Serve with balsamic glaze if desired.",
+      "servings": 4,
+      "steps": [
+        "Toss gnocchi and tomatoes with olive oil.",
+        "Roast at 220°C for 20 minutes.",
+        "Stir in pesto and mozzarella.",
+        "Bake 5 more minutes until melted.",
+        "Top with basil."
+      ],
+      "tags": [
+        "Viral",
+        "Vegetarian",
+        "Sheet-Pan"
+      ]
+    },
+    "smash-dumpling-tacos-vr124": {
+      "_createdAt": 1764012400000,
+      "calories": 510,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "smash-dumpling-tacos-vr124",
+      "ingredients": [
+        "12 dumpling wrappers",
+        "300 g ground pork",
+        "1 tablespoon soy sauce",
+        "1 teaspoon grated ginger",
+        "1/2 cup shredded cabbage",
+        "Chili oil for serving"
+      ],
+      "name": "Smash Dumpling Tacos",
+      "notes": "Use chicken or tofu instead of pork.",
+      "servings": 4,
+      "steps": [
+        "Mix pork with soy sauce and ginger.",
+        "Press a thin layer of filling onto each wrapper.",
+        "Cook filling-side down until crisp.",
+        "Flip to warm the wrapper.",
+        "Top with cabbage and chili oil."
+      ],
+      "tags": [
+        "Viral",
+        "Dumplings",
+        "Pan-Fried"
+      ]
+    },
+    "spicy-tuna-crispy-rice-vr125": {
+      "_createdAt": 1764012500000,
+      "calories": 450,
+      "category": "Lunch",
+      "cookTime": "30 Minutes",
+      "id": "spicy-tuna-crispy-rice-vr125",
+      "ingredients": [
+        "2 cups sushi rice",
+        "1 tablespoon rice vinegar",
+        "2 cans tuna",
+        "2 tablespoons kewpie mayo",
+        "1 teaspoon sriracha",
+        "1/2 teaspoon soy sauce",
+        "Avocado slices"
+      ],
+      "name": "Spicy Tuna Crispy Rice",
+      "notes": "Use salmon if preferred.",
+      "servings": 4,
+      "steps": [
+        "Season rice with vinegar and press into a pan.",
+        "Chill for 10 minutes then cut into squares.",
+        "Pan-fry rice squares until crisp.",
+        "Mix tuna with mayo, sriracha, and soy sauce.",
+        "Top crispy rice with tuna and avocado."
+      ],
+      "tags": [
+        "Viral",
+        "Seafood",
+        "Snack"
+      ]
+    },
+    "viral-cucumber-salad-vr126": {
+      "_createdAt": 1764012600000,
+      "calories": 120,
+      "category": "Snack",
+      "cookTime": "10 Minutes",
+      "id": "viral-cucumber-salad-vr126",
+      "ingredients": [
+        "2 cucumbers, sliced",
+        "1 tablespoon soy sauce",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon sesame oil",
+        "1 teaspoon sugar",
+        "Chili flakes",
+        "Sesame seeds"
+      ],
+      "name": "Viral Cucumber Salad",
+      "notes": "Let it marinate for 5 minutes.",
+      "servings": 2,
+      "steps": [
+        "Add cucumbers to a lidded container.",
+        "Shake with soy sauce, vinegar, sesame oil, and sugar.",
+        "Sprinkle with chili flakes and sesame seeds.",
+        "Serve chilled."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Quick"
+      ]
+    },
+    "marry-me-chicken-vr127": {
+      "_createdAt": 1764012700000,
+      "calories": 610,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "marry-me-chicken-vr127",
+      "ingredients": [
+        "4 chicken thighs",
+        "1 tablespoon olive oil",
+        "2 cloves garlic, minced",
+        "1/2 cup sun-dried tomatoes",
+        "1 cup cream",
+        "1/2 cup chicken stock",
+        "1 teaspoon Italian seasoning"
+      ],
+      "name": "Marry Me Chicken",
+      "notes": "Finish with parmesan for extra richness.",
+      "servings": 4,
+      "steps": [
+        "Sear chicken in olive oil until golden.",
+        "Add garlic and sun-dried tomatoes.",
+        "Pour in cream and stock, then season.",
+        "Simmer for 15 minutes until chicken is cooked.",
+        "Serve with pasta or rice."
+      ],
+      "tags": [
+        "Viral",
+        "Chicken",
+        "Creamy"
+      ]
+    },
+    "honey-butter-toast-vr128": {
+      "_createdAt": 1764012800000,
+      "calories": 310,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "honey-butter-toast-vr128",
+      "ingredients": [
+        "2 thick slices bread",
+        "2 tablespoons butter",
+        "1 tablespoon honey",
+        "1/2 teaspoon cinnamon",
+        "Pinch of salt"
+      ],
+      "name": "Honey Butter Toast",
+      "notes": "Use brioche for extra richness.",
+      "servings": 2,
+      "steps": [
+        "Toast the bread until golden.",
+        "Mix butter with honey, cinnamon, and salt.",
+        "Spread honey butter over warm toast.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "ramen-lasagna-vr129": {
+      "_createdAt": 1764012900000,
+      "calories": 590,
+      "category": "Dinner",
+      "cookTime": "40 Minutes",
+      "id": "ramen-lasagna-vr129",
+      "ingredients": [
+        "2 packs ramen noodles",
+        "500 g ground beef",
+        "2 cups marinara sauce",
+        "1 cup ricotta",
+        "1 cup shredded mozzarella",
+        "1 teaspoon garlic powder"
+      ],
+      "name": "Ramen Lasagna",
+      "notes": "Add spinach between layers for extra greens.",
+      "servings": 6,
+      "steps": [
+        "Cook ramen until just tender and drain.",
+        "Brown beef with garlic powder and stir in marinara.",
+        "Layer ramen, ricotta, sauce, and mozzarella in a baking dish.",
+        "Bake at 200°C for 20 minutes.",
+        "Rest for 5 minutes before slicing."
+      ],
+      "tags": [
+        "Viral",
+        "Pasta",
+        "Comfort"
+      ]
+    },
+    "cinnamon-roll-pancakes-vr130": {
+      "_createdAt": 1764013000000,
+      "calories": 420,
+      "category": "Breakfast",
+      "cookTime": "20 Minutes",
+      "id": "cinnamon-roll-pancakes-vr130",
+      "ingredients": [
+        "2 cups pancake batter",
+        "2 tablespoons melted butter",
+        "2 tablespoons brown sugar",
+        "1 teaspoon cinnamon",
+        "1/2 cup icing sugar",
+        "2 tablespoons milk"
+      ],
+      "name": "Cinnamon Roll Pancakes",
+      "notes": "Use a squeeze bottle for the swirl.",
+      "servings": 4,
+      "steps": [
+        "Mix melted butter, brown sugar, and cinnamon.",
+        "Cook pancakes and swirl cinnamon mixture on top.",
+        "Flip and cook until set.",
+        "Whisk icing sugar with milk for glaze.",
+        "Drizzle glaze over pancakes."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "baked-parmesan-potatoes-vr131": {
+      "_createdAt": 1764013100000,
+      "calories": 340,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "baked-parmesan-potatoes-vr131",
+      "ingredients": [
+        "700 g baby potatoes, halved",
+        "2 tablespoons olive oil",
+        "1/2 cup grated parmesan",
+        "1 teaspoon garlic powder",
+        "Salt and pepper",
+        "Fresh parsley"
+      ],
+      "name": "Baked Parmesan Potatoes",
+      "notes": "Serve with a squeeze of lemon.",
+      "servings": 4,
+      "steps": [
+        "Toss potatoes with olive oil, garlic powder, salt, and pepper.",
+        "Spread on a baking sheet lined with parmesan.",
+        "Bake at 220°C for 25 minutes until crisp.",
+        "Garnish with parsley."
+      ],
+      "tags": [
+        "Viral",
+        "Side",
+        "Vegetarian"
+      ]
+    },
+    "crispy-potato-stack-muffins-vr132": {
+      "_createdAt": 1764013200000,
+      "calories": 360,
+      "category": "Snack",
+      "cookTime": "40 Minutes",
+      "id": "crispy-potato-stack-muffins-vr132",
+      "ingredients": [
+        "3 large potatoes, thinly sliced",
+        "2 tablespoons melted butter",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon paprika",
+        "Salt and pepper",
+        "Grated parmesan"
+      ],
+      "name": "Crispy Potato Stack Muffins",
+      "notes": "Use a mandoline for even slices.",
+      "servings": 6,
+      "steps": [
+        "Toss potato slices with butter and seasonings.",
+        "Stack slices in a greased muffin tin.",
+        "Bake at 200°C for 30 minutes.",
+        "Top with parmesan and bake 5 more minutes."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Potato"
+      ]
+    },
+    "tater-tot-waffles-vr133": {
+      "_createdAt": 1764013300000,
+      "calories": 390,
+      "category": "Breakfast",
+      "cookTime": "20 Minutes",
+      "id": "tater-tot-waffles-vr133",
+      "ingredients": [
+        "4 cups frozen tater tots",
+        "1/2 teaspoon garlic powder",
+        "1/2 teaspoon smoked paprika",
+        "Salt",
+        "Sour cream for serving"
+      ],
+      "name": "Tater Tot Waffles",
+      "notes": "Top with chives for extra flavor.",
+      "servings": 4,
+      "steps": [
+        "Heat a waffle iron and grease it lightly.",
+        "Spread tater tots in the waffle iron and season.",
+        "Cook for 12 minutes until crisp.",
+        "Serve with sour cream."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Potato"
+      ]
+    },
+    "dill-pickle-ranch-salad-vr134": {
+      "_createdAt": 1764013400000,
+      "calories": 310,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "dill-pickle-ranch-salad-vr134",
+      "ingredients": [
+        "4 cups chopped romaine",
+        "1/2 cup diced pickles",
+        "1/4 cup pickle juice",
+        "1/3 cup ranch dressing",
+        "1/2 cup shredded chicken",
+        "1/4 cup shredded cheddar"
+      ],
+      "name": "Dill Pickle Ranch Salad",
+      "notes": "Add croutons for crunch.",
+      "servings": 4,
+      "steps": [
+        "Whisk pickle juice into ranch dressing.",
+        "Combine romaine, pickles, chicken, and cheddar.",
+        "Toss with dressing.",
+        "Serve chilled."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Tangy"
+      ]
+    },
+    "spicy-korean-fried-chicken-bowls-vr135": {
+      "_createdAt": 1764013500000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "spicy-korean-fried-chicken-bowls-vr135",
+      "ingredients": [
+        "500 g chicken thighs",
+        "1/2 cup cornstarch",
+        "1/4 cup gochujang",
+        "2 tablespoons honey",
+        "1 tablespoon soy sauce",
+        "2 cups cooked rice",
+        "Cucumber slices"
+      ],
+      "name": "Spicy Korean Fried Chicken Bowls",
+      "notes": "Use air fryer for a lighter option.",
+      "servings": 4,
+      "steps": [
+        "Coat chicken with cornstarch and fry until crisp.",
+        "Simmer gochujang, honey, and soy sauce.",
+        "Toss chicken in sauce.",
+        "Serve over rice with cucumber."
+      ],
+      "tags": [
+        "Viral",
+        "Chicken",
+        "Bowl"
+      ]
+    },
+    "grinder-sliders-vr136": {
+      "_createdAt": 1764013600000,
+      "calories": 530,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "grinder-sliders-vr136",
+      "ingredients": [
+        "12 slider buns",
+        "200 g sliced salami",
+        "200 g sliced turkey",
+        "1 cup shredded mozzarella",
+        "1/2 cup shredded lettuce",
+        "2 tablespoons mayo",
+        "1 tablespoon red wine vinegar"
+      ],
+      "name": "Grinder Sliders",
+      "notes": "Brush buns with garlic butter before baking.",
+      "servings": 4,
+      "steps": [
+        "Layer salami, turkey, and mozzarella on buns.",
+        "Bake at 190°C for 10 minutes.",
+        "Toss lettuce with mayo and vinegar.",
+        "Stuff sliders with dressed lettuce and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Sandwich",
+        "Baked"
+      ]
+    },
+    "feta-fried-eggs-vr137": {
+      "_createdAt": 1764013700000,
+      "calories": 260,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "feta-fried-eggs-vr137",
+      "ingredients": [
+        "2 eggs",
+        "1/4 cup crumbled feta",
+        "1 teaspoon olive oil",
+        "Black pepper",
+        "Toasted bread"
+      ],
+      "name": "Feta Fried Eggs",
+      "notes": "Add chili flakes for spice.",
+      "servings": 2,
+      "steps": [
+        "Heat olive oil in a skillet and add feta.",
+        "Crack eggs over feta and fry until set.",
+        "Season with pepper.",
+        "Serve with toast."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    "sriracha-chicken-lettuce-wraps-vr138": {
+      "_createdAt": 1764013800000,
+      "calories": 360,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "sriracha-chicken-lettuce-wraps-vr138",
+      "ingredients": [
+        "400 g ground chicken",
+        "2 tablespoons sriracha",
+        "1 tablespoon soy sauce",
+        "1 teaspoon honey",
+        "1/2 cup diced carrots",
+        "1/2 cup diced bell pepper",
+        "Butter lettuce leaves"
+      ],
+      "name": "Sriracha Chicken Lettuce Wraps",
+      "notes": "Top with chopped peanuts for crunch.",
+      "servings": 4,
+      "steps": [
+        "Cook ground chicken in a skillet until browned.",
+        "Stir in sriracha, soy sauce, and honey.",
+        "Add carrots and bell pepper and cook 2 minutes.",
+        "Spoon into lettuce leaves and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Low-Carb"
+      ]
+    },
+    "mango-sticky-rice-bowls-vr139": {
+      "_createdAt": 1764013900000,
+      "calories": 420,
+      "category": "Dessert",
+      "cookTime": "30 Minutes",
+      "id": "mango-sticky-rice-bowls-vr139",
+      "ingredients": [
+        "1 cup sticky rice",
+        "1 cup coconut milk",
+        "2 tablespoons sugar",
+        "1 ripe mango, sliced",
+        "Pinch of salt",
+        "Toasted sesame seeds"
+      ],
+      "name": "Mango Sticky Rice Bowls",
+      "notes": "Chill before serving if desired.",
+      "servings": 4,
+      "steps": [
+        "Cook sticky rice until tender.",
+        "Warm coconut milk with sugar and salt.",
+        "Stir coconut milk into rice.",
+        "Serve with mango slices and sesame seeds."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Tropical"
+      ]
+    },
+    "korean-corn-dogs-vr140": {
+      "_createdAt": 1764014000000,
+      "calories": 520,
+      "category": "Snack",
+      "cookTime": "30 Minutes",
+      "id": "korean-corn-dogs-vr140",
+      "ingredients": [
+        "6 hot dogs",
+        "1 cup flour",
+        "2 tablespoons sugar",
+        "1 teaspoon baking powder",
+        "3/4 cup milk",
+        "1 cup panko crumbs",
+        "Oil for frying"
+      ],
+      "name": "Korean Corn Dogs",
+      "notes": "Swap half the hot dog with mozzarella for cheese pull.",
+      "servings": 6,
+      "steps": [
+        "Mix flour, sugar, baking powder, and milk into a thick batter.",
+        "Skewer hot dogs and coat with batter.",
+        "Roll in panko crumbs.",
+        "Fry until golden and drain.",
+        "Dust with sugar if desired."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Fried"
+      ]
+    },
+    "egg-flight-trio-vr141": {
+      "_createdAt": 1764014100000,
+      "calories": 250,
+      "category": "Breakfast",
+      "cookTime": "12 Minutes",
+      "id": "egg-flight-trio-vr141",
+      "ingredients": [
+        "3 eggs",
+        "1 tablespoon pesto",
+        "1 tablespoon salsa",
+        "1 tablespoon chili crisp",
+        "Salt and pepper"
+      ],
+      "name": "Egg Flight Trio",
+      "notes": "Use a muffin tin for baked eggs instead.",
+      "servings": 2,
+      "steps": [
+        "Fry or scramble eggs in three small pans.",
+        "Top one portion with pesto, one with salsa, one with chili crisp.",
+        "Season with salt and pepper.",
+        "Serve with toast."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Quick"
+      ]
+    },
+    "chickpea-cookie-dough-bites-vr142": {
+      "_createdAt": 1764014200000,
+      "calories": 240,
+      "category": "Snack",
+      "cookTime": "10 Minutes",
+      "id": "chickpea-cookie-dough-bites-vr142",
+      "ingredients": [
+        "1 can chickpeas, rinsed",
+        "3 tablespoons peanut butter",
+        "2 tablespoons maple syrup",
+        "1 teaspoon vanilla extract",
+        "1/4 cup mini chocolate chips",
+        "Pinch of salt"
+      ],
+      "name": "Chickpea Cookie Dough Bites",
+      "notes": "Store in the fridge for up to 4 days.",
+      "servings": 6,
+      "steps": [
+        "Blend chickpeas, peanut butter, syrup, vanilla, and salt until smooth.",
+        "Fold in chocolate chips.",
+        "Chill for 20 minutes.",
+        "Roll into bite-sized balls."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "No-Bake"
+      ]
+    },
+    "oreo-mug-cake-vr143": {
+      "_createdAt": 1764014300000,
+      "calories": 360,
+      "category": "Dessert",
+      "cookTime": "5 Minutes",
+      "id": "oreo-mug-cake-vr143",
+      "ingredients": [
+        "6 Oreo cookies",
+        "1/4 cup milk",
+        "1/4 teaspoon baking powder",
+        "Whipped cream"
+      ],
+      "name": "Oreo Mug Cake",
+      "notes": "Serve immediately for best texture.",
+      "servings": 1,
+      "steps": [
+        "Crush cookies and mix with milk and baking powder.",
+        "Pour into a mug.",
+        "Microwave for 90 seconds.",
+        "Top with whipped cream."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Microwave"
+      ]
+    },
+    "cheesecake-stuffed-strawberries-vr144": {
+      "_createdAt": 1764014400000,
+      "calories": 190,
+      "category": "Dessert",
+      "cookTime": "15 Minutes",
+      "id": "cheesecake-stuffed-strawberries-vr144",
+      "ingredients": [
+        "24 large strawberries",
+        "150 g cream cheese",
+        "2 tablespoons icing sugar",
+        "1 teaspoon vanilla",
+        "2 tablespoons crushed graham crackers"
+      ],
+      "name": "Cheesecake Stuffed Strawberries",
+      "notes": "Chill before serving.",
+      "servings": 6,
+      "steps": [
+        "Hull strawberries and hollow slightly.",
+        "Whisk cream cheese with icing sugar and vanilla.",
+        "Pipe filling into strawberries.",
+        "Sprinkle with crushed graham crackers."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "No-Bake"
+      ]
+    },
+    "lemon-posset-pots-vr145": {
+      "_createdAt": 1764014500000,
+      "calories": 330,
+      "category": "Dessert",
+      "cookTime": "15 Minutes",
+      "id": "lemon-posset-pots-vr145",
+      "ingredients": [
+        "2 cups heavy cream",
+        "1/2 cup sugar",
+        "1/4 cup lemon juice",
+        "Lemon zest"
+      ],
+      "name": "Lemon Posset Pots",
+      "notes": "Serve with berries.",
+      "servings": 4,
+      "steps": [
+        "Simmer cream and sugar for 5 minutes.",
+        "Remove from heat and stir in lemon juice.",
+        "Pour into small cups.",
+        "Chill for 2 hours and top with zest."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "No-Bake"
+      ]
+    },
+    "pink-sauce-pasta-vr146": {
+      "_createdAt": 1764014600000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "pink-sauce-pasta-vr146",
+      "ingredients": [
+        "400 g penne",
+        "1 cup marinara sauce",
+        "1/2 cup cream",
+        "1 tablespoon olive oil",
+        "2 cloves garlic",
+        "1/4 cup parmesan"
+      ],
+      "name": "Pink Sauce Pasta",
+      "notes": "Add basil for color.",
+      "servings": 4,
+      "steps": [
+        "Cook pasta until al dente.",
+        "Sauté garlic in olive oil.",
+        "Stir in marinara and cream.",
+        "Toss pasta with sauce and parmesan.",
+        "Serve hot."
+      ],
+      "tags": [
+        "Viral",
+        "Pasta",
+        "Creamy"
+      ]
+    },
+    "cereal-milk-french-toast-vr147": {
+      "_createdAt": 1764014700000,
+      "calories": 440,
+      "category": "Breakfast",
+      "cookTime": "20 Minutes",
+      "id": "cereal-milk-french-toast-vr147",
+      "ingredients": [
+        "4 slices brioche",
+        "1 cup cereal milk",
+        "2 eggs",
+        "1 teaspoon vanilla",
+        "1 tablespoon butter",
+        "Maple syrup"
+      ],
+      "name": "Cereal Milk French Toast",
+      "notes": "Use fruity cereal for extra flavor.",
+      "servings": 4,
+      "steps": [
+        "Whisk cereal milk, eggs, and vanilla.",
+        "Dip brioche slices in mixture.",
+        "Cook in butter until golden.",
+        "Serve with maple syrup."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "ranch-pickle-chips-vr148": {
+      "_createdAt": 1764014800000,
+      "calories": 220,
+      "category": "Snack",
+      "cookTime": "15 Minutes",
+      "id": "ranch-pickle-chips-vr148",
+      "ingredients": [
+        "2 cups pickle chips",
+        "1/2 cup buttermilk",
+        "1/2 cup flour",
+        "1/2 cup breadcrumbs",
+        "1 teaspoon ranch seasoning",
+        "Oil for frying"
+      ],
+      "name": "Ranch Pickle Chips",
+      "notes": "Bake for a lighter option.",
+      "servings": 4,
+      "steps": [
+        "Dip pickle chips in buttermilk.",
+        "Coat with flour, breadcrumbs, and ranch seasoning.",
+        "Fry until golden.",
+        "Drain and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Fried"
+      ]
+    },
+    "street-corn-dip-vr149": {
+      "_createdAt": 1764014900000,
+      "calories": 330,
+      "category": "Snack",
+      "cookTime": "20 Minutes",
+      "id": "street-corn-dip-vr149",
+      "ingredients": [
+        "2 cups corn kernels",
+        "1/2 cup mayonnaise",
+        "1/2 cup sour cream",
+        "1/2 cup cotija",
+        "1 teaspoon chili powder",
+        "1 tablespoon lime juice",
+        "Chopped cilantro"
+      ],
+      "name": "Street Corn Dip",
+      "notes": "Add jalapeño for heat.",
+      "servings": 6,
+      "steps": [
+        "Char corn in a skillet until slightly browned.",
+        "Mix mayo, sour cream, cotija, chili powder, and lime juice.",
+        "Stir in corn and cilantro.",
+        "Serve with tortilla chips."
+      ],
+      "tags": [
+        "Viral",
+        "Dip",
+        "Vegetarian"
+      ]
+    },
+    "smoked-salmon-bagel-board-vr150": {
+      "_createdAt": 1764015000000,
+      "calories": 410,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "smoked-salmon-bagel-board-vr150",
+      "ingredients": [
+        "4 bagels, toasted",
+        "200 g smoked salmon",
+        "1/2 cup cream cheese",
+        "1/2 red onion, sliced",
+        "1/2 cucumber, sliced",
+        "Capers",
+        "Fresh dill"
+      ],
+      "name": "Smoked Salmon Bagel Board",
+      "notes": "Add lemon wedges for brightness.",
+      "servings": 4,
+      "steps": [
+        "Arrange toasted bagels on a board.",
+        "Add smoked salmon, cream cheese, and vegetables.",
+        "Scatter capers and dill.",
+        "Let everyone build their own bagel."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Seafood"
+      ]
+    },
+    "upside-down-puff-pastry-tarts-vr151": {
+      "_createdAt": 1764015100000,
+      "calories": 380,
+      "category": "Dessert",
+      "cookTime": "25 Minutes",
+      "id": "upside-down-puff-pastry-tarts-vr151",
+      "ingredients": [
+        "1 sheet puff pastry",
+        "2 tablespoons sugar",
+        "1 apple, thinly sliced",
+        "1 tablespoon butter",
+        "Cinnamon"
+      ],
+      "name": "Upside Down Puff Pastry Tarts",
+      "notes": "Use pears or peaches instead.",
+      "servings": 6,
+      "steps": [
+        "Sprinkle sugar on a baking sheet.",
+        "Arrange apple slices and dot with butter.",
+        "Top with puff pastry squares.",
+        "Bake at 200°C for 18 minutes.",
+        "Flip and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Baked"
+      ]
+    },
+    "crunchwrap-supreme-copycat-vr152": {
+      "_createdAt": 1764015200000,
+      "calories": 610,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "crunchwrap-supreme-copycat-vr152",
+      "ingredients": [
+        "4 large tortillas",
+        "1 cup cooked ground beef",
+        "1/2 cup nacho cheese",
+        "4 tostada shells",
+        "1 cup shredded lettuce",
+        "1/2 cup diced tomatoes",
+        "Sour cream"
+      ],
+      "name": "Crunchwrap Supreme Copycat",
+      "notes": "Use queso for extra gooeyness.",
+      "servings": 4,
+      "steps": [
+        "Layer beef and nacho cheese on tortillas.",
+        "Add tostada shell, lettuce, tomato, and sour cream.",
+        "Fold tortilla edges and toast in a skillet.",
+        "Flip until crisp on both sides.",
+        "Serve hot."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Tex-Mex"
+      ]
+    },
+    "sushi-sandwich-onigirazu-vr153": {
+      "_createdAt": 1764015300000,
+      "calories": 430,
+      "category": "Lunch",
+      "cookTime": "25 Minutes",
+      "id": "sushi-sandwich-onigirazu-vr153",
+      "ingredients": [
+        "2 sheets nori",
+        "2 cups sushi rice",
+        "1/2 avocado, sliced",
+        "1/2 cucumber, sliced",
+        "100 g cooked shrimp",
+        "Soy sauce for serving"
+      ],
+      "name": "Sushi Sandwich Onigirazu",
+      "notes": "Use smoked salmon or tofu instead.",
+      "servings": 2,
+      "steps": [
+        "Place nori on a sheet of plastic wrap.",
+        "Spread rice in the center.",
+        "Layer shrimp, avocado, and cucumber.",
+        "Top with more rice and fold into a parcel.",
+        "Slice in half and serve with soy sauce."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Seafood"
+      ]
+    },
+    "avocado-feta-smash-toast-vr154": {
+      "_createdAt": 1764015400000,
+      "calories": 330,
+      "category": "Breakfast",
+      "cookTime": "10 Minutes",
+      "id": "avocado-feta-smash-toast-vr154",
+      "ingredients": [
+        "2 slices sourdough",
+        "1 avocado",
+        "1/4 cup feta",
+        "1 teaspoon lemon juice",
+        "Chili flakes",
+        "Salt"
+      ],
+      "name": "Avocado Feta Smash Toast",
+      "notes": "Add sliced tomatoes for extra freshness.",
+      "servings": 2,
+      "steps": [
+        "Toast bread until golden.",
+        "Mash avocado with feta, lemon juice, and salt.",
+        "Spread on toast.",
+        "Top with chili flakes."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    "deli-pasta-salad-vr155": {
+      "_createdAt": 1764015500000,
+      "calories": 450,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "deli-pasta-salad-vr155",
+      "ingredients": [
+        "300 g rotini",
+        "1/2 cup diced salami",
+        "1/2 cup diced ham",
+        "1/2 cup diced cheddar",
+        "1/2 cup cherry tomatoes",
+        "1/3 cup Italian dressing"
+      ],
+      "name": "Deli Pasta Salad",
+      "notes": "Add olives or pepperoncini for tang.",
+      "servings": 6,
+      "steps": [
+        "Cook pasta and rinse under cold water.",
+        "Combine pasta with meats, cheese, and tomatoes.",
+        "Toss with Italian dressing.",
+        "Chill before serving."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Picnic"
+      ]
+    },
+    "garlic-confit-focaccia-vr156": {
+      "_createdAt": 1764015600000,
+      "calories": 400,
+      "category": "Dinner",
+      "cookTime": "45 Minutes",
+      "id": "garlic-confit-focaccia-vr156",
+      "ingredients": [
+        "1 sheet focaccia dough",
+        "10 garlic cloves",
+        "1/3 cup olive oil",
+        "Rosemary sprigs",
+        "Flaky salt"
+      ],
+      "name": "Garlic Confit Focaccia",
+      "notes": "Serve warm with extra garlic oil.",
+      "servings": 8,
+      "steps": [
+        "Simmer garlic in olive oil on low heat for 15 minutes.",
+        "Press dough into a pan and dimple.",
+        "Pour garlic oil over dough and scatter cloves.",
+        "Bake at 200°C for 25 minutes.",
+        "Top with rosemary and flaky salt."
+      ],
+      "tags": [
+        "Viral",
+        "Bread",
+        "Vegetarian"
+      ]
+    },
+    "pull-apart-pepperoni-bread-vr157": {
+      "_createdAt": 1764015700000,
+      "calories": 470,
+      "category": "Snack",
+      "cookTime": "30 Minutes",
+      "id": "pull-apart-pepperoni-bread-vr157",
+      "ingredients": [
+        "1 loaf crusty bread",
+        "1 cup shredded mozzarella",
+        "1/2 cup sliced pepperoni",
+        "2 tablespoons melted butter",
+        "1 teaspoon garlic powder",
+        "2 tablespoons parmesan"
+      ],
+      "name": "Pull Apart Pepperoni Bread",
+      "notes": "Use marinara for dipping.",
+      "servings": 6,
+      "steps": [
+        "Slice bread in a crosshatch pattern.",
+        "Stuff with mozzarella and pepperoni.",
+        "Brush with butter mixed with garlic powder.",
+        "Bake at 190°C for 15 minutes.",
+        "Top with parmesan and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Cheesy"
+      ]
+    },
+    "chili-cheese-dog-bake-vr158": {
+      "_createdAt": 1764015800000,
+      "calories": 650,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "chili-cheese-dog-bake-vr158",
+      "ingredients": [
+        "6 hot dogs",
+        "6 hot dog buns",
+        "1 1/2 cups chili",
+        "1 cup shredded cheddar",
+        "1/4 cup diced onions"
+      ],
+      "name": "Chili Cheese Dog Bake",
+      "notes": "Serve with jalapeños for heat.",
+      "servings": 4,
+      "steps": [
+        "Place buns in a baking dish and add hot dogs.",
+        "Spoon chili over the top.",
+        "Sprinkle with cheddar.",
+        "Bake at 190°C for 15 minutes.",
+        "Top with onions."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Comfort"
+      ]
+    },
+    "loaded-potato-soup-bread-bowls-vr159": {
+      "_createdAt": 1764015900000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "loaded-potato-soup-bread-bowls-vr159",
+      "ingredients": [
+        "4 bread bowls",
+        "4 cups potato soup",
+        "1/2 cup shredded cheddar",
+        "1/4 cup cooked bacon",
+        "2 tablespoons sour cream",
+        "Chopped chives"
+      ],
+      "name": "Loaded Potato Soup Bread Bowls",
+      "notes": "Toast the bread bowls for extra crunch.",
+      "servings": 4,
+      "steps": [
+        "Warm potato soup until hot.",
+        "Hollow out bread bowls.",
+        "Fill with soup and top with cheddar, bacon, and sour cream.",
+        "Garnish with chives."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Comfort"
+      ]
+    },
+    "crispy-rice-paper-dumplings-vr160": {
+      "_createdAt": 1764016000000,
+      "calories": 360,
+      "category": "Snack",
+      "cookTime": "25 Minutes",
+      "id": "crispy-rice-paper-dumplings-vr160",
+      "ingredients": [
+        "8 rice paper sheets",
+        "1 cup shredded cabbage",
+        "1/2 cup grated carrot",
+        "200 g ground chicken",
+        "1 tablespoon soy sauce",
+        "1 teaspoon sesame oil"
+      ],
+      "name": "Crispy Rice Paper Dumplings",
+      "notes": "Serve with sweet chili sauce.",
+      "servings": 4,
+      "steps": [
+        "Cook ground chicken with soy sauce and sesame oil.",
+        "Soak rice paper sheets and place filling inside.",
+        "Fold into dumplings.",
+        "Pan-fry until crisp and golden."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Pan-Fried"
+      ]
+    },
+    "spicy-tomato-beans-on-toast-vr161": {
+      "_createdAt": 1764016100000,
+      "calories": 320,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "spicy-tomato-beans-on-toast-vr161",
+      "ingredients": [
+        "1 can white beans",
+        "1 cup crushed tomatoes",
+        "1/2 teaspoon chili flakes",
+        "1 clove garlic, minced",
+        "2 slices sourdough",
+        "Olive oil"
+      ],
+      "name": "Spicy Tomato Beans on Toast",
+      "notes": "Finish with parmesan.",
+      "servings": 2,
+      "steps": [
+        "Sauté garlic in olive oil.",
+        "Add tomatoes, beans, and chili flakes.",
+        "Simmer for 8 minutes.",
+        "Serve over toasted sourdough."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Vegetarian"
+      ]
+    },
+    "balsamic-strawberry-jam-toast-vr162": {
+      "_createdAt": 1764016200000,
+      "calories": 280,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "balsamic-strawberry-jam-toast-vr162",
+      "ingredients": [
+        "1 cup strawberries, diced",
+        "1 tablespoon balsamic vinegar",
+        "1 tablespoon sugar",
+        "2 slices toast",
+        "Ricotta for serving"
+      ],
+      "name": "Balsamic Strawberry Jam Toast",
+      "notes": "Add basil for a fresh twist.",
+      "servings": 2,
+      "steps": [
+        "Simmer strawberries with balsamic and sugar until jammy.",
+        "Toast bread and spread with ricotta.",
+        "Top with warm strawberry jam.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "scallion-pancakes-vr163": {
+      "_createdAt": 1764016300000,
+      "calories": 330,
+      "category": "Snack",
+      "cookTime": "25 Minutes",
+      "id": "scallion-pancakes-vr163",
+      "ingredients": [
+        "2 cups flour",
+        "3/4 cup warm water",
+        "1/2 cup sliced scallions",
+        "2 tablespoons sesame oil",
+        "Salt"
+      ],
+      "name": "Scallion Pancakes",
+      "notes": "Serve with soy dipping sauce.",
+      "servings": 4,
+      "steps": [
+        "Mix flour, water, and salt into a dough.",
+        "Roll out, brush with sesame oil, and scatter scallions.",
+        "Roll up and flatten into a pancake.",
+        "Pan-fry until golden on both sides."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Vegetarian"
+      ]
+    },
+    "sweet-potato-glass-noodles-vr164": {
+      "_createdAt": 1764016400000,
+      "calories": 420,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "sweet-potato-glass-noodles-vr164",
+      "ingredients": [
+        "200 g sweet potato glass noodles",
+        "1 tablespoon soy sauce",
+        "1 tablespoon sesame oil",
+        "1/2 cup sliced mushrooms",
+        "1/2 cup julienned carrots",
+        "2 green onions, sliced"
+      ],
+      "name": "Sweet Potato Glass Noodles",
+      "notes": "Add spinach for more greens.",
+      "servings": 4,
+      "steps": [
+        "Cook noodles according to package directions.",
+        "Sauté mushrooms and carrots until tender.",
+        "Toss noodles with soy sauce and sesame oil.",
+        "Combine with vegetables and green onions."
+      ],
+      "tags": [
+        "Viral",
+        "Noodles",
+        "Vegetarian"
+      ]
+    },
+    "peanut-butter-ramen-vr165": {
+      "_createdAt": 1764016500000,
+      "calories": 510,
+      "category": "Dinner",
+      "cookTime": "15 Minutes",
+      "id": "peanut-butter-ramen-vr165",
+      "ingredients": [
+        "2 packs ramen noodles",
+        "2 tablespoons peanut butter",
+        "1 tablespoon soy sauce",
+        "1 teaspoon rice vinegar",
+        "1/2 teaspoon chili flakes",
+        "1/4 cup noodle cooking water"
+      ],
+      "name": "Peanut Butter Ramen",
+      "notes": "Top with green onions or peanuts.",
+      "servings": 2,
+      "steps": [
+        "Cook ramen and reserve some cooking water.",
+        "Whisk peanut butter, soy sauce, vinegar, and chili flakes.",
+        "Stir in warm cooking water to thin the sauce.",
+        "Toss noodles with sauce and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Noodles",
+        "Quick"
+      ]
+    },
+    "chocolate-chip-skillet-cookie-vr166": {
+      "_createdAt": 1764016600000,
+      "calories": 430,
+      "category": "Dessert",
+      "cookTime": "25 Minutes",
+      "id": "chocolate-chip-skillet-cookie-vr166",
+      "ingredients": [
+        "1/2 cup butter",
+        "1/2 cup brown sugar",
+        "1/4 cup sugar",
+        "1 egg",
+        "1 cup flour",
+        "1/2 teaspoon baking soda",
+        "1 cup chocolate chips"
+      ],
+      "name": "Chocolate Chip Skillet Cookie",
+      "notes": "Top with ice cream.",
+      "servings": 6,
+      "steps": [
+        "Cream butter and sugars.",
+        "Mix in egg, flour, and baking soda.",
+        "Fold in chocolate chips.",
+        "Press into a skillet and bake at 180°C for 18 minutes.",
+        "Serve warm."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Baked"
+      ]
+    },
+    "banana-bread-brownies-vr167": {
+      "_createdAt": 1764016700000,
+      "calories": 390,
+      "category": "Dessert",
+      "cookTime": "35 Minutes",
+      "id": "banana-bread-brownies-vr167",
+      "ingredients": [
+        "2 ripe bananas",
+        "1/2 cup butter, melted",
+        "1 cup sugar",
+        "2 eggs",
+        "1 cup flour",
+        "1/2 cup cocoa powder",
+        "1/2 teaspoon baking powder"
+      ],
+      "name": "Banana Bread Brownies",
+      "notes": "Swirl in peanut butter if desired.",
+      "servings": 9,
+      "steps": [
+        "Mash bananas and whisk with butter and sugar.",
+        "Add eggs, flour, cocoa, and baking powder.",
+        "Pour into a lined pan.",
+        "Bake at 180°C for 25 minutes.",
+        "Cool before slicing."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Chocolate"
+      ]
+    },
+    "brown-butter-rice-krispie-treats-vr168": {
+      "_createdAt": 1764016800000,
+      "calories": 320,
+      "category": "Dessert",
+      "cookTime": "15 Minutes",
+      "id": "brown-butter-rice-krispie-treats-vr168",
+      "ingredients": [
+        "4 tablespoons butter",
+        "4 cups marshmallows",
+        "1/2 teaspoon vanilla",
+        "4 cups rice cereal",
+        "Pinch of salt"
+      ],
+      "name": "Brown Butter Rice Krispie Treats",
+      "notes": "Grease the spatula for easy mixing.",
+      "servings": 12,
+      "steps": [
+        "Brown butter in a pot.",
+        "Add marshmallows and stir until melted.",
+        "Mix in vanilla and salt.",
+        "Fold in cereal and press into a pan.",
+        "Cool before cutting."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "No-Bake"
+      ]
+    },
+    "s-mores-dip-vr169": {
+      "_createdAt": 1764016900000,
+      "calories": 350,
+      "category": "Dessert",
+      "cookTime": "10 Minutes",
+      "id": "s-mores-dip-vr169",
+      "ingredients": [
+        "1 cup chocolate chips",
+        "1 cup mini marshmallows",
+        "Graham crackers",
+        "1 teaspoon butter"
+      ],
+      "name": "S'mores Dip",
+      "notes": "Broil for extra toasting.",
+      "servings": 6,
+      "steps": [
+        "Spread butter in a small skillet.",
+        "Add chocolate chips and top with marshmallows.",
+        "Bake at 200°C for 5 minutes.",
+        "Serve with graham crackers."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Dip"
+      ]
+    },
+    "hot-chocolate-bombs-vr170": {
+      "_createdAt": 1764017000000,
+      "calories": 280,
+      "category": "Dessert",
+      "cookTime": "20 Minutes",
+      "id": "hot-chocolate-bombs-vr170",
+      "ingredients": [
+        "200 g chocolate",
+        "6 tablespoons hot cocoa mix",
+        "Mini marshmallows",
+        "Sprinkles"
+      ],
+      "name": "Hot Chocolate Bombs",
+      "notes": "Drop into hot milk to serve.",
+      "servings": 6,
+      "steps": [
+        "Melt chocolate and coat silicone molds.",
+        "Chill until set.",
+        "Fill halves with cocoa mix and marshmallows.",
+        "Seal with melted chocolate and decorate."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "No-Bake"
+      ]
+    },
+    "pesto-tortellini-salad-vr171": {
+      "_createdAt": 1764017100000,
+      "calories": 470,
+      "category": "Lunch",
+      "cookTime": "20 Minutes",
+      "id": "pesto-tortellini-salad-vr171",
+      "ingredients": [
+        "400 g cheese tortellini",
+        "1/2 cup pesto",
+        "1 cup cherry tomatoes",
+        "1/2 cup mozzarella pearls",
+        "1/4 cup chopped basil"
+      ],
+      "name": "Pesto Tortellini Salad",
+      "notes": "Add arugula for a peppery bite.",
+      "servings": 6,
+      "steps": [
+        "Cook tortellini and rinse under cold water.",
+        "Toss with pesto.",
+        "Add tomatoes, mozzarella, and basil.",
+        "Chill before serving."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Pasta"
+      ]
+    },
+    "cowboy-caviar-vr172": {
+      "_createdAt": 1764017200000,
+      "calories": 230,
+      "category": "Snack",
+      "cookTime": "15 Minutes",
+      "id": "cowboy-caviar-vr172",
+      "ingredients": [
+        "1 can black beans, rinsed",
+        "1 can corn, drained",
+        "1/2 cup diced tomatoes",
+        "1/4 cup diced red onion",
+        "1 tablespoon lime juice",
+        "2 tablespoons olive oil",
+        "Chopped cilantro"
+      ],
+      "name": "Cowboy Caviar",
+      "notes": "Let it chill for 10 minutes to meld.",
+      "servings": 6,
+      "steps": [
+        "Combine beans, corn, tomatoes, and onion.",
+        "Whisk lime juice with olive oil.",
+        "Toss with vegetables and cilantro.",
+        "Serve with tortilla chips."
+      ],
+      "tags": [
+        "Viral",
+        "Dip",
+        "Vegetarian"
+      ]
+    },
+    "chili-crunch-oil-noodles-vr173": {
+      "_createdAt": 1764017300000,
+      "calories": 480,
+      "category": "Dinner",
+      "cookTime": "15 Minutes",
+      "id": "chili-crunch-oil-noodles-vr173",
+      "ingredients": [
+        "200 g noodles",
+        "1 tablespoon chili crisp",
+        "1 tablespoon soy sauce",
+        "1 teaspoon rice vinegar",
+        "1 teaspoon sugar",
+        "2 green onions, sliced"
+      ],
+      "name": "Chili Crunch Oil Noodles",
+      "notes": "Add a soft-boiled egg for protein.",
+      "servings": 2,
+      "steps": [
+        "Cook noodles according to package directions.",
+        "Whisk chili crisp, soy sauce, vinegar, and sugar.",
+        "Toss noodles with sauce.",
+        "Top with green onions."
+      ],
+      "tags": [
+        "Viral",
+        "Noodles",
+        "Spicy"
+      ]
+    },
+    "caprese-sandwich-skewers-vr174": {
+      "_createdAt": 1764017400000,
+      "calories": 300,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "caprese-sandwich-skewers-vr174",
+      "ingredients": [
+        "1 cup cherry tomatoes",
+        "1 cup mozzarella pearls",
+        "1 cup basil leaves",
+        "2 tablespoons balsamic glaze",
+        "1 tablespoon olive oil",
+        "Salt and pepper"
+      ],
+      "name": "Caprese Sandwich Skewers",
+      "notes": "Add prosciutto for a savory twist.",
+      "servings": 4,
+      "steps": [
+        "Thread tomatoes, mozzarella, and basil onto skewers.",
+        "Drizzle with olive oil and balsamic glaze.",
+        "Season with salt and pepper.",
+        "Serve chilled."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Vegetarian"
+      ]
+    },
+    "philly-cheesesteak-sloppy-joes-vr175": {
+      "_createdAt": 1764017500000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "philly-cheesesteak-sloppy-joes-vr175",
+      "ingredients": [
+        "500 g ground beef",
+        "1 onion, diced",
+        "1 bell pepper, diced",
+        "1 cup beef stock",
+        "1 tablespoon Worcestershire sauce",
+        "4 hoagie rolls",
+        "6 slices provolone"
+      ],
+      "name": "Philly Cheesesteak Sloppy Joes",
+      "notes": "Serve with extra sautéed onions.",
+      "servings": 4,
+      "steps": [
+        "Brown beef with onions and peppers.",
+        "Add stock and Worcestershire, simmer until thick.",
+        "Spoon onto rolls and top with provolone.",
+        "Melt cheese under the grill."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Beef"
+      ]
+    },
+    "cheeseburger-egg-rolls-vr176": {
+      "_createdAt": 1764017600000,
+      "calories": 480,
+      "category": "Snack",
+      "cookTime": "25 Minutes",
+      "id": "cheeseburger-egg-rolls-vr176",
+      "ingredients": [
+        "6 egg roll wrappers",
+        "300 g ground beef",
+        "1/2 cup shredded cheddar",
+        "1/4 cup diced pickles",
+        "1 tablespoon ketchup",
+        "Oil for frying"
+      ],
+      "name": "Cheeseburger Egg Rolls",
+      "notes": "Serve with burger sauce for dipping.",
+      "servings": 6,
+      "steps": [
+        "Cook ground beef and stir in ketchup.",
+        "Place beef, cheddar, and pickles on wrappers.",
+        "Roll tightly and seal edges.",
+        "Fry until golden."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Beef"
+      ]
+    },
+    "buffalo-chicken-dip-stuffed-peppers-vr177": {
+      "_createdAt": 1764017700000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "buffalo-chicken-dip-stuffed-peppers-vr177",
+      "ingredients": [
+        "4 bell peppers, halved",
+        "2 cups shredded chicken",
+        "1/2 cup cream cheese",
+        "1/4 cup hot sauce",
+        "1/2 cup shredded cheddar",
+        "Green onions"
+      ],
+      "name": "Buffalo Chicken Dip Stuffed Peppers",
+      "notes": "Serve with ranch dressing.",
+      "servings": 4,
+      "steps": [
+        "Mix chicken with cream cheese and hot sauce.",
+        "Fill pepper halves with mixture.",
+        "Top with cheddar.",
+        "Bake at 190°C for 20 minutes.",
+        "Garnish with green onions."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Spicy"
+      ]
+    },
+    "french-onion-soup-pasta-vr178": {
+      "_createdAt": 1764017800000,
+      "calories": 560,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "french-onion-soup-pasta-vr178",
+      "ingredients": [
+        "400 g pasta",
+        "2 onions, thinly sliced",
+        "2 tablespoons butter",
+        "1 cup beef stock",
+        "1/2 cup gruyere, shredded",
+        "1 teaspoon thyme"
+      ],
+      "name": "French Onion Soup Pasta",
+      "notes": "Use mozzarella if gruyere isn't available.",
+      "servings": 4,
+      "steps": [
+        "Caramelize onions in butter until deep golden.",
+        "Cook pasta until al dente.",
+        "Add stock and thyme to onions and simmer.",
+        "Toss pasta with onion sauce.",
+        "Top with gruyere and broil until melted."
+      ],
+      "tags": [
+        "Viral",
+        "Pasta",
+        "Comfort"
+      ]
+    },
+    "creamy-tuscan-gnocchi-vr179": {
+      "_createdAt": 1764017900000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "creamy-tuscan-gnocchi-vr179",
+      "ingredients": [
+        "500 g gnocchi",
+        "1 tablespoon olive oil",
+        "2 cloves garlic, minced",
+        "1/2 cup sun-dried tomatoes",
+        "1 cup cream",
+        "1/2 cup spinach",
+        "Parmesan"
+      ],
+      "name": "Creamy Tuscan Gnocchi",
+      "notes": "Add grilled chicken for protein.",
+      "servings": 4,
+      "steps": [
+        "Sauté garlic in olive oil.",
+        "Add gnocchi and cook until lightly browned.",
+        "Stir in sun-dried tomatoes and cream.",
+        "Add spinach and simmer until wilted.",
+        "Top with parmesan."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Creamy"
+      ]
+    },
+    "garlic-parmesan-pasta-chips-vr180": {
+      "_createdAt": 1764018000000,
+      "calories": 360,
+      "category": "Snack",
+      "cookTime": "20 Minutes",
+      "id": "garlic-parmesan-pasta-chips-vr180",
+      "ingredients": [
+        "2 cups cooked pasta",
+        "1 tablespoon olive oil",
+        "1/4 cup grated parmesan",
+        "1 teaspoon garlic powder",
+        "1/2 teaspoon paprika",
+        "Salt"
+      ],
+      "name": "Garlic Parmesan Pasta Chips",
+      "notes": "Air fry for extra crispiness.",
+      "servings": 4,
+      "steps": [
+        "Toss cooked pasta with oil and seasonings.",
+        "Spread on a baking sheet.",
+        "Bake at 200°C for 15 minutes until crisp.",
+        "Serve with marinara dip."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Crunchy"
+      ]
+    },
+    "mini-pancake-cereal-bowls-vr181": {
+      "_createdAt": 1764018100000,
+      "calories": 360,
+      "category": "Breakfast",
+      "cookTime": "20 Minutes",
+      "id": "mini-pancake-cereal-bowls-vr181",
+      "ingredients": [
+        "1 cup pancake batter",
+        "1 tablespoon butter",
+        "Maple syrup",
+        "Fresh berries",
+        "Yoghurt"
+      ],
+      "name": "Mini Pancake Cereal Bowls",
+      "notes": "Use Greek yoghurt for extra protein.",
+      "servings": 2,
+      "steps": [
+        "Cook mini pancakes on a griddle.",
+        "Place into bowls and top with yoghurt.",
+        "Add berries and drizzle with syrup.",
+        "Serve immediately."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Sweet"
+      ]
+    },
+    "pickle-de-gallo-vr182": {
+      "_createdAt": 1764018200000,
+      "calories": 150,
+      "category": "Snack",
+      "cookTime": "10 Minutes",
+      "id": "pickle-de-gallo-vr182",
+      "ingredients": [
+        "1 cup diced pickles",
+        "1/2 cup diced tomatoes",
+        "1/4 cup diced red onion",
+        "1 tablespoon pickle juice",
+        "1 tablespoon lime juice",
+        "Chopped cilantro"
+      ],
+      "name": "Pickle de Gallo",
+      "notes": "Add jalapeño for heat.",
+      "servings": 4,
+      "steps": [
+        "Combine pickles, tomatoes, and onion.",
+        "Stir in pickle juice and lime juice.",
+        "Fold in cilantro.",
+        "Serve with chips."
+      ],
+      "tags": [
+        "Viral",
+        "Dip",
+        "Tangy"
+      ]
+    },
+    "elote-ramen-vr183": {
+      "_createdAt": 1764018300000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "15 Minutes",
+      "id": "elote-ramen-vr183",
+      "ingredients": [
+        "2 packs ramen noodles",
+        "1 cup corn kernels",
+        "1 tablespoon mayo",
+        "1 tablespoon lime juice",
+        "1 teaspoon chili powder",
+        "2 tablespoons cotija",
+        "Chopped cilantro"
+      ],
+      "name": "Elote Ramen",
+      "notes": "Add hot sauce for extra kick.",
+      "servings": 2,
+      "steps": [
+        "Cook ramen and drain.",
+        "Warm corn in a skillet.",
+        "Stir mayo, lime juice, and chili powder into ramen.",
+        "Top with corn, cotija, and cilantro."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Fusion"
+      ]
+    },
+    "birria-ramen-vr184": {
+      "_createdAt": 1764018400000,
+      "calories": 590,
+      "category": "Dinner",
+      "cookTime": "20 Minutes",
+      "id": "birria-ramen-vr184",
+      "ingredients": [
+        "2 packs ramen noodles",
+        "2 cups birria consommé",
+        "1 cup shredded birria beef",
+        "1/4 cup diced onion",
+        "Fresh cilantro",
+        "Lime wedges"
+      ],
+      "name": "Birria Ramen",
+      "notes": "Use leftover birria for quick prep.",
+      "servings": 2,
+      "steps": [
+        "Heat birria consommé in a pot.",
+        "Cook ramen noodles in consommé.",
+        "Add shredded beef and warm through.",
+        "Serve topped with onion, cilantro, and lime."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Beef"
+      ]
+    },
+    "butter-chicken-naan-pizzas-vr185": {
+      "_createdAt": 1764018500000,
+      "calories": 620,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "butter-chicken-naan-pizzas-vr185",
+      "ingredients": [
+        "4 naan breads",
+        "1 cup butter chicken sauce",
+        "2 cups cooked chicken",
+        "1 cup shredded mozzarella",
+        "Chopped cilantro"
+      ],
+      "name": "Butter Chicken Naan Pizzas",
+      "notes": "Add pickled onions for tang.",
+      "servings": 4,
+      "steps": [
+        "Spread butter chicken sauce over naan.",
+        "Top with chicken and mozzarella.",
+        "Bake at 200°C for 12 minutes.",
+        "Finish with cilantro."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Fusion"
+      ]
+    },
+    "hot-honey-halloumi-bowls-vr186": {
+      "_createdAt": 1764018600000,
+      "calories": 520,
+      "category": "Lunch",
+      "cookTime": "25 Minutes",
+      "id": "hot-honey-halloumi-bowls-vr186",
+      "ingredients": [
+        "250 g halloumi",
+        "2 tablespoons hot honey",
+        "2 cups cooked quinoa",
+        "1 cup roasted vegetables",
+        "1/2 avocado, sliced",
+        "Lemon wedges"
+      ],
+      "name": "Hot Honey Halloumi Bowls",
+      "notes": "Swap quinoa for rice if preferred.",
+      "servings": 4,
+      "steps": [
+        "Sear halloumi until golden.",
+        "Drizzle with hot honey.",
+        "Divide quinoa into bowls and add roasted vegetables.",
+        "Top with halloumi and avocado.",
+        "Serve with lemon wedges."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Vegetarian"
+      ]
+    },
+    "caesar-smashed-potatoes-vr187": {
+      "_createdAt": 1764018700000,
+      "calories": 380,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "caesar-smashed-potatoes-vr187",
+      "ingredients": [
+        "700 g baby potatoes",
+        "2 tablespoons olive oil",
+        "1/3 cup Caesar dressing",
+        "1/4 cup grated parmesan",
+        "Chopped parsley"
+      ],
+      "name": "Caesar Smashed Potatoes",
+      "notes": "Serve with grilled chicken.",
+      "servings": 4,
+      "steps": [
+        "Boil potatoes until tender.",
+        "Smash on a baking sheet and drizzle with oil.",
+        "Bake at 220°C for 20 minutes.",
+        "Drizzle with Caesar dressing and sprinkle parmesan."
+      ],
+      "tags": [
+        "Viral",
+        "Side",
+        "Potato"
+      ]
+    },
+    "garlic-parmesan-chicken-skewers-vr188": {
+      "_createdAt": 1764018800000,
+      "calories": 510,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "garlic-parmesan-chicken-skewers-vr188",
+      "ingredients": [
+        "500 g chicken breast, cubed",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "1/3 cup grated parmesan",
+        "1 teaspoon Italian seasoning",
+        "Salt and pepper"
+      ],
+      "name": "Garlic Parmesan Chicken Skewers",
+      "notes": "Brush with melted butter before serving.",
+      "servings": 4,
+      "steps": [
+        "Toss chicken with olive oil, garlic, parmesan, and seasoning.",
+        "Thread onto skewers.",
+        "Grill or bake at 200°C for 15 minutes.",
+        "Serve with extra parmesan."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Chicken"
+      ]
+    },
+    "spicy-peach-glazed-salmon-vr189": {
+      "_createdAt": 1764018900000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "spicy-peach-glazed-salmon-vr189",
+      "ingredients": [
+        "4 salmon fillets",
+        "1/3 cup peach preserves",
+        "1 tablespoon sriracha",
+        "1 tablespoon soy sauce",
+        "1 teaspoon lime juice",
+        "Salt"
+      ],
+      "name": "Spicy Peach Glazed Salmon",
+      "notes": "Serve with rice and steamed greens.",
+      "servings": 4,
+      "steps": [
+        "Whisk peach preserves, sriracha, soy sauce, and lime juice.",
+        "Brush salmon with glaze and season with salt.",
+        "Bake at 200°C for 15 minutes.",
+        "Brush with extra glaze before serving."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Seafood"
+      ]
+    },
+    "blueberry-lemon-yogurt-bark-vr190": {
+      "_createdAt": 1764019000000,
+      "calories": 210,
+      "category": "Dessert",
+      "cookTime": "10 Minutes",
+      "id": "blueberry-lemon-yogurt-bark-vr190",
+      "ingredients": [
+        "2 cups Greek yoghurt",
+        "2 tablespoons honey",
+        "1 teaspoon lemon zest",
+        "1/2 cup blueberries",
+        "2 tablespoons sliced almonds"
+      ],
+      "name": "Blueberry Lemon Yogurt Bark",
+      "notes": "Store in the freezer.",
+      "servings": 6,
+      "steps": [
+        "Mix yoghurt with honey and lemon zest.",
+        "Spread on a lined tray.",
+        "Top with blueberries and almonds.",
+        "Freeze for 2 hours and break into pieces."
+      ],
+      "tags": [
+        "Viral",
+        "Dessert",
+        "Frozen"
+      ]
+    },
+    "frozen-grapes-with-tajin-vr191": {
+      "_createdAt": 1764019100000,
+      "calories": 150,
+      "category": "Snack",
+      "cookTime": "5 Minutes",
+      "id": "frozen-grapes-with-tajin-vr191",
+      "ingredients": [
+        "2 cups seedless grapes",
+        "1 tablespoon lime juice",
+        "1 teaspoon Tajin seasoning"
+      ],
+      "name": "Frozen Grapes with Tajin",
+      "notes": "Use blueberries for variation.",
+      "servings": 4,
+      "steps": [
+        "Toss grapes with lime juice and Tajin.",
+        "Freeze for 1 hour.",
+        "Serve straight from the freezer."
+      ],
+      "tags": [
+        "Viral",
+        "Snack",
+        "Frozen"
+      ]
+    },
+    "cloud-eggs-vr192": {
+      "_createdAt": 1764019200000,
+      "calories": 210,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "cloud-eggs-vr192",
+      "ingredients": [
+        "2 eggs",
+        "Pinch of salt",
+        "1 tablespoon grated parmesan",
+        "Chopped chives"
+      ],
+      "name": "Cloud Eggs",
+      "notes": "Serve with toast for dipping.",
+      "servings": 2,
+      "steps": [
+        "Separate eggs and whip whites with salt to stiff peaks.",
+        "Spoon whites onto a baking sheet and make a well.",
+        "Bake at 180°C for 6 minutes.",
+        "Add yolks to wells and bake 3 minutes more.",
+        "Top with parmesan and chives."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Baked"
+      ]
+    },
+    "feta-tomato-orzo-bake-vr193": {
+      "_createdAt": 1764019300000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "35 Minutes",
+      "id": "feta-tomato-orzo-bake-vr193",
+      "ingredients": [
+        "1 cup orzo",
+        "2 cups cherry tomatoes",
+        "200 g feta",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "Fresh basil"
+      ],
+      "name": "Feta Tomato Orzo Bake",
+      "notes": "Add spinach at the end for extra greens.",
+      "servings": 4,
+      "steps": [
+        "Add tomatoes, feta, oil, and garlic to a baking dish.",
+        "Bake at 200°C for 20 minutes.",
+        "Stir in orzo and 2 cups hot water.",
+        "Bake 12 minutes until orzo is tender.",
+        "Top with basil."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Vegetarian"
+      ]
+    },
+    "smashed-brussels-sprouts-vr194": {
+      "_createdAt": 1764019400000,
+      "calories": 240,
+      "category": "Dinner",
+      "cookTime": "30 Minutes",
+      "id": "smashed-brussels-sprouts-vr194",
+      "ingredients": [
+        "500 g Brussels sprouts",
+        "2 tablespoons olive oil",
+        "1/3 cup grated parmesan",
+        "1/2 teaspoon garlic powder",
+        "Salt and pepper"
+      ],
+      "name": "Smashed Brussels Sprouts",
+      "notes": "Serve with lemon wedges.",
+      "servings": 4,
+      "steps": [
+        "Boil Brussels sprouts until tender.",
+        "Smash on a baking sheet and drizzle with oil.",
+        "Season with garlic powder, salt, and pepper.",
+        "Bake at 220°C for 15 minutes.",
+        "Sprinkle with parmesan."
+      ],
+      "tags": [
+        "Viral",
+        "Side",
+        "Vegetarian"
+      ]
+    },
+    "parmesan-crusted-chicken-caesar-wrap-vr195": {
+      "_createdAt": 1764019500000,
+      "calories": 520,
+      "category": "Lunch",
+      "cookTime": "25 Minutes",
+      "id": "parmesan-crusted-chicken-caesar-wrap-vr195",
+      "ingredients": [
+        "2 chicken breasts",
+        "1/2 cup grated parmesan",
+        "1/2 cup panko breadcrumbs",
+        "4 tortillas",
+        "2 cups chopped romaine",
+        "1/3 cup Caesar dressing"
+      ],
+      "name": "Parmesan Crusted Chicken Caesar Wrap",
+      "notes": "Toast the wrap for extra crunch.",
+      "servings": 4,
+      "steps": [
+        "Coat chicken in parmesan and panko.",
+        "Bake at 200°C for 18 minutes and slice.",
+        "Toss romaine with Caesar dressing.",
+        "Fill tortillas with chicken and salad, then roll."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Chicken"
+      ]
+    },
+    "crunchy-ramen-slaw-vr196": {
+      "_createdAt": 1764019600000,
+      "calories": 320,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "crunchy-ramen-slaw-vr196",
+      "ingredients": [
+        "4 cups shredded cabbage",
+        "1 pack ramen noodles, crushed",
+        "1/4 cup sliced almonds",
+        "2 tablespoons sesame seeds",
+        "1/4 cup rice vinegar",
+        "2 tablespoons soy sauce",
+        "1 tablespoon honey"
+      ],
+      "name": "Crunchy Ramen Slaw",
+      "notes": "Add shredded chicken for protein.",
+      "servings": 6,
+      "steps": [
+        "Toast crushed ramen, almonds, and sesame seeds in a skillet.",
+        "Whisk vinegar, soy sauce, and honey.",
+        "Toss cabbage with dressing.",
+        "Top with crunchy noodle mix."
+      ],
+      "tags": [
+        "Viral",
+        "Salad",
+        "Crunchy"
+      ]
+    },
+    "cinnamon-roll-french-toast-bake-vr197": {
+      "_createdAt": 1764019700000,
+      "calories": 480,
+      "category": "Breakfast",
+      "cookTime": "35 Minutes",
+      "id": "cinnamon-roll-french-toast-bake-vr197",
+      "ingredients": [
+        "1 tube cinnamon rolls",
+        "3 eggs",
+        "1/2 cup milk",
+        "1 teaspoon vanilla",
+        "1/2 teaspoon cinnamon",
+        "Icing packet"
+      ],
+      "name": "Cinnamon Roll French Toast Bake",
+      "notes": "Add pecans for crunch.",
+      "servings": 6,
+      "steps": [
+        "Cut cinnamon rolls into quarters and place in a baking dish.",
+        "Whisk eggs, milk, vanilla, and cinnamon.",
+        "Pour over rolls and let soak 5 minutes.",
+        "Bake at 180°C for 25 minutes.",
+        "Drizzle with icing."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Baked"
+      ]
+    },
+    "pesto-egg-breakfast-burrito-vr198": {
+      "_createdAt": 1764019800000,
+      "calories": 420,
+      "category": "Breakfast",
+      "cookTime": "15 Minutes",
+      "id": "pesto-egg-breakfast-burrito-vr198",
+      "ingredients": [
+        "2 tortillas",
+        "2 eggs",
+        "1 tablespoon pesto",
+        "1/4 cup shredded cheese",
+        "1/2 avocado, sliced",
+        "Salt and pepper"
+      ],
+      "name": "Pesto Egg Breakfast Burrito",
+      "notes": "Add salsa for extra zing.",
+      "servings": 2,
+      "steps": [
+        "Scramble eggs with pesto.",
+        "Warm tortillas and add eggs and cheese.",
+        "Top with avocado.",
+        "Roll into burritos and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Breakfast",
+        "Quick"
+      ]
+    },
+    "garlic-bread-grilled-cheese-vr199": {
+      "_createdAt": 1764019900000,
+      "calories": 480,
+      "category": "Lunch",
+      "cookTime": "15 Minutes",
+      "id": "garlic-bread-grilled-cheese-vr199",
+      "ingredients": [
+        "4 slices bread",
+        "2 tablespoons butter",
+        "1/2 teaspoon garlic powder",
+        "1 cup shredded mozzarella",
+        "2 tablespoons parmesan"
+      ],
+      "name": "Garlic Bread Grilled Cheese",
+      "notes": "Use sourdough for extra flavor.",
+      "servings": 2,
+      "steps": [
+        "Mix butter with garlic powder and spread on bread.",
+        "Layer mozzarella and parmesan between slices.",
+        "Grill in a pan until golden and melty.",
+        "Slice and serve."
+      ],
+      "tags": [
+        "Viral",
+        "Lunch",
+        "Cheesy"
+      ]
+    },
+    "mexican-street-corn-rice-bowl-vr200": {
+      "_createdAt": 1764020000000,
+      "calories": 520,
+      "category": "Dinner",
+      "cookTime": "25 Minutes",
+      "id": "mexican-street-corn-rice-bowl-vr200",
+      "ingredients": [
+        "2 cups cooked rice",
+        "1 1/2 cups corn kernels",
+        "1/4 cup mayo",
+        "1 tablespoon lime juice",
+        "1 teaspoon chili powder",
+        "1/3 cup cotija",
+        "Chopped cilantro"
+      ],
+      "name": "Mexican Street Corn Rice Bowl",
+      "notes": "Add grilled chicken for protein.",
+      "servings": 4,
+      "steps": [
+        "Char corn in a skillet until browned.",
+        "Stir mayo, lime juice, and chili powder into corn.",
+        "Divide rice into bowls and top with corn mixture.",
+        "Sprinkle with cotija and cilantro."
+      ],
+      "tags": [
+        "Viral",
+        "Dinner",
+        "Vegetarian"
+      ]
     }
   }
 }

@@ -342,7 +342,7 @@
       "_createdAt": 1762765000003,
       "calories": 476,
       "category": "Dinner",
-      "cookTime": "4–6 Hours (Slow Cooker)",
+      "cookTime": "25 Minutes",
       "id": "beef-fried-rice",
       "ingredients": [
         "Jasmine Rice (260 g)",
@@ -360,9 +360,11 @@
       "notes": "476 calories per serving.",
       "servings": 4,
       "steps": [
-        "Combine the chicken, onion, peppers, chilli, garlic, ginger, pineapple, ketchup, honey, soy sauce and vinegar in the slow cooker.",
-        "Cover and cook on high for 3 hours or low for 6 hours.",
-        "Twenty minutes before serving, add the noodles and vegetable stock into the slow cooker."
+        "Cook the jasmine rice according to the packet instructions, then spread it out to cool.",
+        "Heat a large pan or wok and fry the beef mince until browned.",
+        "Add the onion and red pepper and cook for 3 to 4 minutes until softened.",
+        "Stir in the ginger, crushed chillies and Chinese five spice, then pour in the soy sauce.",
+        "Add the peas and sweetcorn, then toss in the cooled rice and stir-fry until piping hot."
       ],
       "tags": [
         "Rice Dish"
@@ -2940,13 +2942,13 @@
       "notes": "493 calories per serving.",
       "servings": 4,
       "steps": [
-        "Add the peppers and chicken to an oven-proof dish.",
-        "Season with soy sauce, smoked paprika and onion granules.",
-        "Mix well.",
-        "In a separate bowl make the bang bang sauce by mixing mayo, sweet chilli and sriracha.",
-        "Brush half of the bang bang sauce over the chicken mixture, then cook in the oven at 180°C for 30 minutes.",
-        "Whilst the chicken is cooking, cook the rice.",
-        "Add rice to a bowl, top it with the bang bang chicken and drizzle the leftover sauce."
+        "Cook the noodles according to the packet instructions, then drain and set aside.",
+        "Heat a large pan or wok and stir-fry the chicken until lightly browned.",
+        "Add the red onion and bell peppers and cook for 3 to 4 minutes until starting to soften.",
+        "Stir in the chilli flakes, garlic and ginger, then add the pineapple.",
+        "Mix the ketchup, honey, soy sauce, white wine vinegar and vegetable stock, then pour into the pan.",
+        "Simmer for 6 to 8 minutes until the chicken is cooked through and the sauce thickens slightly.",
+        "Toss the cooked noodles through the sauce and serve."
       ],
       "tags": [
         "Noodles"
